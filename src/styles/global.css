@@ -34,12 +34,12 @@
     --letter-spacing-400: 0.25em;
 }
 
-:root {
+/*:root {
     --font:
         ui-sans-serif, system-ui, -apple-system, "Hiragino Sans",
         "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", "YuGothic",
         "Meiryo", sans-serif;
-}
+}*/
 
 /* Base */
 html {
@@ -76,7 +76,7 @@ h6:first-child {
 
 /* 見出しサイズ割り当て */
 h1 {
-    font-size: var(--font-size-heading-2xl);
+    font-size: var(--font-size-heading-xl);
 }
 h2 {
     font-size: var(--font-size-heading-xl);
@@ -128,7 +128,9 @@ img {
 
 /* Code */
 code {
-    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    font-family:
+        ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+        "Liberation Mono", monospace;
     font-size: 0.875em;
     background-color: #f3f4f6;
     padding: 0.2em 0.4em;
@@ -136,7 +138,9 @@ code {
 }
 
 pre {
-    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    font-family:
+        ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+        "Liberation Mono", monospace;
     font-size: var(--font-size-body-sm);
     line-height: var(--line-height-md);
     background-color: #1e1e1e;
@@ -154,4 +158,14 @@ pre code {
     border-radius: 0;
     font-size: inherit;
     color: inherit;
+}
+
+/* Links */
+a {
+    color: #1559bd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
