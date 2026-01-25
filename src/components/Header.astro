@@ -5,16 +5,6 @@ import { SITE_TITLE } from '../consts';
 <header>
 	<nav>
 		<h2><a href="/">{SITE_TITLE}</a></h2>
-		<div class="social-links">
-			<a href="/rss.xml" target="_blank" title="RSS">
-				<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32">
-					<path
-						fill="currentColor"
-						d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1 0-2zm0 4a6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1 0-2zm.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
-					></path>
-				</svg>
-			</a>
-		</div>
 	</nav>
 </header>
 <style>
@@ -28,22 +18,14 @@ import { SITE_TITLE } from '../consts';
 		margin: 0;
 		font-size: 1em;
 	}
-	h2 a,
-	h2 a.active {
+	h2 a {
+		display: block;
+		padding: 1em 0;
 		text-decoration: none;
+		color: var(--black);
 	}
 	nav {
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
-	}
-	nav a {
-		padding: 1em 0.5em;
-		color: var(--black);
-		text-decoration: none;
-	}
-	.social-links,
-	.social-links a {
-		display: flex;
 	}
 </style>

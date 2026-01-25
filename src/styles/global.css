@@ -6,21 +6,21 @@
 
     /* Heading sizes */
     --font-size-heading-xs: 14px;
-    --font-size-heading-sm: 16px;
-    --font-size-heading-md: 20px;
-    --font-size-heading-lg: 24px;
-    --font-size-heading-xl: 34px;
-    --font-size-heading-2xl: 44px;
+    --font-size-heading-sm: 15px;
+    --font-size-heading-md: 19px;
+    --font-size-heading-lg: 23px;
+    --font-size-heading-xl: 32px;
+    --font-size-heading-2xl: 41px;
 
     /* Body sizes */
-    --font-size-body-sm: 14px;
-    --font-size-body-smd: 15px;
-    --font-size-body-md: 16px;
-    --font-size-body-lg: 18px;
+    --font-size-body-sm: 18px;
+    --font-size-body-smd: 19px;
+    --font-size-body-md: 20px;
+    --font-size-body-lg: 23px;
 
     /* Label sizes */
-    --font-size-label-sm: 12px;
-    --font-size-label-md: 13px;
+    --font-size-label-sm: 15px;
+    --font-size-label-md: 16px;
 
     /* Line heights */
     --line-height-xs: 1.15;
@@ -44,7 +44,7 @@
 /* Base */
 html {
     font-family: var(--font);
-    font-size: 16px;
+    font-size: 20px;
 }
 
 body {
