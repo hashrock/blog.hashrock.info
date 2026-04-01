@@ -126,6 +126,14 @@ img {
     height: auto;
 }
 
+.external-favicon {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 0.25em;
+    width: 16px;
+    height: 16px;
+}
+
 /* Code */
 code {
     font-family:
