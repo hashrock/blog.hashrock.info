@@ -4,7 +4,7 @@ description: ''
 pubDate: 'Dec 25 2020'
 ---
 
-今年もイブがやってきました。特にやることもないので [毎年](https://hashrock.hatenablog.com/entry/2019/12/25/023522) [何かしら](https://hashrock.hatenablog.com/entry/2018/12/26/010433) 作っています。
+今年もイブがやってきました。特にやることもないので [毎年](/2019-12-25-vscode-gantt) [何かしら](/2018-12-26-deno-christmas) 作っています。
 
 今回は「シュッ、クルッ、ピョン、フワッ…」みたいに書くとアニメーションになるというアイデアを温めていたので、それを作りました。
 
@@ -55,5 +55,5 @@ Tailwindは大量のクラスをプログラムから生成する仕組みで、
 
 その他のおもしろ自作アニメーションフレームワークは下記の記事もどうぞ。自分も含め誰も使ってない。
 
-[テキストでタイムラインアニメーションを作れるライブラリを作った - No Regrets in Bathing](https://hashrock.hatenablog.com/entry/2020/01/04/010022)
+[テキストでタイムラインアニメーションを作れるライブラリを作った - No Regrets in Bathing](/2020-01-04-timeline-animation)
 

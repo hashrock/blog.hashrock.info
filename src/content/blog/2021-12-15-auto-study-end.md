@@ -11,7 +11,7 @@ heroImage: '/images/2021-12-15-auto-study-end/0.png'
 
 ※自動勉強会とはネタと開催日が勝手に決まる勉強会開催システムのこと。詳細は下記参照。
 
-[自動勉強会をやっている - No Regrets in Bathing](https://hashrock.hatenablog.com/entry/2021/09/27/221207)
+[自動勉強会をやっている - No Regrets in Bathing](/2021-09-27-auto-study)
 
 休止の理由は、毎年12月は不思議と仕事が炎上するので、予防的に止めておいたという感じです。 で、無事に仕事が炎上しているのでよかったよかった。助けて…
 

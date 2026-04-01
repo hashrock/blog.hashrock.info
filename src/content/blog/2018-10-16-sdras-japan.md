@@ -20,7 +20,7 @@ Sarah Drasner(sdras)さんは、VueConf 2017（katashinさんによる[VueConf 2
 
 発表では「なぜアニメーションが必要なのか。そしてどのように実装すればいいのか」が楽しく解説されています。 アニメーションの制御にはTweenMaxとVue.jsが利用されています。
 
-私も[この発表に影響されてSVGを始めた](http://hashrock.hatenablog.com/entry/2017/12/04/215559)ので思い入れがあります。皆さんも未見であればぜひスライドだけでも見てください。スライド内のSVGはインタラクティブに動かせます。
+私も[この発表に影響されてSVGを始めた](/2017-12-04-vue-svg-ui)ので思い入れがあります。皆さんも未見であればぜひスライドだけでも見てください。スライド内のSVGはインタラクティブに動かせます。
 
 スライド：[Animating Vue](http://slides.com/sdrasner/animating-vue-17#/)
 

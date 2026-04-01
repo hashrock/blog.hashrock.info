@@ -5,7 +5,7 @@ pubDate: 'Dec 25 2019'
 heroImage: '/images/2019-12-25-vscode-gantt/0.gif'
 ---
 
-[去年](https://hashrock.hatenablog.com/entry/2018/12/26/010433)に引き続きクリスマスイブになんか作ったシリーズです。
+[去年](/2018-12-26-deno-christmas)に引き続きクリスマスイブになんか作ったシリーズです。
 
 下記のような感じで、ガントチャートを雑に作れるVSCodeの拡張機能を作りました。
 

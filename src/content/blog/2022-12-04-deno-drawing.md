@@ -11,7 +11,7 @@ Deno Advent Calendar 2022の４日目です！
 
 Denoくん絵描き歌を見ながら描く手もありますが…
 
-[Denoくん えかきうた - No Regrets in Bathing](https://hashrock.hatenablog.com/entry/2019/12/02/000000)
+[Denoくん えかきうた - No Regrets in Bathing](/2019-12-02-deno-drawing-song)
 
 いつもどんなことを考えながらDenoくんを描いているか書きます。
 
