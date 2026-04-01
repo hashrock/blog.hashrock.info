@@ -7,7 +7,7 @@ import rehypeExternalFavicon from './plugins/rehype-external-favicon';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://blog.hashrock.info',
 	integrations: [mdx(), sitemap()],
 	markdown: {
 		rehypePlugins: [rehypeExternalFavicon],
