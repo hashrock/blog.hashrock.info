@@ -38,7 +38,6 @@ Sarah Drasner(sdras)さんは、VueConf 2017（katashinさんによる[VueConf 2
 
 Vue.js Londonのトップアニメーションもsdrasさん作です。
 
-[33win🎖️ 33winae.com | Link Đăng Ký 33win.com Không Chặn T8/2025](https://vuejs.london/)
 
 # sdrasさんのバックグラウンド
 
