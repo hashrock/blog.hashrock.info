@@ -10,13 +10,9 @@ pubDate: 'Dec 25 2020'
 
 動いているところは動画から見てください。直感的としか言いようがないと思います。
 
-> tailwindにわずかに影響を受けたCSSフレームワーク作ってた [pic.twitter.com/oNUvB70Y0R](https://t.co/oNUvB70Y0R)
->
-> — hashrock (@hashedrock) [2020年12月24日](https://twitter.com/hashedrock/status/1342099406405869568?ref_src=twsrc%5Etfw)
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/1342099406405869568"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-> できた、直感的なCSSアニメーションフレームワークが [pic.twitter.com/QyiAvKxo7A](https://t.co/QyiAvKxo7A)
->
-> — hashrock (@hashedrock) [2020年12月24日](https://twitter.com/hashedrock/status/1342143002609733632?ref_src=twsrc%5Etfw)
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/1342143002609733632"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 「直感的イコール素晴らしい」とは限らない、ということがよくわかります。
 

@@ -7,21 +7,15 @@ heroImage: '/images/2021-09-27-auto-study/0.png'
 
 生きていると**「○○の勉強会があったらいいのにな～」**とかぼやいてしまうのだけど、自分で主催はしたくないので言いっぱなしになるみたいなことが多い。
 
-> alert / prompt / confirm / 自前モーダル勉強会欲しい
->
-> — hashrock (@hashedrock) [2021年8月3日](https://twitter.com/hashedrock/status/1422406888482762759?ref_src=twsrc%5Etfw)
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/1422406888482762759"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-> ズームイン・ズームアウト・パン操作実装勉強会欲しい
->
-> — hashrock (@hashedrock) [2019年11月29日](https://twitter.com/hashedrock/status/1200374623038140416?ref_src=twsrc%5Etfw)
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/1200374623038140416"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 これはかなりみっともないと思っていて、それで最近「自動勉強会」というのを始めた。
 
 自動勉強会の概要としてはこれだけ。
 
-> 聞きたいネタをみんなでキューに貯めておいて、参加者が３人以上になったら勉強会が開催されるという「自動勉強会」システムをやってた事があるんだけど、それに類することをやりたい
->
-> — hashrock (@hashedrock) [2021年3月25日](https://twitter.com/hashedrock/status/1375086318875602950?ref_src=twsrc%5Etfw)
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/1375086318875602950"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 実際のキューは下記のような感じでみんなで積んでいって、興味がある項目に投票する。
 

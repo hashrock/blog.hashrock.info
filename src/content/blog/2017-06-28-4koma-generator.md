@@ -7,11 +7,7 @@ heroImage: '/images/2017-06-28-4koma-generator/0.png'
 
 ![f:id:hashrock:20170628000458p:plain](/images/2017-06-28-4koma-generator/0.png)
 
-> 白ハゲ４コマメーカー リリースしました！
-> テキストを入力してポンポンスタンプを押すだけで４コマ漫画を作れます。
-> ※Twitterに直接画像をアップロードする機能はないので、ローカルに一旦保存してください[https://t.co/RCX183cdW8](https://t.co/RCX183cdW8)[#白ハゲ４コマメーカー](https://twitter.com/hashtag/%E7%99%BD%E3%83%8F%E3%82%B2%EF%BC%94%E3%82%B3%E3%83%9E%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/qbvRHqO5R3](https://t.co/qbvRHqO5R3)
->
-> — hashrock (@hashedrock) [2017年6月27日](https://twitter.com/hashedrock/status/879712337715904512?ref_src=twsrc%5Etfw)
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/879712337715904512"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 作りました。
 

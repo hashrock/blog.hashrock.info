@@ -6,9 +6,7 @@ pubDate: 'Nov 19 2017'
 
 動いてるところは下記ツイートから見れる（gifがでかくなりすぎてはてなにアップロードできなかった）
 
-> 文字をアニメーションさせて遊ぶやつができた [https://t.co/mTYNrkBLxi](https://t.co/mTYNrkBLxi) [pic.twitter.com/UT4inhu0My](https://t.co/UT4inhu0My)
->
-> — はっしゅろっく (@hashedrock) [2017年11月18日](https://twitter.com/hashedrock/status/931940765936132096?ref_src=twsrc%5Etfw)
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/931940765936132096"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 デモサイトは下記。文字を入力したり、文字サイズや太さを変えて遊べる。
 
@@ -52,9 +50,7 @@ pubDate: 'Nov 19 2017'
 - 最初はフォントデータの検索が遅く、データ構造変えたりキャッシュを期待してcomputedにもたせてみたり、設計をがちゃがちゃ変えた
 - 文字の太さ変更については、CSSプロパティとinput: rangeを紐付ける必要があったので、下記の知見を使った（CSS VariablesはJSから変更したときに再評価される）
 
-> CSS variable、JSから変更するとcalcの再評価走る！！！リアクティブ！！！ [https://t.co/ILcjch7OHH](https://t.co/ILcjch7OHH) [pic.twitter.com/OMLcCOVKul](https://t.co/OMLcCOVKul)
->
-> — はっしゅろっく (@hashedrock) [2017年6月28日](https://twitter.com/hashedrock/status/880081193848365060?ref_src=twsrc%5Etfw)
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/880081193848365060"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 # 思い
 

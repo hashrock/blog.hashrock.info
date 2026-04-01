@@ -13,9 +13,7 @@ heroImage: '/images/2019-05-04-complex-gui/0.png'
 
 予約したルノアールの会議室は過密状態になってしまいました。 （もう少し広い部屋にしておけば…と後悔しました）
 
-> （ルノアールです） [#複雑GUI会](https://twitter.com/hashtag/%E8%A4%87%E9%9B%91GUI%E4%BC%9A?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/XDGWs3EwZd](https://t.co/XDGWs3EwZd)
->
-> — みやおか (@miyaoka) [May 2, 2019](https://twitter.com/miyaoka/status/1123802449398181888?ref_src=twsrc%5Etfw)
+<blockquote class="twitter-tweet"><a href="https://twitter.com/miyaoka/status/1123802449398181888"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 職人タイプの方が多かったので終始和やかな雰囲気でしたが、 やはり実装に深入りしていくことが多く、あまりの情報密度に 私も話についていくのが大変だったと自白しておきます。
 

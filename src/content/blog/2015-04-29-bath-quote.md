@@ -4,13 +4,9 @@ description: ''
 pubDate: 'Apr 29 2015'
 ---
 
-> そして先週書いたgif自動スクリーンショット、めっちゃ今役に立っている
->
-> — はっしゅろっく (@hashedrock) [2015, 4月 27](https://twitter.com/hashedrock/status/592660145647329281)
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/592660145647329281"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-> 入って後悔した風呂はない、の金言を噛みしめる
->
-> — はっしゅろっく (@hashedrock) [2015, 4月 27](https://twitter.com/hashedrock/status/592660449763708930)
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/592660449763708930"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 風呂というのは、なぜだか入るまでに敷居が高い。面倒なのだ。だけど入ってしまえば、風呂に入ったことを後悔はしない。
 

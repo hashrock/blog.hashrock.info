@@ -13,9 +13,7 @@ heroImage: '/images/2019-12-15-deno-drawing-howto/0.png'
 
 # どうして作ったのか
 
-> 作ったので皆さんぜひ書いてください！！ / Deno Advent Calendar 2019 [#Qiita](https://twitter.com/hashtag/Qiita?src=hash&ref_src=twsrc%5Etfw) [#denoland](https://twitter.com/hashtag/denoland?src=hash&ref_src=twsrc%5Etfw) [https://t.co/sNaM2Oy2js](https://t.co/sNaM2Oy2js)
->
-> — syumai (@\_\_syumai) [2019年11月1日](https://twitter.com/__syumai/status/1190263644921053187?ref_src=twsrc%5Etfw)
+<blockquote class="twitter-tweet"><a href="https://twitter.com/__syumai/status/1190263644921053187"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Deno Advent Calendar 2019が立ったばかりのときに「いっちょどうでもいい記事でハードル下げておこうかな」と考えて、ひとまず絵描き歌と記入しておいたのが始まりです。
 

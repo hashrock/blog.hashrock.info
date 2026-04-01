@@ -4,9 +4,7 @@ description: ''
 pubDate: 'May 02 2017'
 ---
 
-> Markdown -> 日本企業メールコンバータできた [https://t.co/kw67jEpi0Z](https://t.co/kw67jEpi0Z) [pic.twitter.com/9qOTW5uQQV](https://t.co/9qOTW5uQQV)
->
-> — はっしゅろっく (@hashedrock) [2017年5月1日](https://twitter.com/hashedrock/status/858971761190223872)
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/858971761190223872"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 [DEMO](https://anydown.github.io/maildown/) [Source](https://github.com/anydown/maildown)
 
