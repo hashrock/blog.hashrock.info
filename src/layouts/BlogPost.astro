@@ -42,6 +42,11 @@ const { title, description, pubDate, updatedDate } = Astro.props;
             .last-updated-on {
                 font-style: italic;
             }
+            .prose :global(img) {
+                max-width: 100%;
+                width: auto;
+                height: auto;
+            }
         </style>
     </head>
 
