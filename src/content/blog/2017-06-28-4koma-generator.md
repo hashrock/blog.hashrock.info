@@ -39,4 +39,3 @@ P.S.
 
 一緒に[anydown](https://github.com/anydown/)やってくれる仲間も募集中です。
 
-\-----

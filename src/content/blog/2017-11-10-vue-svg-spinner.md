@@ -30,4 +30,3 @@ heroImage: '/images/2017-11-10-vue-svg-spinner/0.gif'
 - poiからgh-pagesへのデプロイ時に、アセットの参照フォルダがルートになってしまっていて、これまで手でパスを修正していたんだけど、package.jsonのpoi/homepageに`./`を指定することで修正出来るよー、というもの
 - すごく助かった！
 
-\-----

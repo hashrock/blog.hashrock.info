@@ -57,4 +57,3 @@ Tailwindは大量のクラスをプログラムから生成する仕組みで、
 
 [https://hashrock.hatenablog.com/entry/2020/01/04/010022](https://hashrock.hatenablog.com/entry/2020/01/04/010022)
 
-\-----

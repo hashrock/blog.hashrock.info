@@ -47,4 +47,3 @@ $ yarn add gh-pages --dev
 
 Github pagesはmasterやdocsフォルダをそのままWebページとして公開出来るように最近なっているが、ビルド成果物をコミットに含めたくない場合は、firebase hostingのようなホスティングサービスを使うか、旧来のgh-pagesブランチを使う形にするのが良いと思う。ちなみにこのやり方はegoist先生がやってたやり方。
 
-\-----

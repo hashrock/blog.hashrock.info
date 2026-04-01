@@ -68,4 +68,3 @@ pubDate: 'Dec 30 2015'
 - Sushicorp Advent Calendar書いた。
   - 最後までは書けなかったけど、くだらないネタが書けてよかった。
 
-\-----

@@ -70,4 +70,3 @@ Method Drawの良いところは、数値での座標・幅・高さ指定が非
 - クリックした鍵盤への色つけは、SVG要素へのCSS filter適用でなんとかしようと思ってたけど、Chromeのバグなのか全く反映されない。仕方なくstrokeで対処。
 - 音が出る部分は、[minroll](https://github.com/hashrock/minroll)の流用。
 
-\-----

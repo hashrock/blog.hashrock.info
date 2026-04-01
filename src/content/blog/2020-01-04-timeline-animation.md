@@ -89,4 +89,3 @@ HTMLのdata属性経由でもアニメーションを設定できるようにな
 
 See the Pen [TimelineDown Example Attach](https://codepen.io/hashrock/pen/JjoOqYJ) by hashrock ([@hashrock](https://codepen.io/hashrock)) on [CodePen](https://codepen.io).
 
-\-----

@@ -33,4 +33,3 @@ heroImage: '/images/2014-08-03-sushi-texture/0.jpg'
 
 - Three.jsで寿司が降るようにするときっと面白い。
 
-\-----

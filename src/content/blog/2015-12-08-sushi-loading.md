@@ -29,4 +29,3 @@ DEMO: [Sushi Loading](http://hashrock-sandbox.github.io/study-css-sprite/)
 
 [https://github.com/hashrock-sandbox/study-css-sprite](https://github.com/hashrock-sandbox/study-css-sprite)
 
-\-----

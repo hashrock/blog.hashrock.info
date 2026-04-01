@@ -24,4 +24,3 @@ pubDate: 'Dec 02 2019'
 
 明日は[kt3k](https://twitter.com/kt3k)さんの記事です！
 
-\-----
