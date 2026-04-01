@@ -9,13 +9,13 @@ Node.jsの作者Ryan Dahlが作った「[Deno](https://github.com/denoland/deno)
 
 TypeScript版Node.jsというのが雑な説明になる。yosuke-furukawaさんの下記の記事が詳しい。
 
-[https://yosuke-furukawa.hatenablog.com/entry/2018/06/07/080335](https://yosuke-furukawa.hatenablog.com/entry/2018/06/07/080335)
+[Node.js における設計ミス By Ryan Dahl - from scratch](https://yosuke-furukawa.hatenablog.com/entry/2018/06/07/080335)
 
 ES Modules周りとnpmのことも考えると、まっさらから再設計したほうがスッキリしてて気持ちいいというのと、単にTypeScriptが好きというのもあるけど、今追っかけている理由は、Denoがセキュリティ的にいい感じに見えるからだったりする。
 
 # flatmap-stream事件
 
-[https://qiita.com/mysticatea/items/aac027f9183ea9f0f9b1](https://qiita.com/mysticatea/items/aac027f9183ea9f0f9b1)
+[セキュリティ インシデント flatmap-stream@0.1.1 と npm-run-all での対応 #JavaScript - Qiita](https://qiita.com/mysticatea/items/aac027f9183ea9f0f9b1)
 
 npmパッケージがビットコインの窃盗に利用される（未遂）という事件がつい先日発生した。
 

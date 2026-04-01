@@ -11,7 +11,7 @@ heroImage: '/images/2015-12-01-sushi-physics/0.gif'
 
 ![f:id:hashrock:20151130154717g:plain](/images/2015-12-01-sushi-physics/0.gif)
 
-[http://hashrock-sandbox.github.io/study-matterjs/](http://hashrock-sandbox.github.io/study-matterjs/)
+[物理Sushi](http://hashrock-sandbox.github.io/study-matterjs/)
 
 matter.jsとても簡単ですね。 デフォルトレンダラが大変有能で、デフォルトでワイヤーフレームON、 OFFの場合は指定したテクスチャで物体を描画してくれます。
 

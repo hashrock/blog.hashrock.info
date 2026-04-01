@@ -22,7 +22,7 @@ Sarah Drasner(sdras)さんは、VueConf 2017（katashinさんによる[VueConf 2
 
 私も[この発表に影響されてSVGを始めた](http://hashrock.hatenablog.com/entry/2017/12/04/215559)ので思い入れがあります。皆さんも未見であればぜひスライドだけでも見てください。スライド内のSVGはインタラクティブに動かせます。
 
-スライド：[http://slides.com/sdrasner/animating-vue-17#/](http://slides.com/sdrasner/animating-vue-17#/)
+スライド：[Animating Vue](http://slides.com/sdrasner/animating-vue-17#/)
 
 # sdrasさんのCodepenは楽しいぞ
 
@@ -38,7 +38,7 @@ Sarah Drasner(sdras)さんは、VueConf 2017（katashinさんによる[VueConf 2
 
 Vue.js Londonのトップアニメーションもsdrasさん作です。
 
-[https://vuejs.london/](https://vuejs.london/)
+[33win🎖️ 33winae.com | Link Đăng Ký 33win.com Không Chặn T8/2025](https://vuejs.london/)
 
 # sdrasさんのバックグラウンド
 

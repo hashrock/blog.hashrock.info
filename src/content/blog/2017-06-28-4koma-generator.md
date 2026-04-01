@@ -13,7 +13,7 @@ heroImage: '/images/2017-06-28-4koma-generator/0.png'
 
 作りました。
 
-[https://mangadown.netlify.app/](https://mangadown.netlify.app/)
+[MangaDown](https://mangadown.netlify.app/)
 
 ここの所、Markdownからすべてを生成することを目指した「anydownプロジェクト」というのをやってます。
 

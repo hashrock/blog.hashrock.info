@@ -12,7 +12,7 @@ pubDate: 'Nov 19 2017'
 
 デモサイトは下記。文字を入力したり、文字サイズや太さを変えて遊べる。
 
-[https://hashrock.github.io/canvas-lff/](https://hashrock.github.io/canvas-lff/)
+[study-lff](https://hashrock.github.io/canvas-lff/)
 
 ソースは下記。
 

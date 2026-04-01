@@ -11,7 +11,7 @@ heroImage: '/images/2017-11-10-vue-svg-spinner/0.gif'
 
 動作確認は以下より。
 
-[https://hashrock-sandbox.github.io/study-vue-svg-ui/](https://hashrock-sandbox.github.io/study-vue-svg-ui/)
+[vue-cute-components](https://hashrock-sandbox.github.io/study-vue-svg-ui/)
 
 ソースはこちら。
 

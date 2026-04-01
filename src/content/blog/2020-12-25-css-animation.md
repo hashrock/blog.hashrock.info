@@ -55,5 +55,5 @@ Tailwindは大量のクラスをプログラムから生成する仕組みで、
 
 その他のおもしろ自作アニメーションフレームワークは下記の記事もどうぞ。自分も含め誰も使ってない。
 
-[https://hashrock.hatenablog.com/entry/2020/01/04/010022](https://hashrock.hatenablog.com/entry/2020/01/04/010022)
+[テキストでタイムラインアニメーションを作れるライブラリを作った - No Regrets in Bathing](https://hashrock.hatenablog.com/entry/2020/01/04/010022)
 
