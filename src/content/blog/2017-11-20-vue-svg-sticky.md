@@ -14,7 +14,7 @@ SVGで作る必要があったのかは謎。</p>
 
 <p>コードはこちら。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fhashrock-sandbox%2Fstudy-vue-touch-ui-svg" title="hashrock-sandbox/study-vue-touch-ui-svg" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://github.com/hashrock-sandbox/study-vue-touch-ui-svg">github.com</a></cite></p>
+<p><a href="https://github.com/hashrock-sandbox/study-vue-touch-ui-svg">https://github.com/hashrock-sandbox/study-vue-touch-ui-svg</a></p>
 
 <h1>ポイント</h1>
 

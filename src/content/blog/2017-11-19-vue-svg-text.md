@@ -14,7 +14,7 @@ pubDate: 'Nov 19 2017'
 
 <p>ソースは下記。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fhashrock%2Fcanvas-lff" title="hashrock/canvas-lff" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://github.com/hashrock/canvas-lff">github.com</a></cite></p>
+<p><a href="https://github.com/hashrock/canvas-lff">https://github.com/hashrock/canvas-lff</a></p>
 
 <h1>リポジトリについて</h1>
 

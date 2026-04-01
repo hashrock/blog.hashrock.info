@@ -13,7 +13,7 @@ pubDate: 'Dec 02 2019'
 <p>歌詞にある通り、Denoくんの作者のRyanは首から下のデザインはまだ出していません（多分）。
 Denobook表紙では、私なりに全身を想像して描いていますが、非公式デザインということになります。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fhashrock.hatenablog.com%2Fentry%2F2019%2F09%2F21%2F162343" title="Denoの同人誌の２冊目が出ます（2019/09/22 技術書典7） - No Regrets in Bathing" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://hashrock.hatenablog.com/entry/2019/09/21/162343">hashrock.hatenablog.com</a></cite></p>
+<p><a href="https://hashrock.hatenablog.com/entry/2019/09/21/162343">https://hashrock.hatenablog.com/entry/2019/09/21/162343</a></p>
 
 <p><a href="https://hashrock.hatenablog.com/entry/2019/02/04/040505">Ryanの説明</a>からすると、地上で活動する恐竜であることは間違いなさそうなので、そう大きくズレることはないと思いますが…</p>
 

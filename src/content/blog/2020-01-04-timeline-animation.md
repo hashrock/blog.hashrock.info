@@ -84,7 +84,7 @@ const p4 = &#34;---------------0----1--2&#34;;</pre>
 
 <h1>リポジトリ</h1>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fhashrock%2FtimelineDown" title="hashrock/timelineDown" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://github.com/hashrock/timelineDown">github.com</a></cite></p>
+<p><a href="https://github.com/hashrock/timelineDown">https://github.com/hashrock/timelineDown</a></p>
 
 <p>実務で使ったわけではないので、実用になるかわかりませんが、気が向いたら自分でも使ってみます。</p>
 

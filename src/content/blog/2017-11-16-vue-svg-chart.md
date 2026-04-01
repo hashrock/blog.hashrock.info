@@ -25,7 +25,7 @@ heroImage: '/images/2017-11-16-vue-svg-chart/0.gif'
 <p>マウスホイールとか、ドラッグの挙動なんかはmixinとかで切り出せないかな、とかは思っている。
 コードは以下。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fhashrock-sandbox%2Fstudy-vue-svg-ui%2Fblob%2Fmaster%2Fcomponents%2FLineChart.vue" title="hashrock-sandbox/study-vue-svg-ui" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://github.com/hashrock-sandbox/study-vue-svg-ui/blob/master/components/LineChart.vue">github.com</a></cite></p>
+<p><a href="https://github.com/hashrock-sandbox/study-vue-svg-ui/blob/master/components/LineChart.vue">https://github.com/hashrock-sandbox/study-vue-svg-ui/blob/master/components/LineChart.vue</a></p>
 
 <p><a href="https://hashrock-sandbox.github.io/study-vue-svg-ui/">DEMO</a></p>
 

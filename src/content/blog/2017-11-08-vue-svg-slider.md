@@ -93,7 +93,7 @@ svg要素以下を.vueファイルにペーストするとこんな感じに。<
 
 <p>Slider.vue</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fhashrock-sandbox%2Fstudy-vue-svg-ui%2Fblob%2Fmaster%2Fcomponents%2FSlider.vue" title="hashrock-sandbox/study-vue-svg-ui" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://github.com/hashrock-sandbox/study-vue-svg-ui/blob/master/components/Slider.vue">github.com</a></cite></p>
+<p><a href="https://github.com/hashrock-sandbox/study-vue-svg-ui/blob/master/components/Slider.vue">https://github.com/hashrock-sandbox/study-vue-svg-ui/blob/master/components/Slider.vue</a></p>
 
 <h1>ポイント</h1>
 

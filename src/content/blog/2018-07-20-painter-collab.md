@@ -89,6 +89,6 @@ heroImage: '/images/2018-07-20-painter-collab/0.png'
 
 <p>また、絵茶作成自体に興味がある方は、下記のScrapboxに参加してください。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fscrapbox.io%2Fpg-drawing%2F%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%259E%25E3%2583%25BC%25E7%25B5%25B5%25E8%258C%25B6%25E3%2581%25AE%25E4%25BC%259A" title="プログラマー絵茶の会 - pg-drawing" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://scrapbox.io/pg-drawing/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC%E7%B5%B5%E8%8C%B6%E3%81%AE%E4%BC%9A">scrapbox.io</a></cite></p>
+<p><a href="https://scrapbox.io/pg-drawing/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC%E7%B5%B5%E8%8C%B6%E3%81%AE%E4%BC%9A">https://scrapbox.io/pg-drawing/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC%E7%B5%B5%E8%8C%B6%E3%81%AE%E4%BC%9A</a></p>
 
 -----

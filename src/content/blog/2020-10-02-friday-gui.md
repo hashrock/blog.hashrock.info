@@ -114,7 +114,7 @@ GUIで遊べればいいのでは？と思って作った。</p>
 
 <p>最終的に deno_doc はDeno公式に取り込まれることになった。下記からまだアニメーションを見ることができる。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fdoc.deno.land%2F" title="deno doc" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://doc.deno.land/">doc.deno.land</a></cite></p>
+<p><a href="https://doc.deno.land/">https://doc.deno.land/</a></p>
 
 <p>Denoと関わってると何故か熱い展開になることが多い。</p>
 
@@ -126,7 +126,7 @@ GUIで遊べればいいのでは？と思って作った。</p>
 
 <p>これは結構スムーズに実装できたので、せっかくなのでDEV.toに怪しい英語で解説記事を書いた。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fdev.to%2Fhashrock%2Fmaking-miniature-book-with-css-590p" title="Making Miniature Book with CSS" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://dev.to/hashrock/making-miniature-book-with-css-590p">dev.to</a></cite></p>
+<p><a href="https://dev.to/hashrock/making-miniature-book-with-css-590p">https://dev.to/hashrock/making-miniature-book-with-css-590p</a></p>
 
 <h1>他の作品</h1>
 
@@ -153,6 +153,6 @@ GUIで遊べればいいのでは？と思って作った。</p>
 
 <p>miyaokaさんがアンサーブログを書いてくれました。miyaokaさんの成果物について掘り下げた文章が読めるのでぜひ読んでみてください。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fnote.com%2Fmiyaoka%2Fn%2Fn09fb5cf0cff9" title="金曜GUIの活動を振り返る｜miyaoka｜note" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://note.com/miyaoka/n/n09fb5cf0cff9">note.com</a></cite></p>
+<p><a href="https://note.com/miyaoka/n/n09fb5cf0cff9">https://note.com/miyaoka/n/n09fb5cf0cff9</a></p>
 
 -----

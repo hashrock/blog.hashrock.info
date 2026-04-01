@@ -56,7 +56,7 @@ heroImage: '/images/2019-12-25-vscode-gantt/0.gif'
 
 <h1>リポジトリ</h1>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fanydown%2Fvscode-ganttdown" title="anydown/vscode-ganttdown" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://github.com/anydown/vscode-ganttdown">github.com</a></cite></p>
+<p><a href="https://github.com/anydown/vscode-ganttdown">https://github.com/anydown/vscode-ganttdown</a></p>
 
 <h1>余談</h1>
 
@@ -66,7 +66,7 @@ heroImage: '/images/2019-12-25-vscode-gantt/0.gif'
 <p>自分は「<a href="https://shirasaka.tv/11309">ご都合いかがでしょうかメーカー</a>」が面白いと思っていたり、「<a href="https://chouseisan.com/">調整さん</a>」が大好きだったりするんですが、
 なんか新しい時間UIが作れたらいいなぁ的なことを、よく<a href="https://scrapbox.io/daiiz/">daiiz</a>さんと話していたりなんかします。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fshirasaka.tv%2F11309" title="「以下の日程でご都合いかがでしょうかメーカー」を作りました ｜ しらさかブログ" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://shirasaka.tv/11309">shirasaka.tv</a></cite></p>
+<p><a href="https://shirasaka.tv/11309">https://shirasaka.tv/11309</a></p>
 
 <p>ガントなんかも、しっかり作ろうとすると数十分かかってしまうものですが、１分以内に作って捨てる、みたいにできると、「考えるために書く」ような使い方ができたりと、色々捗るのではと思っています。</p>
 

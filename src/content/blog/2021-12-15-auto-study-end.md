@@ -11,7 +11,7 @@ heroImage: '/images/2021-12-15-auto-study-end/0.png'
 
 <p>※自動勉強会とはネタと開催日が勝手に決まる勉強会開催システムのこと。詳細は下記参照。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fhashrock.hatenablog.com%2Fentry%2F2021%2F09%2F27%2F221207" title="自動勉強会をやっている - No Regrets in Bathing" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://hashrock.hatenablog.com/entry/2021/09/27/221207">hashrock.hatenablog.com</a></cite></p>
+<p><a href="https://hashrock.hatenablog.com/entry/2021/09/27/221207">https://hashrock.hatenablog.com/entry/2021/09/27/221207</a></p>
 
 <p>休止の理由は、毎年12月は不思議と仕事が炎上するので、予防的に止めておいたという感じです。
 で、無事に仕事が炎上しているのでよかったよかった。助けて…</p>

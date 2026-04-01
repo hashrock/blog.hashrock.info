@@ -37,7 +37,7 @@ heroImage: '/images/2018-03-12-excel-love-hate/0.gif'
 
 <p>リポジトリはこちら。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fanydown%2Fvue-spreadsheet-lite" title="anydown/vue-spreadsheet-lite" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://github.com/anydown/vue-spreadsheet-lite">github.com</a></cite></p>
+<p><a href="https://github.com/anydown/vue-spreadsheet-lite">https://github.com/anydown/vue-spreadsheet-lite</a></p>
 
 <p>すでに<a href="https://handsontable.com/">handsontable</a>という、実用的なスプレッドシートコンポーネントが存在するため、
 フルスクラッチで小さく書くのを目標にしている。</p>
@@ -52,7 +52,7 @@ heroImage: '/images/2018-03-12-excel-love-hate/0.gif'
 
 <p>SVGとVue.jsの組み合わせが最高なのは下記の記事でも書いたとおり。身の回りでも多くの人がVue.js + SVG遊びに興じているのを観測している。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=http%3A%2F%2Fhashrock.hatenablog.com%2Fentry%2F2017%2F12%2F04%2F215559" title="グリグリ動くUIをVueとSVGでサクッと書く - No Regrets in Bathing" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="http://hashrock.hatenablog.com/entry/2017/12/04/215559">hashrock.hatenablog.com</a></cite></p>
+<p><a href="http://hashrock.hatenablog.com/entry/2017/12/04/215559">http://hashrock.hatenablog.com/entry/2017/12/04/215559</a></p>
 
 <p>もっと多くの人にVueとSVGを使って欲しいので、今回は複雑なものを作る時のTipsも足しておく。</p>
 
@@ -128,7 +128,7 @@ UIのような、クリッカブルな要素がコンテンツの下に来るこ
 
 <p>Biliでバンドルを作って、npmに公開したいと思っている。機能不足を解決したタイミングで頑張りたい。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fegoist%2Fbili" title="egoist/bili" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://github.com/egoist/bili">github.com</a></cite></p>
+<p><a href="https://github.com/egoist/bili">https://github.com/egoist/bili</a></p>
 
 <p>あと、ちょっと作りかけているけど、markdown tableをスプレッドシート / テキストエリアで双方向に編集できるものも作りたい。下記はスペース区切りのもの。</p>
 

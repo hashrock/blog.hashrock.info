@@ -30,6 +30,6 @@ heroImage: '/images/2015-12-08-sushi-loading/0.gif'
 <p>あなたも、スピナーなんかより、鮨を回してみませんか。
 リポジトリはこちらです。</p>
 
-<p><iframe src="//hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fhashrock-sandbox%2Fstudy-css-sprite" title="hashrock-sandbox/study-css-sprite" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://github.com/hashrock-sandbox/study-css-sprite">github.com</a></cite></p>
+<p><a href="https://github.com/hashrock-sandbox/study-css-sprite">https://github.com/hashrock-sandbox/study-css-sprite</a></p>
 
 -----

@@ -14,7 +14,7 @@ pubDate: 'Dec 26 2018'
 
 <p>簡単そうに思えて大変苦戦した（クロスプラットフォームは本当に面倒だな！）のだけど、一応完成して、Githubで公開した。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fhashrock%2Fdeno-opn" title="hashrock/deno-opn" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://github.com/hashrock/deno-opn">github.com</a></cite></p>
+<p><a href="https://github.com/hashrock/deno-opn">https://github.com/hashrock/deno-opn</a></p>
 
 <p>で、22時に公開したのだけど、その3時間後にEGOISTさんから謎のリプライが来た。</p>
 

@@ -24,7 +24,7 @@ SVGアニメーションといえば自分の中ではこの方です。</p>
 
 <p>私も<a href="http://hashrock.hatenablog.com/entry/2017/12/04/215559">この発表に影響されてSVGを始めた</a>ので思い入れがあります。皆さんも未見であればぜひスライドだけでも見てください。スライド内のSVGはインタラクティブに動かせます。</p>
 
-<p>スライド：<iframe src="https://hatenablog-parts.com/embed?url=http%3A%2F%2Fslides.com%2Fsdrasner%2Fanimating-vue-17%23%2F" title="Animating Vue" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="http://slides.com/sdrasner/animating-vue-17#/">slides.com</a></cite></p>
+<p>スライド：<a href="http://slides.com/sdrasner/animating-vue-17#/">http://slides.com/sdrasner/animating-vue-17#/</a></p>
 
 <h1>sdrasさんのCodepenは楽しいぞ</h1>
 
@@ -40,7 +40,7 @@ SVGアニメーションといえば自分の中ではこの方です。</p>
 
 <p>Vue.js Londonのトップアニメーションもsdrasさん作です。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fvuejs.london%2F" title="Vue.js London | Conference | 20-21 September" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://vuejs.london/">vuejs.london</a></cite></p>
+<p><a href="https://vuejs.london/">https://vuejs.london/</a></p>
 
 <h1>sdrasさんのバックグラウンド</h1>
 
@@ -108,6 +108,6 @@ SVGアニメーションといえば自分の中ではこの方です。</p>
 
 <p>発表内容公開されました！「Next-level Vue Animations」ということで、アニメーション絡みの発表になりそうですね！</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fvuefes.jp%2Fspeakers%2Fsdras%2F" title="Next-level Vue Animations（Sarah Drasner）- Vue Fes Japan 2018" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://vuefes.jp/speakers/sdras/">vuefes.jp</a></cite></p>
+<p><a href="https://vuefes.jp/speakers/sdras/">https://vuefes.jp/speakers/sdras/</a></p>
 
 -----

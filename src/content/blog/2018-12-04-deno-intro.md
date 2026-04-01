@@ -9,13 +9,13 @@ heroImage: '/images/2018-12-04-deno-intro/0.png'
 
 <p>TypeScript版Node.jsというのが雑な説明になる。yosuke-furukawaさんの下記の記事が詳しい。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fyosuke-furukawa.hatenablog.com%2Fentry%2F2018%2F06%2F07%2F080335" title="Node.js  における設計ミス By Ryan Dahl - from scratch" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://yosuke-furukawa.hatenablog.com/entry/2018/06/07/080335">yosuke-furukawa.hatenablog.com</a></cite></p>
+<p><a href="https://yosuke-furukawa.hatenablog.com/entry/2018/06/07/080335">https://yosuke-furukawa.hatenablog.com/entry/2018/06/07/080335</a></p>
 
 <p>ES Modules周りとnpmのことも考えると、まっさらから再設計したほうがスッキリしてて気持ちいいというのと、単にTypeScriptが好きというのもあるけど、今追っかけている理由は、Denoがセキュリティ的にいい感じに見えるからだったりする。</p>
 
 <h1>flatmap-stream事件</h1>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fqiita.com%2Fmysticatea%2Fitems%2Faac027f9183ea9f0f9b1" title="セキュリティ インシデント flatmap-stream@0.1.1 と npm-run-all での対応 - Qiita" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://qiita.com/mysticatea/items/aac027f9183ea9f0f9b1">qiita.com</a></cite></p>
+<p><a href="https://qiita.com/mysticatea/items/aac027f9183ea9f0f9b1">https://qiita.com/mysticatea/items/aac027f9183ea9f0f9b1</a></p>
 
 <p>npmパッケージがビットコインの窃盗に利用される（未遂）という事件がつい先日発生した。</p>
 

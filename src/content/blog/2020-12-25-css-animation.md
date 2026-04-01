@@ -50,10 +50,10 @@ pubDate: 'Dec 25 2020'
 
 <p>誰も使わないとは思いますが、purgeCSSを通せば1mmくらいは実用になってしまう可能性があります。いろんなアプローチがあるものですね。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fhashrock-sandbox%2Fkanawind" title="hashrock-sandbox/kanawind" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://github.com/hashrock-sandbox/kanawind">github.com</a></cite></p>
+<p><a href="https://github.com/hashrock-sandbox/kanawind">https://github.com/hashrock-sandbox/kanawind</a></p>
 
 <p>その他のおもしろ自作アニメーションフレームワークは下記の記事もどうぞ。自分も含め誰も使ってない。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fhashrock.hatenablog.com%2Fentry%2F2020%2F01%2F04%2F010022" title="テキストでタイムラインアニメーションを作れるライブラリを作った - No Regrets in Bathing" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://hashrock.hatenablog.com/entry/2020/01/04/010022">hashrock.hatenablog.com</a></cite></p>
+<p><a href="https://hashrock.hatenablog.com/entry/2020/01/04/010022">https://hashrock.hatenablog.com/entry/2020/01/04/010022</a></p>
 
 -----

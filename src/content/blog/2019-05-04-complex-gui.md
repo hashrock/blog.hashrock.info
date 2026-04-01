@@ -7,7 +7,7 @@ heroImage: '/images/2019-05-04-complex-gui/0.png'
 
 <p><b>「GUIの雑談を無限にしたいなぁ」</b>と思い、会を開催しました。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ftwipla.jp%2Fevents%2F380070" title="複雑なGUI / SVGの会 - TwiPla" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://twipla.jp/events/380070">twipla.jp</a></cite></p>
+<p><a href="https://twipla.jp/events/380070">https://twipla.jp/events/380070</a></p>
 
 <p>上記のイベントページを立てて、Twitter上で募集をかけたところ、
 この内容だけでピンと来てしまったガチ勢が9人も集まりました。
@@ -80,11 +80,11 @@ heroImage: '/images/2019-05-04-complex-gui/0.png'
 
 <p>実際に自己紹介で使った資料は下記です。もうちょっと動画とかがあります。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fhackmd.io%2Fs%2FHkV3jIujE" title="複雑GUIの会 Vol.1 - HackMD" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://hackmd.io/s/HkV3jIujE">hackmd.io</a></cite></p>
+<p><a href="https://hackmd.io/s/HkV3jIujE">https://hackmd.io/s/HkV3jIujE</a></p>
 
 <p>実際の会の流れは、Twitterで「複雑GUI会」で検索すると、雰囲気がわかるかと思います。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ftwitter.com%2Fhashtag%2F%E8%A4%87%E9%9B%91GUI%E4%BC%9A" title="#複雑GUI会 hashtag on Twitter" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://twitter.com/hashtag/複雑GUI会">twitter.com</a></cite></p>
+<p><a href="https://twitter.com/hashtag/複雑GUI会">https://twitter.com/hashtag/複雑GUI会</a></p>
 
 <h1>その他</h1>
 
@@ -111,6 +111,6 @@ heroImage: '/images/2019-05-04-complex-gui/0.png'
 
 <p>参加者のmiyaokaさんがレポートを書いてくれました！</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fnote.mu%2Fmiyaoka%2Fn%2Fn366ea8459461" title="複雑GUIの会 vol.1 に参加しました｜miyaoka｜note" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://note.mu/miyaoka/n/n366ea8459461">note.mu</a></cite></p>
+<p><a href="https://note.mu/miyaoka/n/n366ea8459461">https://note.mu/miyaoka/n/n366ea8459461</a></p>
 
 -----

@@ -45,7 +45,7 @@ pubDate: 'Jun 10 2015'
 
 <p>サンプルは以下。</p>
 
-<p><iframe src="//hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fhashrock-sandbox%2Fjekyll-mysite" title="hashrock-sandbox/jekyll-mysite" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"><a href="https://github.com/hashrock-sandbox/jekyll-mysite">hashrock-sandbox/jekyll-mysite</a></iframe><cite class="hatena-citation"><a href="https://github.com/hashrock-sandbox/jekyll-mysite">github.com</a></cite></p>
+<p><a href="https://github.com/hashrock-sandbox/jekyll-mysite">https://github.com/hashrock-sandbox/jekyll-mysite</a></p>
 
 <h2>hexo</h2>
 

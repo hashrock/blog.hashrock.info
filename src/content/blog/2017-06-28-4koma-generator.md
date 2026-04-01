@@ -35,7 +35,7 @@ heroImage: '/images/2017-06-28-4koma-generator/0.png'
 
 <p>スタンプ募集中です。GitHubにIssueを立ててあります。</p>
 
-<p><iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fanydown%2Fmangadown%2Fissues%2F1" title="スタンプ募集 · Issue #1 · anydown/mangadown" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"></iframe><cite class="hatena-citation"><a href="https://github.com/anydown/mangadown/issues/1">github.com</a></cite></p>
+<p><a href="https://github.com/anydown/mangadown/issues/1">https://github.com/anydown/mangadown/issues/1</a></p>
 
 <p>一緒に<a href="https://github.com/anydown/">anydown</a>やってくれる仲間も募集中です。</p>
 
