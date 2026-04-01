@@ -11,11 +11,11 @@ pubDate: 'Dec 25 2020'
 動いているところは動画から見てください。直感的としか言いようがないと思います。
 
 
-https://twitter.com/hashedrock/status/1342099406405869568
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/1342099406405869568"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 
-https://twitter.com/hashedrock/status/1342143002609733632
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/1342143002609733632"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 「直感的イコール素晴らしい」とは限らない、ということがよくわかります。

@@ -7,7 +7,7 @@ pubDate: 'Nov 19 2017'
 動いてるところは下記ツイートから見れる（gifがでかくなりすぎてはてなにアップロードできなかった）
 
 
-https://twitter.com/hashedrock/status/931940765936132096
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/931940765936132096"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 デモサイトは下記。文字を入力したり、文字サイズや太さを変えて遊べる。
@@ -53,7 +53,7 @@ https://twitter.com/hashedrock/status/931940765936132096
 - 文字の太さ変更については、CSSプロパティとinput: rangeを紐付ける必要があったので、下記の知見を使った（CSS VariablesはJSから変更したときに再評価される）
 
 
-https://twitter.com/hashedrock/status/880081193848365060
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/880081193848365060"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 # 思い

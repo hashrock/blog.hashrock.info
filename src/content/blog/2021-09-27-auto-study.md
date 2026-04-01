@@ -8,11 +8,11 @@ heroImage: '/images/2021-09-27-auto-study/0.png'
 生きていると**「○○の勉強会があったらいいのにな～」**とかぼやいてしまうのだけど、自分で主催はしたくないので言いっぱなしになるみたいなことが多い。
 
 
-https://twitter.com/hashedrock/status/1422406888482762759
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/1422406888482762759"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 
-https://twitter.com/hashedrock/status/1200374623038140416
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/1200374623038140416"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 これはかなりみっともないと思っていて、それで最近「自動勉強会」というのを始めた。
@@ -20,7 +20,7 @@ https://twitter.com/hashedrock/status/1200374623038140416
 自動勉強会の概要としてはこれだけ。
 
 
-https://twitter.com/hashedrock/status/1375086318875602950
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/1375086318875602950"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 実際のキューは下記のような感じでみんなで積んでいって、興味がある項目に投票する。

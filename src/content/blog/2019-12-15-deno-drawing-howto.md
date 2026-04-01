@@ -14,7 +14,7 @@ heroImage: '/images/2019-12-15-deno-drawing-howto/0.png'
 # どうして作ったのか
 
 
-https://twitter.com/__syumai/status/1190263644921053187
+<blockquote class="twitter-tweet"><a href="https://twitter.com/__syumai/status/1190263644921053187"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 Deno Advent Calendar 2019が立ったばかりのときに「いっちょどうでもいい記事でハードル下げておこうかな」と考えて、ひとまず絵描き歌と記入しておいたのが始まりです。

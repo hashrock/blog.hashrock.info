@@ -5,7 +5,7 @@ pubDate: 'May 06 2015'
 ---
 
 
-https://twitter.com/hashedrock/status/595610741308284929
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/595610741308284929"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 Qiitaに書いたのだけれど、以前作ったVue.jsとMeteorのサンプルを完成させた。 セキュリティに関する配慮が必要だったので、その辺りの修正をしてから記事として仕上げた。

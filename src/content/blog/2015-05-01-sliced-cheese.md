@@ -9,7 +9,7 @@ pubDate: 'May 01 2015'
 世界初のIsomorphic勉強会だったらしいのだが、歴史解説から、現場の声、そして基調講演風のプレゼンなど、まだバラバラの切り口で、今論点が作られようとしている最中のようだった。
 
 
-https://twitter.com/hashedrock/status/593776039454580736
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/593776039454580736"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 自分はソフトウェアを切れてるチーズみたいに考えている。モノリシックに見えても、内部には切れ目が入っている。一方で、必要が無い限りバラバラにもしない。必要なのは、内部インターフェースの統一だ。そんなことをプレゼン見ながら考えていた。

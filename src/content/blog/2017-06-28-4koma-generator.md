@@ -8,7 +8,7 @@ heroImage: '/images/2017-06-28-4koma-generator/0.png'
 ![f:id:hashrock:20170628000458p:plain](/images/2017-06-28-4koma-generator/0.png)
 
 
-https://twitter.com/hashedrock/status/879712337715904512
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/879712337715904512"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 作りました。

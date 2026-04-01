@@ -5,7 +5,7 @@ pubDate: 'May 02 2017'
 ---
 
 
-https://twitter.com/hashedrock/status/858971761190223872
+<blockquote class="twitter-tweet"><a href="https://twitter.com/hashedrock/status/858971761190223872"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 [DEMO](https://anydown.github.io/maildown/) [Source](https://github.com/anydown/maildown)

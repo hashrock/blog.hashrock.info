@@ -14,7 +14,7 @@ heroImage: '/images/2019-05-04-complex-gui/0.png'
 予約したルノアールの会議室は過密状態になってしまいました。 （もう少し広い部屋にしておけば…と後悔しました）
 
 
-https://twitter.com/miyaoka/status/1123802449398181888
+<blockquote class="twitter-tweet"><a href="https://twitter.com/miyaoka/status/1123802449398181888"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 職人タイプの方が多かったので終始和やかな雰囲気でしたが、 やはり実装に深入りしていくことが多く、あまりの情報密度に 私も話についていくのが大変だったと自白しておきます。

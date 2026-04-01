@@ -19,7 +19,7 @@ pubDate: 'Dec 02 2019'
 タイムリーな話題としては、ちょうど先日JSConf JPにてコアコミッタのkitsonkがDenoについての発表を行いました。今Denoってどうだっけ？という話が気になる方はぜひご一読を。
 
 
-https://twitter.com/kitsonk/status/1200699890222788608
+<blockquote class="twitter-tweet"><a href="https://twitter.com/kitsonk/status/1200699890222788608"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 明日は[kt3k](https://twitter.com/kt3k)さんの記事です！
