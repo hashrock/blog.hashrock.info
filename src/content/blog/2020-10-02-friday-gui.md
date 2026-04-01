@@ -2,7 +2,7 @@
 title: '「金曜GUI」という活動をやっていた'
 description: ''
 pubDate: 'Oct 02 2020'
-heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20201002/20201002215347.png'
+heroImage: '/images/2020-10-02-friday-gui/0.png'
 ---
 
 <p>今年２月から「金曜になにかGUIを一つ作る」というフロントエンド素振り活動をしていたのだけど、最近あんまりやらなくなってしまったため、一旦成果物をまとめる。</p>
@@ -98,7 +98,7 @@ GUIで遊べればいいのでは？と思って作った。</p>
 
 <p>ツイートにも書いてるけど、小学生の頃工作でこういうの作ったわーというのをめっちゃ思い出した。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20201002/20201002215347.png" alt="f:id:hashrock:20201002215347p:plain" title="f:id:hashrock:20201002215347p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2020-10-02-friday-gui/0.png" alt="f:id:hashrock:20201002215347p:plain" title="f:id:hashrock:20201002215347p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>こういう感じで、最近はちょっと難し目のSVGはFigmaで作ってエクスポートして作っている。パーツごとにCopy as SVGとかできて便利。</p>
 

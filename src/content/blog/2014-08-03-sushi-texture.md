@@ -2,7 +2,7 @@
 title: '寿司のテクスチャを作る'
 description: ''
 pubDate: 'Aug 03 2014'
-heroImage: 'http://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20140803/20140803155005.jpg'
+heroImage: '/images/2014-08-03-sushi-texture/0.jpg'
 ---
 
 <h2>About</h2>
@@ -13,25 +13,25 @@ heroImage: 'http://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20140803/20
 
 <p><a href="http://www.pakutaso.com/20111210365post-1052.html">ぱくたそ</a>から画像を抜いて正規化します。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20140803/20140803155005.jpg" alt="f:id:hashrock:20140803155005j:plain" title="f:id:hashrock:20140803155005j:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2014-08-03-sushi-texture/0.jpg" alt="f:id:hashrock:20140803155005j:plain" title="f:id:hashrock:20140803155005j:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 
 <p>こんなものが出来ました。
 ご査収ください。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20140803/20140803154446.png" alt="f:id:hashrock:20140803154446p:plain" title="f:id:hashrock:20140803154446p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2014-08-03-sushi-texture/1.png" alt="f:id:hashrock:20140803154446p:plain" title="f:id:hashrock:20140803154446p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 
 <h2>Usage</h2>
 
 <p>おもむろにテクスチャに指定します。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20140803/20140803154546.jpg" alt="f:id:hashrock:20140803154546j:plain" title="f:id:hashrock:20140803154546j:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2014-08-03-sushi-texture/2.jpg" alt="f:id:hashrock:20140803154546j:plain" title="f:id:hashrock:20140803154546j:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 
 <p>で、こう。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20140803/20140803154813.jpg" alt="f:id:hashrock:20140803154813j:plain" title="f:id:hashrock:20140803154813j:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2014-08-03-sushi-texture/3.jpg" alt="f:id:hashrock:20140803154813j:plain" title="f:id:hashrock:20140803154813j:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 
 <h2>Todo</h2>

@@ -2,7 +2,7 @@
 title: '洗濯絵表示のJIS改訂について'
 description: ''
 pubDate: 'Oct 23 2014'
-heroImage: 'http://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20141023/20141023000140.png'
+heroImage: '/images/2014-10-23-laundry-symbols/0.png'
 ---
 
 <p><iframe src="http://hatenablog.com/embed?url=http%3A%2F%2Fwww.fashionsnap.com%2Fnews%2F2012-06-15%2Fjis-iso-change%2F" title="洗濯絵表示が変わる？2014年以降にグローバル化" scrolling="no" frameborder="0" style="width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"><a href="http://www.fashionsnap.com/news/2012-06-15/jis-iso-change/">洗濯絵表示が変わる？2014年以降にグローバル化</a></iframe></p>
@@ -12,7 +12,7 @@ heroImage: 'http://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20141023/20
 <p>さて、これを見つけて、これだけだとデザイン上問題あるのでは？と素朴に考え、
 デザインの練習がてら下記のものを作った。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20141023/20141023000140.png" alt="f:id:hashrock:20141023000140p:plain" title="f:id:hashrock:20141023000140p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2014-10-23-laundry-symbols/0.png" alt="f:id:hashrock:20141023000140p:plain" title="f:id:hashrock:20141023000140p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 
 <p>Webデザインをやっている関係上、どうしてもアイコンとして観察してしまう。

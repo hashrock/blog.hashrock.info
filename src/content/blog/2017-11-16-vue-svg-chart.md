@@ -2,10 +2,10 @@
 title: "Vue.js + SVG練習6: ズーム＆パンできる折れ線グラフを書く"
 description: ''
 pubDate: 'Nov 16 2017'
-heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171116/20171116025148.gif'
+heroImage: '/images/2017-11-16-vue-svg-chart/0.gif'
 ---
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171116/20171116025148.gif" alt="f:id:hashrock:20171116025148g:plain" title="f:id:hashrock:20171116025148g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-16-vue-svg-chart/0.gif" alt="f:id:hashrock:20171116025148g:plain" title="f:id:hashrock:20171116025148g:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>ズーム＆パンできる折れ線グラフを書いた。グリッドライン付き。</p>
 

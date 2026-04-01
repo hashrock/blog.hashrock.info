@@ -2,10 +2,10 @@
 title: "Vue.js + SVG練習2 : Sparkline"
 description: ''
 pubDate: 'Nov 07 2017'
-heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171107/20171107020024.png'
+heroImage: '/images/2017-11-07-vue-svg-sparkline/0.png'
 ---
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171107/20171107020024.png" alt="f:id:hashrock:20171107020024p:plain" title="f:id:hashrock:20171107020024p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-07-vue-svg-sparkline/0.png" alt="f:id:hashrock:20171107020024p:plain" title="f:id:hashrock:20171107020024p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>あまり体調がよくない（言い訳）ので、今日は軽め。</p>
 

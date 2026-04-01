@@ -2,10 +2,10 @@
 title: 'プログラマー絵茶を開催した＆リアルタイム共同開発した'
 description: ''
 pubDate: 'Jul 20 2018'
-heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20180720/20180720124626.png'
+heroImage: '/images/2018-07-20-painter-collab/0.png'
 ---
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20180720/20180720124626.png" alt="f:id:hashrock:20180720124626p:plain" title="f:id:hashrock:20180720124626p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2018-07-20-painter-collab/0.png" alt="f:id:hashrock:20180720124626p:plain" title="f:id:hashrock:20180720124626p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>絵茶というのは、お絵かきチャットの略称で、一枚の共有キャンバスにみんなで絵を描くという遊びのこと。</p>
 
@@ -35,7 +35,7 @@ heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20180720/2
 
 <p>これはなんとビデオチャットまでできる優れもの。描いている途中にiPadで文字チャットをするのはかなりだるく、音声チャットできると楽だなと思っていたので、これは良いものだと思う。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20180720/20180720123648.png" alt="f:id:hashrock:20180720123648p:plain" title="f:id:hashrock:20180720123648p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2018-07-20-painter-collab/1.png" alt="f:id:hashrock:20180720123648p:plain" title="f:id:hashrock:20180720123648p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>第１回はこれで開催したのだが、問題があって、描画量が多くなるとどんどん重くなっていく。スクロールするだけでリドローが発生する。</p>
 
@@ -49,7 +49,7 @@ heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20180720/2
 
 <p><a href="https://github.com/romebop/whiteboard">GitHub - romebop/whiteboard: interactive drawing &amp; chatting</a></p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20180720/20180720124315.png" alt="f:id:hashrock:20180720124315p:plain" title="f:id:hashrock:20180720124315p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2018-07-20-painter-collab/2.png" alt="f:id:hashrock:20180720124315p:plain" title="f:id:hashrock:20180720124315p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <h1>変更点</h1>
 
@@ -59,7 +59,7 @@ heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20180720/2
 
 <p>多分、上手い人がガリガリ描いているスペースに絵を描き入れるのは緊張するのでは、と思ったので、右側にピクトチャットもどきを実装することにした。その結果が下記。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20180720/20180720124000.png" alt="f:id:hashrock:20180720124000p:plain" title="f:id:hashrock:20180720124000p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2018-07-20-painter-collab/3.png" alt="f:id:hashrock:20180720124000p:plain" title="f:id:hashrock:20180720124000p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <h1>第二回</h1>
 
@@ -71,11 +71,11 @@ heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20180720/2
 
 <p>最初こんなのだったのが</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20180720/20180720124926.png" alt="f:id:hashrock:20180720124926p:plain" title="f:id:hashrock:20180720124926p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2018-07-20-painter-collab/4.png" alt="f:id:hashrock:20180720124926p:plain" title="f:id:hashrock:20180720124926p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>現在こうなった</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20180720/20180720124951.png" alt="f:id:hashrock:20180720124951p:plain" title="f:id:hashrock:20180720124951p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2018-07-20-painter-collab/5.png" alt="f:id:hashrock:20180720124951p:plain" title="f:id:hashrock:20180720124951p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>この変更は開催中に本番反映された。</p>
 

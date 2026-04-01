@@ -2,23 +2,23 @@
 title: "Vue.js + SVG練習3 : こっそり戻ろうとするスライダー"
 description: ''
 pubDate: 'Nov 08 2017'
-heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171108/20171108000803.gif'
+heroImage: '/images/2017-11-08-vue-svg-slider/0.gif'
 ---
 
 <p>３作目。こっそり戻るスライダーを実装しよう。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171108/20171108000803.gif" alt="f:id:hashrock:20171108000803g:plain" title="f:id:hashrock:20171108000803g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-08-vue-svg-slider/0.gif" alt="f:id:hashrock:20171108000803g:plain" title="f:id:hashrock:20171108000803g:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>素のSVG手書きするのちょっと辛すぎたんでInkscapeを使うことにした。
 Inkscapeも辛くないということはまったくないけど…、うーん。Sketchの方が楽かな。Mac版は持ってるんだけど。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171107/20171107223623.png" alt="f:id:hashrock:20171107223623p:plain" title="f:id:hashrock:20171107223623p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-08-vue-svg-slider/1.png" alt="f:id:hashrock:20171107223623p:plain" title="f:id:hashrock:20171107223623p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>こんな感じ。</p>
 
 <p>で、動かしたい単位でグループ化し、地道に名前を付けていく。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171107/20171107223852.png" alt="f:id:hashrock:20171107223852p:plain" title="f:id:hashrock:20171107223852p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-08-vue-svg-slider/2.png" alt="f:id:hashrock:20171107223852p:plain" title="f:id:hashrock:20171107223852p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>groupの移動はx, yではなくtranslateでやることになる（めんどくさい！）ので、
 この時、translateの値は、変位する値でメモしておく。</p>
@@ -31,7 +31,7 @@ Inkscapeも辛くないということはまったくないけど…、うーん
 
 <p>inkscapeの安定版はいつでもこんな感じ。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171107/20171107224243.png" alt="f:id:hashrock:20171107224243p:plain" title="f:id:hashrock:20171107224243p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-08-vue-svg-slider/3.png" alt="f:id:hashrock:20171107224243p:plain" title="f:id:hashrock:20171107224243p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>まぁ使えるのでいいとする。
 で、そのままSVGで出力すると、inkscape独自属性とかが山盛りで出力されてしまうので、プレーンSVGというので出す。
@@ -39,12 +39,12 @@ Inkscapeも辛くないということはまったくないけど…、うーん
 
 <p>使う部分だけ切り出す。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171107/20171107224546.png" alt="f:id:hashrock:20171107224546p:plain" title="f:id:hashrock:20171107224546p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-08-vue-svg-slider/4.png" alt="f:id:hashrock:20171107224546p:plain" title="f:id:hashrock:20171107224546p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>metadataとかは不要かな。defもいらない。xml定義周りもいいや。
 svg要素以下を.vueファイルにペーストするとこんな感じに。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171107/20171107225033.png" alt="f:id:hashrock:20171107225033p:plain" title="f:id:hashrock:20171107225033p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-08-vue-svg-slider/5.png" alt="f:id:hashrock:20171107225033p:plain" title="f:id:hashrock:20171107225033p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>こーいうところを</p>
 

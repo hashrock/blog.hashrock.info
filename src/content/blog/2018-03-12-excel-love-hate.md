@@ -2,7 +2,7 @@
 title: 'Excelシートを憎み、愛した男'
 description: ''
 pubDate: 'Mar 12 2018'
-heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20180312/20180312013009.gif'
+heroImage: '/images/2018-03-12-excel-love-hate/0.gif'
 ---
 
 <p>Excelシートが憎い。</p>
@@ -27,13 +27,13 @@ heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20180312/2
 
 <p>だから、SVGでExcel風スプレッドシートを自作した。車輪の再発明だ。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20180312/20180312013009.gif" alt="f:id:hashrock:20180312013009g:plain" title="f:id:hashrock:20180312013009g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2018-03-12-excel-love-hate/0.gif" alt="f:id:hashrock:20180312013009g:plain" title="f:id:hashrock:20180312013009g:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p><a href="https://anydown.github.io/vue-spreadsheet-lite/">DEMOはこちらから</a></p>
 
 <p>ロゴも作った。</p>
 
-<p><a href="https://user-images.githubusercontent.com/3132889/37255669-e971baf2-2592-11e8-823c-0dcadcb3b772.gif" class="http-image" target="_blank"><img src="https://user-images.githubusercontent.com/3132889/37255669-e971baf2-2592-11e8-823c-0dcadcb3b772.gif" class="http-image" alt="https://user-images.githubusercontent.com/3132889/37255669-e971baf2-2592-11e8-823c-0dcadcb3b772.gif"></a></p>
+<p><a href="/images/2018-03-12-excel-love-hate/1.gif" class="http-image" target="_blank"><img src="/images/2018-03-12-excel-love-hate/1.gif" class="http-image" alt="/images/2018-03-12-excel-love-hate/1.gif"></a></p>
 
 <p>リポジトリはこちら。</p>
 
@@ -113,7 +113,7 @@ rect<span class="synIdentifier">{</span>
 
 <p>SVGはz-indexによる重なり順の制御が出来ないと書いたが、下記のように分類すれば大抵のケースでうまくいく。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20180312/20180312022916.png" alt="f:id:hashrock:20180312022916p:plain" title="f:id:hashrock:20180312022916p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2018-03-12-excel-love-hate/2.png" alt="f:id:hashrock:20180312022916p:plain" title="f:id:hashrock:20180312022916p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>UIレイヤーは、選択範囲やボタン、ダイアログなどに当たる。ベジェハンドルやバウンディングボックスなどもここ。</p>
 
@@ -132,7 +132,7 @@ UIのような、クリッカブルな要素がコンテンツの下に来るこ
 
 <p>あと、ちょっと作りかけているけど、markdown tableをスプレッドシート / テキストエリアで双方向に編集できるものも作りたい。下記はスペース区切りのもの。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20180312/20180312030806.gif" alt="f:id:hashrock:20180312030806g:plain" title="f:id:hashrock:20180312030806g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2018-03-12-excel-love-hate/3.gif" alt="f:id:hashrock:20180312030806g:plain" title="f:id:hashrock:20180312030806g:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>テキストからヘッダを生成する場合は、ヘッダの幅を自動算出しなくてはならない。ちょっと考えないといけない。</p>
 

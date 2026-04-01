@@ -2,7 +2,7 @@
 title: 'Node.jsの次にDenoを使いたい'
 description: ''
 pubDate: 'Dec 04 2018'
-heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20181204/20181204004036.png'
+heroImage: '/images/2018-12-04-deno-intro/0.png'
 ---
 
 <p>Node.jsの作者Ryan Dahlが作った「<a href="https://github.com/denoland/deno">Deno</a>」が面白くて、最近追っかけている。</p>
@@ -78,7 +78,7 @@ main<span class="synStatement">();</span>
 
 <p>このコードを実行すると、下記のようなプロンプトが表示される。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20181204/20181204004036.png" alt="f:id:hashrock:20181204004036p:plain" title="f:id:hashrock:20181204004036p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2018-12-04-deno-intro/0.png" alt="f:id:hashrock:20181204004036p:plain" title="f:id:hashrock:20181204004036p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>面倒なようだけど、これから必要になることかもしれない。</p>
 

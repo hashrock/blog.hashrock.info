@@ -2,12 +2,12 @@
 title: "Vue.js + SVG練習5: クリックすると頑張るスピナー"
 description: ''
 pubDate: 'Nov 10 2017'
-heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171110/20171110011101.gif'
+heroImage: '/images/2017-11-10-vue-svg-spinner/0.gif'
 ---
 
 <p>ただし、やりすぎると爆発する。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171110/20171110011101.gif" alt="f:id:hashrock:20171110011101g:plain" title="f:id:hashrock:20171110011101g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-10-vue-svg-spinner/0.gif" alt="f:id:hashrock:20171110011101g:plain" title="f:id:hashrock:20171110011101g:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>動作確認は以下より。</p>
 

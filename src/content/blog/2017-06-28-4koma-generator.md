@@ -2,10 +2,10 @@
 title: 'プレーンテキストから４コママンガに変換出来るツールを作った'
 description: ''
 pubDate: 'Jun 28 2017'
-heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20170628/20170628000458.png'
+heroImage: '/images/2017-06-28-4koma-generator/0.png'
 ---
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20170628/20170628000458.png" alt="f:id:hashrock:20170628000458p:plain" title="f:id:hashrock:20170628000458p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-06-28-4koma-generator/0.png" alt="f:id:hashrock:20170628000458p:plain" title="f:id:hashrock:20170628000458p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p><blockquote data-conversation="none" class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">白ハゲ４コマメーカー リリースしました！<br>テキストを入力してポンポンスタンプを押すだけで４コマ漫画を作れます。<br>※Twitterに直接画像をアップロードする機能はないので、ローカルに一旦保存してください<a href="https://t.co/RCX183cdW8">https://t.co/RCX183cdW8</a><a href="https://twitter.com/hashtag/%E7%99%BD%E3%83%8F%E3%82%B2%EF%BC%94%E3%82%B3%E3%83%9E%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#白ハゲ４コマメーカー</a> <a href="https://t.co/qbvRHqO5R3">pic.twitter.com/qbvRHqO5R3</a></p>&mdash; hashrock (@hashedrock) <a href="https://twitter.com/hashedrock/status/879712337715904512?ref_src=twsrc%5Etfw">2017年6月27日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
 

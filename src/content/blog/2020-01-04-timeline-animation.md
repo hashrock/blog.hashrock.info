@@ -2,7 +2,7 @@
 title: 'テキストでタイムラインアニメーションを作れるライブラリを作った'
 description: ''
 pubDate: 'Jan 04 2020'
-heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20200104/20200104002929.png'
+heroImage: '/images/2020-01-04-timeline-animation/0.png'
 ---
 
 <p><code>0----1----2---</code> みたいな形式のテキストでタイムラインアニメーションを作れるライブラリを作りました。</p>
@@ -32,14 +32,14 @@ const p4 = &#34;---------------0----1--2&#34;;</pre>
 
 <p>上記文字列はFlashでいう「タイムラインUI」をアスキーアート的に表現したものです。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20200104/20200104002929.png" alt="f:id:hashrock:20200104002929p:plain" title="f:id:hashrock:20200104002929p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2020-01-04-timeline-animation/0.png" alt="f:id:hashrock:20200104002929p:plain" title="f:id:hashrock:20200104002929p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>（画像は<a href="https://helpx.adobe.com/jp/animate/using/frames-keyframes.html">Adobe Animate CC &#x3067;&#x30D5;&#x30EC;&#x30FC;&#x30E0;&#x3068;&#x30AD;&#x30FC;&#x30D5;&#x30EC;&#x30FC;&#x30E0;&#x3092;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x65B9;&#x6CD5;</a>より引用。CC BY-NC-SA）</p>
 
 <p>こういうタイムラインアニメーションを作るには、今どきだとAfterEffectsなどの専用ツールを使うわけですが、
 テキストだけで作れるんであれば、エディタから離れずにタイミング調整ができるのでプログラマーは嬉しいわけです。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20200104/20200104010451.gif" alt="f:id:hashrock:20200104010451g:plain" title="f:id:hashrock:20200104010451g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2020-01-04-timeline-animation/1.gif" alt="f:id:hashrock:20200104010451g:plain" title="f:id:hashrock:20200104010451g:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>中身はどうなっているかというと、定番アニメーションライブラリGSAPの<a href="https://greensock.com/docs/v2/TimelineMax">TimelineMax</a>をラップしています。
 テキストをパースしてTimelineを生成しているだけで実装はほぼすっからかんです。
@@ -90,7 +90,7 @@ const p4 = &#34;---------------0----1--2&#34;;</pre>
 
 <h1>着想元</h1>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20200104/20200104005406.png" alt="f:id:hashrock:20200104005406p:plain" title="f:id:hashrock:20200104005406p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2020-01-04-timeline-animation/2.png" alt="f:id:hashrock:20200104005406p:plain" title="f:id:hashrock:20200104005406p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>CLIP STUDIOのアニメ機能で、各コマの対応レイヤを数字で指定するのが着想元になっています。
 なんかワイルドなUIだなと最初思ったのですが、使っていくとこれが一番使いやすいし、コマの使いまわしができて効率的なんですよね。最近のイチオシUIでした。</p>

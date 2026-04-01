@@ -2,7 +2,7 @@
 title: '複雑GUIの会を主催した'
 description: ''
 pubDate: 'May 04 2019'
-heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20190504/20190504000010.png'
+heroImage: '/images/2019-05-04-complex-gui/0.png'
 ---
 
 <p><b>「GUIの雑談を無限にしたいなぁ」</b>と思い、会を開催しました。</p>
@@ -30,7 +30,7 @@ heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20190504/2
 <p>という、今後人生で二度と聞くことがなさそうな言葉を聞けました。
 バウンディングボックスとは、これです。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20190504/20190504000010.png" alt="f:id:hashrock:20190504000010p:plain" title="f:id:hashrock:20190504000010p:plain" class="hatena-fotolife" itemprop="image"></span>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2019-05-04-complex-gui/0.png" alt="f:id:hashrock:20190504000010p:plain" title="f:id:hashrock:20190504000010p:plain" class="hatena-fotolife" itemprop="image"></span>
 画：hykwtakuminさん</p>
 
 <p>全体で４時間の会でしたが、<b>自己紹介だけで２時間使いました。
@@ -38,31 +38,31 @@ heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20190504/2
 
 <p>ガントチャートを３つも作るなど異常な執着を見せるhashrock</p>
 
-<p><a href="https://user-images.githubusercontent.com/3132889/53783356-8dc7e000-3f54-11e9-86ad-c4d702f7d133.gif" class="http-image" target="_blank"><img src="https://user-images.githubusercontent.com/3132889/53783356-8dc7e000-3f54-11e9-86ad-c4d702f7d133.gif" class="http-image" alt="https://user-images.githubusercontent.com/3132889/53783356-8dc7e000-3f54-11e9-86ad-c4d702f7d133.gif"></a></p>
+<p><a href="/images/2019-05-04-complex-gui/1.gif" class="http-image" target="_blank"><img src="/images/2019-05-04-complex-gui/1.gif" class="http-image" alt="/images/2019-05-04-complex-gui/1.gif"></a></p>
 
 <p>ハイパーイラストという概念を提唱し、早くもSVG芸人の片鱗を見せている<a href="https://twitter.com/hykwtakumin">hykwtakumin</a>さん</p>
 
-<p><a href="https://i.gyazo.com/1319430a6b8c14b8dc925c6caa37c9f0.gif" class="http-image" target="_blank"><img src="https://i.gyazo.com/1319430a6b8c14b8dc925c6caa37c9f0.gif" class="http-image" alt="https://i.gyazo.com/1319430a6b8c14b8dc925c6caa37c9f0.gif"></a></p>
+<p><a href="/images/2019-05-04-complex-gui/2.gif" class="http-image" target="_blank"><img src="/images/2019-05-04-complex-gui/2.gif" class="http-image" alt="/images/2019-05-04-complex-gui/2.gif"></a></p>
 
 <p>高機能バウンディングボックスで名乗りを上げ、見るからに実装がしんどそうなマインドマップツールを作った<a href="https://twitter.com/robokomy">robokomy</a>さん</p>
 
-<p><a href="https://i.imgur.com/QVoZKoM.gif" class="http-image" target="_blank"><img src="https://i.imgur.com/QVoZKoM.gif" class="http-image" alt="https://i.imgur.com/QVoZKoM.gif"></a></p>
+<p><a href="/images/2019-05-04-complex-gui/3.gif" class="http-image" target="_blank"><img src="/images/2019-05-04-complex-gui/3.gif" class="http-image" alt="/images/2019-05-04-complex-gui/3.gif"></a></p>
 
 <p>バウンディングボックス中央に秘密のcircle要素を置くという秘技を教えてくれた<a href="https://twitter.com/f_subal">f_subal</a>さん（なぜなのかは本人に聞いてみてください）</p>
 
-<p><a href="https://imgur.com/50nhxiO.gif" class="http-image" target="_blank"><img src="https://imgur.com/50nhxiO.gif" class="http-image" alt="https://imgur.com/50nhxiO.gif"></a></p>
+<p><a href="/images/2019-05-04-complex-gui/4.gif" class="http-image" target="_blank"><img src="/images/2019-05-04-complex-gui/4.gif" class="http-image" alt="/images/2019-05-04-complex-gui/4.gif"></a></p>
 
 <p>ネイティブもWebGLもできて、ペイントツールとドローツールと3Dモデラーを一人（or 少人数）で作り、もはや個人でAdobeやってる感じの<a href="https://twitter.com/seanchas_t">seanchas_t</a>さん</p>
 
-<p><a href="https://i.gyazo.com/f89c4cb778b44326f6252a2afc167df3.gif" class="http-image" target="_blank"><img src="https://i.gyazo.com/f89c4cb778b44326f6252a2afc167df3.gif" class="http-image" alt="https://i.gyazo.com/f89c4cb778b44326f6252a2afc167df3.gif"></a></p>
+<p><a href="/images/2019-05-04-complex-gui/5.gif" class="http-image" target="_blank"><img src="/images/2019-05-04-complex-gui/5.gif" class="http-image" alt="/images/2019-05-04-complex-gui/5.gif"></a></p>
 
 <p>Deno勢としてもおなじみだけれど、Canvas勢として「本物のバウンディングボックス」の実装を紹介してくれた<a href="https://twitter.com/keroxp">keroxp</a>さん</p>
 
-<p><a href="https://gyazo.com/2789dea3979475b737cf13707964bc5a.gif" class="http-image" target="_blank"><img src="https://gyazo.com/2789dea3979475b737cf13707964bc5a.gif" class="http-image" alt="https://gyazo.com/2789dea3979475b737cf13707964bc5a.gif"></a></p>
+<p><a href="/images/2019-05-04-complex-gui/6.gif" class="http-image" target="_blank"><img src="/images/2019-05-04-complex-gui/6.gif" class="http-image" alt="/images/2019-05-04-complex-gui/6.gif"></a></p>
 
 <p>ノーフレームワークでシンセもGUIもフルスクラッチの大作、作成中DAWを公開してくれた<a href="https://twitter.com/jinjor">jinjor</a>さん</p>
 
-<p><a href="https://i.imgur.com/EqizBFY.png" class="http-image" target="_blank"><img src="https://i.imgur.com/EqizBFY.png" class="http-image" alt="https://i.imgur.com/EqizBFY.png"></a></p>
+<p><a href="/images/2019-05-04-complex-gui/7.png" class="http-image" target="_blank"><img src="/images/2019-05-04-complex-gui/7.png" class="http-image" alt="/images/2019-05-04-complex-gui/7.png"></a></p>
 
 <p>ファンが激増している<a href="https://scrapbox.io/">Scrapbox</a>のスマホ向けテキスト選択UIや、SVG活用の最前線デモをしてくれた<a href="https://twitter.com/daizplus">daiiz</a>さん</p>
 
@@ -74,7 +74,7 @@ heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20190504/2
 
 <p>圧倒的なバウンディングボックス力、フルスクラッチ力で圧巻のプレゼンをした<a href="https://twitter.com/keimakai1993">keimakai</a>さん</p>
 
-<p><a href="https://i.imgur.com/JcpDPns.png" class="http-image" target="_blank"><img src="https://i.imgur.com/JcpDPns.png" class="http-image" alt="https://i.imgur.com/JcpDPns.png"></a></p>
+<p><a href="/images/2019-05-04-complex-gui/8.png" class="http-image" target="_blank"><img src="/images/2019-05-04-complex-gui/8.png" class="http-image" alt="/images/2019-05-04-complex-gui/8.png"></a></p>
 
 <p>濃いメンツが集まりました。</p>
 

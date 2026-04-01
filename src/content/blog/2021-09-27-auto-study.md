@@ -2,7 +2,7 @@
 title: '自動勉強会をやっている'
 description: ''
 pubDate: 'Sep 27 2021'
-heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20210927/20210927212014.png'
+heroImage: '/images/2021-09-27-auto-study/0.png'
 ---
 
 <p>生きていると<strong>「○○の勉強会があったらいいのにな～」</strong>とかぼやいてしまうのだけど、自分で主催はしたくないので言いっぱなしになるみたいなことが多い。</p>
@@ -19,7 +19,7 @@ heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20210927/2
 
 <p>実際のキューは下記のような感じでみんなで積んでいって、興味がある項目に投票する。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20210927/20210927212014.png" alt="f:id:hashrock:20210927212014p:plain" width="898" height="470" loading="lazy" title="" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2021-09-27-auto-study/0.png" alt="f:id:hashrock:20210927212014p:plain" width="898" height="470" loading="lazy" title="" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>で、月イチくらいの頻度でオンライン勉強会を開催して、積まれたネタを上から消化していくという感じ。</p>
 
@@ -31,11 +31,11 @@ heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20210927/2
 
 <p>で、自動勉強会は完全な雑談にならないように一応目次を作ってから話すことにしている。目次はだいたい下記のような感じ。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20210927/20210927213707.png" alt="f:id:hashrock:20210927213707p:plain" width="729" height="797" loading="lazy" title="" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2021-09-27-auto-study/1.png" alt="f:id:hashrock:20210927213707p:plain" width="729" height="797" loading="lazy" title="" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>開催中にどんどん追記していくんでこういう感じに長くなっていく。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20210927/20210927215609.png" alt="f:id:hashrock:20210927215609p:plain" width="705" height="884" loading="lazy" title="" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2021-09-27-auto-study/2.png" alt="f:id:hashrock:20210927215609p:plain" width="705" height="884" loading="lazy" title="" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p><a href="https://scrapbox.io/guiland/%E8%87%AA%E5%8B%95%E5%8B%89%E5%BC%B7%E4%BC%9A_vol.0_%E3%83%9A%E3%82%A4%E3%83%B3%E3%83%88%E3%83%84%E3%83%BC%E3%83%AB%E4%BD%9C%E8%A3%BD%E6%8A%80%E8%A1%93_%E5%89%8D%E5%8D%8A">第0回の開催ログ</a></p>
 

@@ -2,19 +2,19 @@
 title: '鮨のローディングアニメーション'
 description: ''
 pubDate: 'Dec 08 2015'
-heroImage: 'http://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20151208/20151208035014.gif'
+heroImage: '/images/2015-12-08-sushi-loading/0.gif'
 ---
 
 <p><a href="http://www.adventar.org/calendars/942">Sushicorp Advent Calender 2015</a>の8日目です。</p>
 
 <p>ページローディング中は、読込中を表すスピナーを回す習わしになっていますね。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20151208/20151208035014.gif" alt="f:id:hashrock:20151208035014g:plain" title="f:id:hashrock:20151208035014g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2015-12-08-sushi-loading/0.gif" alt="f:id:hashrock:20151208035014g:plain" title="f:id:hashrock:20151208035014g:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>でも、これって一体何でしたっけ？
 そもそもなんでこれを回してるのか、よく考えると意味がわかりませんね。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20151208/20151208035014.gif" alt="f:id:hashrock:20151208035014g:plain" title="f:id:hashrock:20151208035014g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2015-12-08-sushi-loading/0.gif" alt="f:id:hashrock:20151208035014g:plain" title="f:id:hashrock:20151208035014g:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>待たされてる感があってイライラしますね。
 ホスピタリティが今ひとつ感じられません。</p>
@@ -23,7 +23,7 @@ heroImage: 'http://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20151208/20
 
 <p>というわけで、回しました。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20151208/20151208034508.gif" alt="f:id:hashrock:20151208034508g:plain" title="f:id:hashrock:20151208034508g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2015-12-08-sushi-loading/1.gif" alt="f:id:hashrock:20151208034508g:plain" title="f:id:hashrock:20151208034508g:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>DEMO: <a href="http://hashrock-sandbox.github.io/study-css-sprite/">Sushi Loading</a></p>
 

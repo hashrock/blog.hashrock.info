@@ -2,10 +2,10 @@
 title: "Vue.js + SVG練習8 : 付箋を作った＆vuexに入門した"
 description: ''
 pubDate: 'Nov 20 2017'
-heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171120/20171120010012.gif'
+heroImage: '/images/2017-11-20-vue-svg-sticky/0.gif'
 ---
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171120/20171120010012.gif" alt="f:id:hashrock:20171120010012g:plain" title="f:id:hashrock:20171120010012g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-20-vue-svg-sticky/0.gif" alt="f:id:hashrock:20171120010012g:plain" title="f:id:hashrock:20171120010012g:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>ふつーのドラッグ出来たりリサイズ出来たりする付箋。
 SVGで作る必要があったのかは謎。</p>

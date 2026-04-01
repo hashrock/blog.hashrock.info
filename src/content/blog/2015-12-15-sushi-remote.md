@@ -11,7 +11,7 @@ pubDate: 'Dec 15 2015'
 
 <h2>動作の様子</h2>
 
-<p><img src="https://cloud.githubusercontent.com/assets/3132889/11778909/e9d60412-a29a-11e5-98e0-c60292c424d7.gif" alt="aic7c3bkok" /></p>
+<p><img src="/images/2015-12-15-sushi-remote/0.gif" alt="aic7c3bkok" /></p>
 
 <ul>
 <li>sushibtn sushi "echo sushi"とかやると、リモコンサーバが起動し、ボタンを押すとecho sushiが実行されます。</li>

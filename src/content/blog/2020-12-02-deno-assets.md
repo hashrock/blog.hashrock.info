@@ -16,7 +16,7 @@ pubDate: 'Dec 02 2020'
 
 <h1>というわけで素材</h1>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20201201/20201201124026.png" alt="f:id:hashrock:20201201124026p:plain" title="" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2020-12-02-deno-assets/0.png" alt="f:id:hashrock:20201201124026p:plain" title="" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p><iframe style="border: none;" height="450" width="800" src="https://www.figma.com/embed?embed_host=oembed&url=https://www.figma.com/file/j33xlfUm4XDQLHSSg3eXnp/Deno-Logo-Resources?node-id=0:1"></iframe><cite class="hatena-citation"><a href="https://www.figma.com/file/j33xlfUm4XDQLHSSg3eXnp/Deno-Logo-Resources?node-id=0%3A1">www.figma.com</a></cite></p>
 

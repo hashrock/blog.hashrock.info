@@ -2,10 +2,10 @@
 title: '自動勉強会を休止した'
 description: ''
 pubDate: 'Dec 15 2021'
-heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20211215/20211215001808.png'
+heroImage: '/images/2021-12-15-auto-study-end/0.png'
 ---
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20211215/20211215001808.png" alt="f:id:hashrock:20211215001808p:plain" width="1000" height="565" loading="lazy" title="" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2021-12-15-auto-study-end/0.png" alt="f:id:hashrock:20211215001808p:plain" width="1000" height="565" loading="lazy" title="" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>今年9月からやっていた複雑GUI会の<a href="https://scrapbox.io/guiland/%E8%87%AA%E5%8B%95%E5%8B%89%E5%BC%B7%E4%BC%9A">自動勉強会</a>を一旦終わりにしました。</p>
 
@@ -21,13 +21,13 @@ heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20211215/2
 
 <h2>LookDev自動勉強会</h2>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20211215/20211215000557.png" alt="f:id:hashrock:20211215000557p:plain" width="461" height="458" loading="lazy" title="" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2021-12-15-auto-study-end/1.png" alt="f:id:hashrock:20211215000557p:plain" width="461" height="458" loading="lazy" title="" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>他の自動勉強会も可能な限り参加していました。<a href="https://twitter.com/_baku89">bakuさん</a>の<a href="https://scrapbox.io/lookdev/LookDev_%E8%87%AA%E5%8B%95%E5%8B%89%E5%BC%B7%E4%BC%9A">LookDev自動勉強会</a> は引き続き隔週開催しています。映像・グラフィック・CGI版の勉強会なんですがbakuさんのネタの多さがすごくて、この人は制作面もすごいのにどれだけアンテナを広く張っているんだろう、と驚くばかりでした。参加者の方も映像作家の方が多いと思うんですが、数学に詳しかったりGANに詳しかったりとこの人達は一体何なんだ（プロです）という感想です。素人としてはただただ圧倒されて話も半分以上わからないんですけど、開催中は画面共有で面白い映像が流れているのでわからないなりに視覚で満足感を得ることができていました。</p>
 
 <h2>Glyphs自動勉強会</h2>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20211215/20211215001305.png" alt="f:id:hashrock:20211215001305p:plain" width="886" height="814" loading="lazy" title="" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2021-12-15-auto-study-end/2.png" alt="f:id:hashrock:20211215001305p:plain" width="886" height="814" loading="lazy" title="" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p><a href="https://twitter.com/wolphtype">Wolphtypeさん</a>の<a href="https://scrapbox.io/glyphs-auto-studyroom/Glyphs_%E8%87%AA%E5%8B%95%E5%8B%89%E5%BC%B7%E4%BC%9A">Glyphs自動勉強会</a>は月イチ開催で引き続き開催中です。これは<a href="https://glyphsapp.com/">Glyphs</a>というフォントデザインツールがあるんですがそのコミュニティがベースになっています。Wolphtypeさんはコミュニティ代表として会をガンガン引っ張りつつYouTube配信も行うなど自動勉強会を最もしっかりした仕組みで実施されていました。<a href="https://wolphtype.com/article/activities-for-glyphs.html">TypeCooker JP</a>というツールも作られていたり多方面で行動力がすごい方です。Glyphsというツールを普及させるための活動とのことなんですが必ず実を結ぶだろうと思っています（私もインストールしました）。</p>
 

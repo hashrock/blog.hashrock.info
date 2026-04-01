@@ -2,23 +2,23 @@
 title: 'VSCodeのガントチャート拡張を作った'
 description: ''
 pubDate: 'Dec 25 2019'
-heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20191225/20191225020947.gif'
+heroImage: '/images/2019-12-25-vscode-gantt/0.gif'
 ---
 
 <p><a href="https://hashrock.hatenablog.com/entry/2018/12/26/010433">去年</a>に引き続きクリスマスイブになんか作ったシリーズです。</p>
 
 <p>下記のような感じで、ガントチャートを雑に作れるVSCodeの拡張機能を作りました。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20191225/20191225020947.gif" alt="f:id:hashrock:20191225020947g:plain" title="f:id:hashrock:20191225020947g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2019-12-25-vscode-gantt/0.gif" alt="f:id:hashrock:20191225020947g:plain" title="f:id:hashrock:20191225020947g:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>テキストを編集してもいいし、プレビューを操作してもいいというのがこのツールの売りです。
 変更内容は相互に同期します。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20191225/20191225021016.gif" alt="f:id:hashrock:20191225021016g:plain" title="f:id:hashrock:20191225021016g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2019-12-25-vscode-gantt/1.gif" alt="f:id:hashrock:20191225021016g:plain" title="f:id:hashrock:20191225021016g:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>VSCodeなので、当然ながらコピペやマルチカーソル、置換なんかも普通に使えます。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20191225/20191225021045.gif" alt="f:id:hashrock:20191225021045g:plain" title="f:id:hashrock:20191225021045g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2019-12-25-vscode-gantt/2.gif" alt="f:id:hashrock:20191225021045g:plain" title="f:id:hashrock:20191225021045g:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>VSCodeの編集機能で、GUI部分の貧弱さを補おうというコンセプトです。
 実用性や自由度は低めですが、文法や操作方法を覚える必要も最低限になっているんじゃないかなと思います。</p>
@@ -32,27 +32,27 @@ heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20191225/2
 
 <p>まずVSCodeを開き、おもむろに <code>hello.gantt</code> という名前のファイルを作ってください。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20191225/20191225014432.png" alt="f:id:hashrock:20191225014432p:plain" title="f:id:hashrock:20191225014432p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2019-12-25-vscode-gantt/3.png" alt="f:id:hashrock:20191225014432p:plain" title="f:id:hashrock:20191225014432p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>すると、下記のようなダイアログが出現します。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20191225/20191225014550.png" alt="f:id:hashrock:20191225014550p:plain" title="f:id:hashrock:20191225014550p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2019-12-25-vscode-gantt/4.png" alt="f:id:hashrock:20191225014550p:plain" title="f:id:hashrock:20191225014550p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>「Marketplaceを検索」を選択すると、下記のような画面になります。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20191225/20191225014623.png" alt="f:id:hashrock:20191225014623p:plain" title="f:id:hashrock:20191225014623p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2019-12-25-vscode-gantt/5.png" alt="f:id:hashrock:20191225014623p:plain" title="f:id:hashrock:20191225014623p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p><code>Install</code> を押すとガントチャート拡張がインストールされます。</p>
 
 <p>なお、原因を調査していますが、インストール直後に機能を使おうとすると、下記のエラーが出ることがわかっています。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20191225/20191225020100.png" alt="f:id:hashrock:20191225020100p:plain" title="f:id:hashrock:20191225020100p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2019-12-25-vscode-gantt/6.png" alt="f:id:hashrock:20191225020100p:plain" title="f:id:hashrock:20191225020100p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>ですので、一旦VSCodeは再起動してください。</p>
 
 <p>あとはganttファイルを開き、Show Ganttをクリックすると、ガントチャートエディタが開きます。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20191225/20191225021948.png" alt="f:id:hashrock:20191225021948p:plain" title="f:id:hashrock:20191225021948p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2019-12-25-vscode-gantt/7.png" alt="f:id:hashrock:20191225021948p:plain" title="f:id:hashrock:20191225021948p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <h1>リポジトリ</h1>
 

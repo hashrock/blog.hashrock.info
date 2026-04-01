@@ -2,14 +2,14 @@
 title: '鮨の物理演算'
 description: ''
 pubDate: 'Dec 01 2015'
-heroImage: 'http://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20151130/20151130154717.gif'
+heroImage: '/images/2015-12-01-sushi-physics/0.gif'
 ---
 
 <p><a href="http://www.adventar.org/calendars/942">Sushicorp Advent Calender 2015</a>の一日目です。</p>
 
 <p>親方！空からsushiが！</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="http://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20151130/20151130154717.gif" alt="f:id:hashrock:20151130154717g:plain" title="f:id:hashrock:20151130154717g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2015-12-01-sushi-physics/0.gif" alt="f:id:hashrock:20151130154717g:plain" title="f:id:hashrock:20151130154717g:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p><a href="http://hashrock-sandbox.github.io/study-matterjs/">http://hashrock-sandbox.github.io/study-matterjs/</a></p>
 

@@ -2,12 +2,12 @@
 title: "Vue.js + SVG練習4 : クリックで音の鳴るピアノ鍵盤"
 description: ''
 pubDate: 'Nov 09 2017'
-heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171109/20171109024220.gif'
+heroImage: '/images/2017-11-09-vue-svg-piano/0.gif'
 ---
 
 <p>SVGをグラフィックエディタでいじる方針のリベンジをしたかったので、今回は下記のようなピアノを作った。</p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171109/20171109024220.gif" alt="f:id:hashrock:20171109024220g:plain" title="f:id:hashrock:20171109024220g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-09-vue-svg-piano/0.gif" alt="f:id:hashrock:20171109024220g:plain" title="f:id:hashrock:20171109024220g:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>下記から動いているところを試せる（音が出ます）</p>
 
@@ -17,7 +17,7 @@ heroImage: 'https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171109/2
 
 <p><a href="http://editor.method.ac/">Method Draw</a></p>
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20171109/20171109014506.png" alt="f:id:hashrock:20171109014506p:plain" title="f:id:hashrock:20171109014506p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-09-vue-svg-piano/1.png" alt="f:id:hashrock:20171109014506p:plain" title="f:id:hashrock:20171109014506p:plain" class="hatena-fotolife" itemprop="image"></span></p>
 
 <p>上記のグラフィックをサクッと作り、出力した結果が下記。</p>
 
