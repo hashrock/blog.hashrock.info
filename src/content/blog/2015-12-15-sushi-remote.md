@@ -4,35 +4,33 @@ description: ''
 pubDate: 'Dec 15 2015'
 ---
 
-<p><a href="http://www.adventar.org/calendars/942">SushiCorp Advent Calendar 2015</a>の15日目です。</p>
+[SushiCorp Advent Calendar 2015](http://www.adventar.org/calendars/942)の15日目です。
 
-<p>新作です。
-スマホをリモコンにして、手持ちのサーバにsushiを送り込めたら最高ですね。</p>
+新作です。 スマホをリモコンにして、手持ちのサーバにsushiを送り込めたら最高ですね。
 
-<h2>動作の様子</h2>
+## 動作の様子
 
-<p><img src="/images/2015-12-15-sushi-remote/0.gif" alt="aic7c3bkok" /></p>
+![aic7c3bkok](/images/2015-12-15-sushi-remote/0.gif)
 
-<ul>
-<li>sushibtn sushi "echo sushi"とかやると、リモコンサーバが起動し、ボタンを押すとecho sushiが実行されます。</li>
-<li>無駄にQRコード出力機能が備わっており実用的です。</li>
-<li>makeとかをスマホから実行させると実用的かもしれません。</li>
-</ul>
+- sushibtn sushi "echo sushi"とかやると、リモコンサーバが起動し、ボタンを押すとecho sushiが実行されます。
+- 無駄にQRコード出力機能が備わっており実用的です。
+- makeとかをスマホから実行させると実用的かもしれません。
 
+## リポジトリ
 
-<h2>リポジトリ</h2>
+[sushicorp/sushibtn · GitHub](https://github.com/sushicorp/sushibtn)
 
-<p><a href="https://github.com/sushicorp/sushibtn">sushicorp/sushibtn &middot; GitHub</a></p>
+## インストール
 
-<h2>インストール</h2>
+```
+git clone https://github.com/sushicorp/sushibtn
+npm install -g .
+```
 
-<pre class="code" data-lang="" data-unlink>git clone https://github.com/sushicorp/sushibtn
-npm install -g .</pre>
+## 実行方法
 
+```
+sushibtn [ボタンのラベル名] "[実行したいコマンド]"
+```
 
-<h2>実行方法</h2>
-
-<pre class="code" data-lang="" data-unlink>sushibtn [ボタンのラベル名] &#34;[実行したいコマンド]&#34;</pre>
-
-
------
+\-----

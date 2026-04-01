@@ -5,21 +5,22 @@ pubDate: 'Nov 07 2017'
 heroImage: '/images/2017-11-07-vue-svg-sparkline/0.png'
 ---
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-07-vue-svg-sparkline/0.png" alt="f:id:hashrock:20171107020024p:plain" title="f:id:hashrock:20171107020024p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+![f:id:hashrock:20171107020024p:plain](/images/2017-11-07-vue-svg-sparkline/0.png)
 
-<p>あまり体調がよくない（言い訳）ので、今日は軽め。</p>
+あまり体調がよくない（言い訳）ので、今日は軽め。
 
-<p>何の変哲もないsparkline。可愛くもなんともない。</p>
+何の変哲もないsparkline。可愛くもなんともない。
 
-<p>Sparkline.vue</p>
+Sparkline.vue
 
-<pre class="code" data-lang="" data-unlink>&lt;template&gt;
-  &lt;svg width=&#34;300&#34; height=&#34;50&#34;&gt;
-    &lt;polyline fill=&#34;none&#34; stroke=&#34;#793&#34; :points=&#34;points&#34;&gt;&lt;/polyline&gt;
-  &lt;/svg&gt;  
-&lt;/template&gt;
+```
+<template>
+  <svg width="300" height="50">
+    <polyline fill="none" stroke="#793" :points="points"></polyline>
+  </svg>
+</template>
 
-&lt;script&gt;
+<script>
 export default {
   data(){
     return {
@@ -28,14 +29,14 @@ export default {
   },
   computed:{
     points(){
-      return this.dat.map((item, i)=&gt;{
+      return this.dat.map((item, i)=>{
         return `${i},${item}`
-      }).join(&#34; &#34;)
+      }).join(" ")
     }
   },
   mounted(){
     //ランダムデータ
-    for(let i =0; i &lt; 300; i++){
+    for(let i =0; i < 300; i++){
       this.dat.push(
         (Math.random() + Math.random() + Math.random() + Math.random()) / 4 * 50
       )
@@ -43,36 +44,21 @@ export default {
   }
 
 }
-&lt;/script&gt;
-</pre>
+</script>
+```
 
+# ポイント
 
-<h1>ポイント</h1>
+- 乱数はいわゆる「コクのある乱数」
+- そもそもpolylineって要素があるのを初めて知った
+  - d3だと[d3-path](https://github.com/d3/d3-path)という、SVGをcanvas互換のAPIでラップして、canvas風に描画してるみたい
+- Vueの場合だと、pointsにバインドして、半角スペースで座標列をjoinすればおわり
+  - こういう時computedのありがたみを感じる
+- 何かインタラクション入れたかったけど、まぁ寝よう
 
-<ul>
-<li>乱数はいわゆる「コクのある乱数」</li>
-<li>そもそもpolylineって要素があるのを初めて知った
+# 考え
 
-<ul>
-<li>d3だと<a href="https://github.com/d3/d3-path">d3-path</a>という、SVGをcanvas互換のAPIでラップして、canvas風に描画してるみたい</li>
-</ul>
-</li>
-<li>Vueの場合だと、pointsにバインドして、半角スペースで座標列をjoinすればおわり
+- d3を始めとするチャートライブラリとVueを接続している例をよく見るけど、d3なんかはVueと機能がかぶっている（DOMのバインディングと生成）ところがあるので、そもそもVue単体でチャートを描くのは別に苦じゃないのではと思っている
+- けど、座標軸の描画とかズームとか、d3の蓄積と便利さ、抽象化の見事さは無視できない、そのあたりを勉強がてら真似てみるかなと思う
 
-<ul>
-<li>こういう時computedのありがたみを感じる</li>
-</ul>
-</li>
-<li>何かインタラクション入れたかったけど、まぁ寝よう</li>
-</ul>
-
-
-<h1>考え</h1>
-
-<ul>
-<li>d3を始めとするチャートライブラリとVueを接続している例をよく見るけど、d3なんかはVueと機能がかぶっている（DOMのバインディングと生成）ところがあるので、そもそもVue単体でチャートを描くのは別に苦じゃないのではと思っている</li>
-<li>けど、座標軸の描画とかズームとか、d3の蓄積と便利さ、抽象化の見事さは無視できない、そのあたりを勉強がてら真似てみるかなと思う</li>
-</ul>
-
-
------
+\-----

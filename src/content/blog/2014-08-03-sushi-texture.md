@@ -5,40 +5,32 @@ pubDate: 'Aug 03 2014'
 heroImage: '/images/2014-08-03-sushi-texture/0.jpg'
 ---
 
-<h2>About</h2>
+## About
 
-<p>ブログ飽きる対策のために、まずくだらないことをポストしておきたい。</p>
+ブログ飽きる対策のために、まずくだらないことをポストしておきたい。
 
-<h2>Howto</h2>
+## Howto
 
-<p><a href="http://www.pakutaso.com/20111210365post-1052.html">ぱくたそ</a>から画像を抜いて正規化します。</p>
+[ぱくたそ](http://www.pakutaso.com/20111210365post-1052.html)から画像を抜いて正規化します。
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2014-08-03-sushi-texture/0.jpg" alt="f:id:hashrock:20140803155005j:plain" title="f:id:hashrock:20140803155005j:plain" class="hatena-fotolife" itemprop="image"></span></p>
+![f:id:hashrock:20140803155005j:plain](/images/2014-08-03-sushi-texture/0.jpg)
 
+こんなものが出来ました。 ご査収ください。
 
-<p>こんなものが出来ました。
-ご査収ください。</p>
+![f:id:hashrock:20140803154446p:plain](/images/2014-08-03-sushi-texture/1.png)
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2014-08-03-sushi-texture/1.png" alt="f:id:hashrock:20140803154446p:plain" title="f:id:hashrock:20140803154446p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+## Usage
 
+おもむろにテクスチャに指定します。
 
-<h2>Usage</h2>
+![f:id:hashrock:20140803154546j:plain](/images/2014-08-03-sushi-texture/2.jpg)
 
-<p>おもむろにテクスチャに指定します。</p>
+で、こう。
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2014-08-03-sushi-texture/2.jpg" alt="f:id:hashrock:20140803154546j:plain" title="f:id:hashrock:20140803154546j:plain" class="hatena-fotolife" itemprop="image"></span></p>
+![f:id:hashrock:20140803154813j:plain](/images/2014-08-03-sushi-texture/3.jpg)
 
+## Todo
 
-<p>で、こう。</p>
+- Three.jsで寿司が降るようにするときっと面白い。
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2014-08-03-sushi-texture/3.jpg" alt="f:id:hashrock:20140803154813j:plain" title="f:id:hashrock:20140803154813j:plain" class="hatena-fotolife" itemprop="image"></span></p>
-
-
-<h2>Todo</h2>
-
-<ul>
-<li>Three.jsで寿司が降るようにするときっと面白い。</li>
-</ul>
-
-
------
+\-----

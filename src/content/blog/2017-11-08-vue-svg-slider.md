@@ -5,116 +5,99 @@ pubDate: 'Nov 08 2017'
 heroImage: '/images/2017-11-08-vue-svg-slider/0.gif'
 ---
 
-<p>３作目。こっそり戻るスライダーを実装しよう。</p>
+３作目。こっそり戻るスライダーを実装しよう。
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-08-vue-svg-slider/0.gif" alt="f:id:hashrock:20171108000803g:plain" title="f:id:hashrock:20171108000803g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+![f:id:hashrock:20171108000803g:plain](/images/2017-11-08-vue-svg-slider/0.gif)
 
-<p>素のSVG手書きするのちょっと辛すぎたんでInkscapeを使うことにした。
-Inkscapeも辛くないということはまったくないけど…、うーん。Sketchの方が楽かな。Mac版は持ってるんだけど。</p>
+素のSVG手書きするのちょっと辛すぎたんでInkscapeを使うことにした。 Inkscapeも辛くないということはまったくないけど…、うーん。Sketchの方が楽かな。Mac版は持ってるんだけど。
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-08-vue-svg-slider/1.png" alt="f:id:hashrock:20171107223623p:plain" title="f:id:hashrock:20171107223623p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+![f:id:hashrock:20171107223623p:plain](/images/2017-11-08-vue-svg-slider/1.png)
 
-<p>こんな感じ。</p>
+こんな感じ。
 
-<p>で、動かしたい単位でグループ化し、地道に名前を付けていく。</p>
+で、動かしたい単位でグループ化し、地道に名前を付けていく。
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-08-vue-svg-slider/2.png" alt="f:id:hashrock:20171107223852p:plain" title="f:id:hashrock:20171107223852p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+![f:id:hashrock:20171107223852p:plain](/images/2017-11-08-vue-svg-slider/2.png)
 
-<p>groupの移動はx, yではなくtranslateでやることになる（めんどくさい！）ので、
-この時、translateの値は、変位する値でメモしておく。</p>
+groupの移動はx, yではなくtranslateでやることになる（めんどくさい！）ので、 この時、translateの値は、変位する値でメモしておく。
 
-<pre class="code" data-lang="" data-unlink>始点：translate(-0.28348214,0.09449405)
-終点：translate(89.296875,0.09449405)</pre>
+```
+始点：translate(-0.28348214,0.09449405)
+終点：translate(89.296875,0.09449405)
+```
 
+なるほど、この範囲を動かせばいいわけだ。
 
-<p>なるほど、この範囲を動かせばいいわけだ。</p>
+inkscapeの安定版はいつでもこんな感じ。
 
-<p>inkscapeの安定版はいつでもこんな感じ。</p>
+![f:id:hashrock:20171107224243p:plain](/images/2017-11-08-vue-svg-slider/3.png)
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-08-vue-svg-slider/3.png" alt="f:id:hashrock:20171107224243p:plain" title="f:id:hashrock:20171107224243p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+まぁ使えるのでいいとする。 で、そのままSVGで出力すると、inkscape独自属性とかが山盛りで出力されてしまうので、プレーンSVGというので出す。 最適化SVGというのもあったけど、エラーになって出せなかった（そんなもんだ）
 
-<p>まぁ使えるのでいいとする。
-で、そのままSVGで出力すると、inkscape独自属性とかが山盛りで出力されてしまうので、プレーンSVGというので出す。
-最適化SVGというのもあったけど、エラーになって出せなかった（そんなもんだ）</p>
+使う部分だけ切り出す。
 
-<p>使う部分だけ切り出す。</p>
+![f:id:hashrock:20171107224546p:plain](/images/2017-11-08-vue-svg-slider/4.png)
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-08-vue-svg-slider/4.png" alt="f:id:hashrock:20171107224546p:plain" title="f:id:hashrock:20171107224546p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+metadataとかは不要かな。defもいらない。xml定義周りもいいや。 svg要素以下を.vueファイルにペーストするとこんな感じに。
 
-<p>metadataとかは不要かな。defもいらない。xml定義周りもいいや。
-svg要素以下を.vueファイルにペーストするとこんな感じに。</p>
+![f:id:hashrock:20171107225033p:plain](/images/2017-11-08-vue-svg-slider/5.png)
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2017-11-08-vue-svg-slider/5.png" alt="f:id:hashrock:20171107225033p:plain" title="f:id:hashrock:20171107225033p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+こーいうところを
 
-<p>こーいうところを</p>
+```
+<g
+  transform="translate(-0.28348214,0.09449405)"
+  id="chara">
+```
 
-<pre class="code" data-lang="" data-unlink>&lt;g
-  transform=&#34;translate(-0.28348214,0.09449405)&#34;
-  id=&#34;chara&#34;&gt;</pre>
+こうする。
 
+```
+<g
+  :transform="charaPosition"
+  id="chara">
+```
 
-<p>こうする。</p>
-
-<pre class="code" data-lang="" data-unlink>&lt;g
-  :transform=&#34;charaPosition&#34;
-  id=&#34;chara&#34;&gt;</pre>
-
-
-
-
-<pre class="code" data-lang="" data-unlink>  computed:{
+```
+  computed:{
     charaPosition(){
       const x = -0.28348214 + 89.296875 * this.val / 100
       return `translate(${x},0.09449405)`
     }
-  }</pre>
+  }
+```
 
+これで、this.valが0-100の間を取ったときに動くようになる。
 
-<p>これで、this.valが0-100の間を取ったときに動くようになる。</p>
+（追記）あとあと見てみると、ここの計算は間違っている。最終的にはここ消したんだけど
 
-<p>（追記）あとあと見てみると、ここの計算は間違っている。最終的にはここ消したんだけど</p>
+あとはドラッグ。面倒なものに着手してしまったことをだんだん後悔してきたぞ。
 
-<p>あとはドラッグ。面倒なものに着手してしまったことをだんだん後悔してきたぞ。</p>
+で、ここまでやったんですけど、yak shavingに遭遇したので、説明を放棄します。
 
-<p>で、ここまでやったんですけど、yak shavingに遭遇したので、説明を放棄します。</p>
+1. layer全体にtranslateがかかっていて、e.offsetX, e.offsetYの値がズレる
+2. 上記を解決しても、viewBoxの値が謎の値になっていて、e.offsetX, e.offsetYの値がズレる
+3. 上記を修正するために、viewBoxとsvgのwidth, heightの値をあわせ、オブジェクトをリサイズした所、移動にtranslateではなくmatrixが使われてしまう。リサイズしたらそうなるのか…座標計算で考えることが増えそう…という感じでどんどん不安になる
 
-<ol>
-<li>layer全体にtranslateがかかっていて、e.offsetX, e.offsetYの値がズレる</li>
-<li>上記を解決しても、viewBoxの値が謎の値になっていて、e.offsetX, e.offsetYの値がズレる</li>
-<li>上記を修正するために、viewBoxとsvgのwidth, heightの値をあわせ、オブジェクトをリサイズした所、移動にtranslateではなくmatrixが使われてしまう。リサイズしたらそうなるのか…座標計算で考えることが増えそう…という感じでどんどん不安になる</li>
-</ol>
+感想としては、見た目の辻褄があっていればOK、という感じのSVGが作られている。パーツ個々はともかく、UI全体をInkscapeから吐いたSVGで作るのはつらそう。
 
+何かの機能を使わないように気をつけて作るとか、あるいは何らかの手段でSVGをclean up出来る、などの対処方法は存在するのかもしれない。Inkscapeマスター誰か…
 
-<p>感想としては、見た目の辻褄があっていればOK、という感じのSVGが作られている。パーツ個々はともかく、UI全体をInkscapeから吐いたSVGで作るのはつらそう。</p>
+完成品。
 
-<p>何かの機能を使わないように気をつけて作るとか、あるいは何らかの手段でSVGをclean up出来る、などの対処方法は存在するのかもしれない。Inkscapeマスター誰か…</p>
+Slider.vue
 
-<p>完成品。</p>
+[https://github.com/hashrock-sandbox/study-vue-svg-ui/blob/master/components/Slider.vue](https://github.com/hashrock-sandbox/study-vue-svg-ui/blob/master/components/Slider.vue)
 
-<p>Slider.vue</p>
+# ポイント
 
-<p><a href="https://github.com/hashrock-sandbox/study-vue-svg-ui/blob/master/components/Slider.vue">https://github.com/hashrock-sandbox/study-vue-svg-ui/blob/master/components/Slider.vue</a></p>
+- 自分でこの手のドラッグものを作るときは、下記のものを実装している。
+  - startDrag, onDrag, stopDragの３種のイベント。onDragはグラブする要素に。startDragとstopDragはラッパー要素に付ける。
+  - offsetとdragの２つの状態。offsetは「グラブ要素の掴んだ位置」で、今回はx座標のみにして手抜きしてるけど、通常x, y座標を持たせる。dragも今回は2値だけど、リサイズとかある場合には複数の状態を取れるようにする。
+  - もはやtouch eventに付き合ってられないなと思うので躊躇なくpointer eventを使う。メジャーなライブラリは大抵touch eventとmouse eventの変換処理を地道にやってるのでこういう仕事の人はがんばるしかない
+- scaleとinvertの２種類の変換関数
+  - 今回は雑に書いたけど、算数が苦手な自分のようなプログラマーはd3-scaleを利用するのが良いと思う。
 
-<h1>ポイント</h1>
+疲れた、次はもっと簡単なやつにしよう。
 
-<ul>
-<li>自分でこの手のドラッグものを作るときは、下記のものを実装している。
-
-<ul>
-<li>startDrag, onDrag, stopDragの３種のイベント。onDragはグラブする要素に。startDragとstopDragはラッパー要素に付ける。</li>
-<li>offsetとdragの２つの状態。offsetは「グラブ要素の掴んだ位置」で、今回はx座標のみにして手抜きしてるけど、通常x, y座標を持たせる。dragも今回は2値だけど、リサイズとかある場合には複数の状態を取れるようにする。</li>
-<li>もはやtouch eventに付き合ってられないなと思うので躊躇なくpointer eventを使う。メジャーなライブラリは大抵touch eventとmouse eventの変換処理を地道にやってるのでこういう仕事の人はがんばるしかない</li>
-</ul>
-</li>
-<li>scaleとinvertの２種類の変換関数
-
-<ul>
-<li>今回は雑に書いたけど、算数が苦手な自分のようなプログラマーはd3-scaleを利用するのが良いと思う。</li>
-</ul>
-</li>
-</ul>
-
-
-<p>疲れた、次はもっと簡単なやつにしよう。</p>
-
------
+\-----

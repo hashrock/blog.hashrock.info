@@ -5,21 +5,20 @@ pubDate: 'Mar 27 2015'
 heroImage: '/images/2015-03-27-logo-design/0.png'
 ---
 
-<p>そうだ、<a href="https://github.com/sushicorp">sushicorp</a>のロゴ作ろう。</p>
+そうだ、[sushicorp](https://github.com/sushicorp)のロゴ作ろう。
 
-<h2>1.下書き</h2>
+## 1.下書き
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2015-03-27-logo-design/0.png" alt="f:id:hashrock:20150327022100p:plain" title="f:id:hashrock:20150327022100p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+![f:id:hashrock:20150327022100p:plain](/images/2015-03-27-logo-design/0.png)
 
-<h2>2.ベクタでなぞる</h2>
+## 2.ベクタでなぞる
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2015-03-27-logo-design/1.png" alt="f:id:hashrock:20150327022806p:plain" title="f:id:hashrock:20150327022806p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+![f:id:hashrock:20150327022806p:plain](/images/2015-03-27-logo-design/1.png)
 
-<h2>3.社名足して完成</h2>
+## 3.社名足して完成
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2015-03-27-logo-design/2.png" alt="f:id:hashrock:20150327022108p:plain" title="f:id:hashrock:20150327022108p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+![f:id:hashrock:20150327022108p:plain](/images/2015-03-27-logo-design/2.png)
 
-<p>こんなのでも無いよりは良かろう。なんかiPhoneゲームでも作ってそうな雰囲気だ。
-sushi logoとかで画像検索すると、こんなのよりずっと良いロゴがたくさん表示されるので、世の中はシビアだ。</p>
+こんなのでも無いよりは良かろう。なんかiPhoneゲームでも作ってそうな雰囲気だ。 sushi logoとかで画像検索すると、こんなのよりずっと良いロゴがたくさん表示されるので、世の中はシビアだ。
 
------
+\-----

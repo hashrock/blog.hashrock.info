@@ -4,17 +4,18 @@ description: ''
 pubDate: 'May 06 2015'
 ---
 
-<p><blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">書いた / “vue.js - MeteorはTwitter連携ログインを作るのがめちゃ楽 - Qiita” <a href="http://t.co/fQheVI9hE6">http://t.co/fQheVI9hE6</a></p>&mdash; はっしゅろっく (@hashedrock) <a href="https://twitter.com/hashedrock/status/595610741308284929">2015, 5月 5</a></blockquote><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+> 書いた / “vue.js - MeteorはTwitter連携ログインを作るのがめちゃ楽 - Qiita” [http://t.co/fQheVI9hE6](http://t.co/fQheVI9hE6)
+>
+> — はっしゅろっく (@hashedrock) [2015, 5月 5](https://twitter.com/hashedrock/status/595610741308284929)
 
-<p>Qiitaに書いたのだけれど、以前作ったVue.jsとMeteorのサンプルを完成させた。
-セキュリティに関する配慮が必要だったので、その辺りの修正をしてから記事として仕上げた。</p>
+Qiitaに書いたのだけれど、以前作ったVue.jsとMeteorのサンプルを完成させた。 セキュリティに関する配慮が必要だったので、その辺りの修正をしてから記事として仕上げた。
 
-<p>isomorphic tokyo meetupで、Meteorに対して「時代が追い付いていない」という評価があったけれど、実はとっくに追いついているのではないだろうか。</p>
+isomorphic tokyo meetupで、Meteorに対して「時代が追い付いていない」という評価があったけれど、実はとっくに追いついているのではないだろうか。
 
-<p>リアルタイムWebとは、別にチャットアプリだけに必要なものではないような気がしている。通知にも必要だし、Wikiのように、同時編集されたら困るアプリにとっても、リアルタイムWebは複雑さを解決する方法となりうる。</p>
+リアルタイムWebとは、別にチャットアプリだけに必要なものではないような気がしている。通知にも必要だし、Wikiのように、同時編集されたら困るアプリにとっても、リアルタイムWebは複雑さを解決する方法となりうる。
 
-<p>作り始めた時には、いつリアルタイムWebが必要なのかは予想がつかない。そう考えると、プロトタイピングはまずリアルタイムWebで行い、リソース削減のためにRESTベースのAPIに落としこんで行く方がいいのかもしれない。</p>
+作り始めた時には、いつリアルタイムWebが必要なのかは予想がつかない。そう考えると、プロトタイピングはまずリアルタイムWebで行い、リソース削減のためにRESTベースのAPIに落としこんで行く方がいいのかもしれない。
 
-<p>普通の企業はプロトタイピングを重視しない。だから、個人としてはプロトタイピングを掘り下げる方がきっと面白い。</p>
+普通の企業はプロトタイピングを重視しない。だから、個人としてはプロトタイピングを掘り下げる方がきっと面白い。
 
------
+\-----

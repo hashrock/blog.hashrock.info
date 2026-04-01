@@ -4,110 +4,89 @@ description: ''
 pubDate: 'Oct 16 2018'
 ---
 
-<p>早いもので、<a href="https://vuefes.jp/">Vue Fes Japan</a>まで残すところ２週間程度となりました。</p>
+早いもので、[Vue Fes Japan](https://vuefes.jp/)まで残すところ２週間程度となりました。
 
-<p>で。</p>
+で。
 
-<p><b>何はおいてもsdrasさんですよ。来日です。</b></p>
+**何はおいてもsdrasさんですよ。来日です。**
 
-<p>このブログの読者はSVG漬けの毎日を送っていると思うのですが、
-SVGアニメーションといえば自分の中ではこの方です。</p>
+このブログの読者はSVG漬けの毎日を送っていると思うのですが、 SVGアニメーションといえば自分の中ではこの方です。
 
-<p>Sarah Drasner(sdras)さんは、VueConf 2017（katashinさんによる<a href="https://dev.oro.com/posts/2017/07/event/vueconf2017-report/">VueConf 2017 &#x53C2;&#x52A0;&#x30EC;&#x30DD;&#x30FC;&#x30C8;</a>）のトリでSVGアニメーションのプレゼンを行い、注目を浴びたことが記憶に新しいです。</p>
+Sarah Drasner(sdras)さんは、VueConf 2017（katashinさんによる[VueConf 2017 参加レポート](https://dev.oro.com/posts/2017/07/event/vueconf2017-report/)）のトリでSVGアニメーションのプレゼンを行い、注目を浴びたことが記憶に新しいです。
 
-<p><b>この方がVue Fes Japan登壇のために来日します。</b>SVG界震撼です。</p>
+**この方がVue Fes Japan登壇のために来日します。**SVG界震撼です。
 
-<p><iframe width="480" height="270" src="https://www.youtube.com/embed/gJDyhmL9O_E?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><cite class="hatena-citation"><a href="https://www.youtube.com/watch?v=gJDyhmL9O_E">www.youtube.com</a></cite></p>
+[www.youtube.com](https://www.youtube.com/watch?v=gJDyhmL9O_E)
 
-<p>発表では「なぜアニメーションが必要なのか。そしてどのように実装すればいいのか」が楽しく解説されています。
-アニメーションの制御にはTweenMaxとVue.jsが利用されています。</p>
+発表では「なぜアニメーションが必要なのか。そしてどのように実装すればいいのか」が楽しく解説されています。 アニメーションの制御にはTweenMaxとVue.jsが利用されています。
 
-<p>私も<a href="http://hashrock.hatenablog.com/entry/2017/12/04/215559">この発表に影響されてSVGを始めた</a>ので思い入れがあります。皆さんも未見であればぜひスライドだけでも見てください。スライド内のSVGはインタラクティブに動かせます。</p>
+私も[この発表に影響されてSVGを始めた](http://hashrock.hatenablog.com/entry/2017/12/04/215559)ので思い入れがあります。皆さんも未見であればぜひスライドだけでも見てください。スライド内のSVGはインタラクティブに動かせます。
 
-<p>スライド：<a href="http://slides.com/sdrasner/animating-vue-17#/">http://slides.com/sdrasner/animating-vue-17#/</a></p>
+スライド：[http://slides.com/sdrasner/animating-vue-17#/](http://slides.com/sdrasner/animating-vue-17#/)
 
-<h1>sdrasさんのCodepenは楽しいぞ</h1>
+# sdrasさんのCodepenは楽しいぞ
 
-<p>ウォーリーがマウスカーソルを追ってグリグリ動きます。</p>
+ウォーリーがマウスカーソルを追ってグリグリ動きます。
 
-<p><iframe id="cp_embed_YZBGNp" src="https://codepen.io/sdras/embed/preview/YZBGNp?height=300&amp;slug-hash=YZBGNp&amp;default-tabs=html,result&amp;host=https://codepen.io" title="Vue-controlled Wall-E" scrolling="no" frameborder="0" height="300" allowtransparency="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe><cite class="hatena-citation"><a href="https://codepen.io/sdras/pen/YZBGNp">codepen.io</a></cite></p>
+[codepen.io](https://codepen.io/sdras/pen/YZBGNp)
 
-<p>ホームボタンを押すといい感じのSVGアニメーションが展開されます。</p>
+ホームボタンを押すといい感じのSVGアニメーションが展開されます。
 
-<p><iframe id="cp_embed_YNpaoJ" src="https://codepen.io/sdras/embed/preview/YNpaoJ?height=300&amp;slug-hash=YNpaoJ&amp;default-tabs=html,result&amp;host=https://codepen.io" title="Vue Weather Notifier" scrolling="no" frameborder="0" height="300" allowtransparency="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe><cite class="hatena-citation"><a href="https://codepen.io/sdras/pen/YNpaoJ">codepen.io</a></cite></p>
+[codepen.io](https://codepen.io/sdras/pen/YNpaoJ)
 
-<p>聞くところによるともともとFlasherだったそうで、このへんの作品はFlashっぽいですね。</p>
+聞くところによるともともとFlasherだったそうで、このへんの作品はFlashっぽいですね。
 
-<p>Vue.js Londonのトップアニメーションもsdrasさん作です。</p>
+Vue.js Londonのトップアニメーションもsdrasさん作です。
 
-<p><a href="https://vuejs.london/">https://vuejs.london/</a></p>
+[https://vuejs.london/](https://vuejs.london/)
 
-<h1>sdrasさんのバックグラウンド</h1>
+# sdrasさんのバックグラウンド
 
-<p>sdrasさんのバックグラウンドは「フロントエンドエンジニア」かつ「サイエンスイラストレーター」だそうです。イラストレーターとしての作品は下記サイトで見ることができます。</p>
+sdrasさんのバックグラウンドは「フロントエンドエンジニア」かつ「サイエンスイラストレーター」だそうです。イラストレーターとしての作品は下記サイトで見ることができます。
 
-<p><a href="https://sarahdrasner.com/">https://sarahdrasner.com/</a></p>
+[https://sarahdrasner.com/](https://sarahdrasner.com/)
 
-<p>どのイラストも緻密で圧倒されます。</p>
+どのイラストも緻密で圧倒されます。
 
-<p>もともと数学とアート両方に興味が強かったようで、一旦はアート方面で教鞭をとっていたそうです。</p>
+もともと数学とアート両方に興味が強かったようで、一旦はアート方面で教鞭をとっていたそうです。
 
-<ul>
-<li>San Franciscoの漫画ミュージアムでリテラシープログラム（？）を教えていた</li>
-<li>ギリシャのHellenic International Studies in the Arts（HISA）で絵画・写真・芸術理論を教えていた</li>
-<li>フィールド自然史博物館のサイエンスイラストレーター（爬虫類と両生類）</li>
-<li>ビザンティン美術を教えていた</li>
-</ul>
+- San Franciscoの漫画ミュージアムでリテラシープログラム（？）を教えていた
+- ギリシャのHellenic International Studies in the Arts（HISA）で絵画・写真・芸術理論を教えていた
+- フィールド自然史博物館のサイエンスイラストレーター（爬虫類と両生類）
+- ビザンティン美術を教えていた
 
+などなど、アートの人という感じですが、その後フロントエンドエンジニアとして働くようになり、現在に至ります。
 
-<p>などなど、アートの人という感じですが、その後フロントエンドエンジニアとして働くようになり、現在に至ります。</p>
+デザインと実装両面をやっているという点では、Vue.jsの作者のEvanさんと似たものがありますね。（Evanさんも元々デザインを学んでいて、エンジニアとしてGoogleに入っています）
 
-<p>デザインと実装両面をやっているという点では、Vue.jsの作者のEvanさんと似たものがありますね。（Evanさんも元々デザインを学んでいて、エンジニアとしてGoogleに入っています）</p>
+現在の肩書はMicrosoftのDeveloper Advocateです。これはEvangelistに近いものだそうで、アニメーションやサーバレスアーキテクチャ（Azure Functionsなど）を啓蒙する立場です。
 
-<p>現在の肩書はMicrosoftのDeveloper Advocateです。これはEvangelistに近いものだそうで、アニメーションやサーバレスアーキテクチャ（Azure Functionsなど）を啓蒙する立場です。</p>
+# Vue.js core teamメンバーとしての活動
 
-<h1>Vue.js core teamメンバーとしての活動</h1>
+sdrasさんはVue.js core teamメンバーでもあります。主にドキュメント周りに貢献されていて、目立ったところでは、公式ドキュメント内の[「The Cookbook」](https://jp.vuejs.org/v2/cookbook/index.html)をリードしました。
 
-<p>sdrasさんはVue.js core teamメンバーでもあります。主にドキュメント周りに貢献されていて、目立ったところでは、公式ドキュメント内の<a href="https://jp.vuejs.org/v2/cookbook/index.html">「The Cookbook」</a>をリードしました。</p>
+クックブックはExampleよりも実用的な例を提供するためのドキュメントで、今年から導入されたものです。内容は重厚かつ実用的で、一見の価値ありです。
 
-<p>クックブックはExampleよりも実用的な例を提供するためのドキュメントで、今年から導入されたものです。内容は重厚かつ実用的で、一見の価値ありです。</p>
+# その他の活動
 
-<h1>その他の活動</h1>
+- オライリーの[SVG Animations](http://shop.oreilly.com/product/0636920045335.do)の著者です。
+- CSS-Tricksの著者の一人です。[記事一覧](https://css-tricks.com/author/sdrasner/)
+- Array Explorer, Object ExplorerというJSの解説サイトを作っています。
+  - [Array Explorer](https://sdras.github.io/array-explorer/)
+  - [Object Explorer](https://sdras.github.io/object-explorer/)
+- vue-directory-treeという、Vue.jsコアのディレクトリ構造を解説付きで表示してくれるサイトを作っています。これVue.jsのコアのコードを読む取っ掛かりにいいかもしれません。
+  - [vue-directory-tree](https://github.com/sdras/vue-directory-tree)
+- SVG Workshopというリポジトリを公開しています。中身を全部見れてませんが、D3やMo.jsなどを利用しているようです。ワークショップに使ったスライドやコードなどが含まれています。
+  - [SVG Workshop](https://github.com/sdras/svg-workshop)
 
-<ul>
-<li>オライリーの<a href="http://shop.oreilly.com/product/0636920045335.do">SVG Animations</a>の著者です。</li>
-<li>CSS-Tricksの著者の一人です。<a href="https://css-tricks.com/author/sdrasner/">記事一覧</a></li>
-<li>Array Explorer, Object ExplorerというJSの解説サイトを作っています。
+# そんなsdrasさん、Vue Fesに登壇します
 
-<ul>
-<li><a href="https://sdras.github.io/array-explorer/">Array Explorer</a></li>
-<li><a href="https://sdras.github.io/object-explorer/">Object Explorer</a></li>
-</ul>
-</li>
-<li>vue-directory-treeという、Vue.jsコアのディレクトリ構造を解説付きで表示してくれるサイトを作っています。これVue.jsのコアのコードを読む取っ掛かりにいいかもしれません。
+発表内容はまだ公開されていませんが、近日中には公開されると思います。お楽しみに！ （ちなみに私はスタッフなんで、当日見れるとは限らないんですが…）
 
-<ul>
-<li><a href="https://github.com/sdras/vue-directory-tree">vue-directory-tree</a></li>
-</ul>
-</li>
-<li>SVG Workshopというリポジトリを公開しています。中身を全部見れてませんが、D3やMo.jsなどを利用しているようです。ワークショップに使ったスライドやコードなどが含まれています。
+# 追記 2018-10-18
 
-<ul>
-<li><a href="https://github.com/sdras/svg-workshop">SVG Workshop</a></li>
-</ul>
-</li>
-</ul>
+発表内容公開されました！「Next-level Vue Animations」ということで、アニメーション絡みの発表になりそうですね！
 
+[https://vuefes.jp/speakers/sdras/](https://vuefes.jp/speakers/sdras/)
 
-<h1>そんなsdrasさん、Vue Fesに登壇します</h1>
-
-<p>発表内容はまだ公開されていませんが、近日中には公開されると思います。お楽しみに！
-（ちなみに私はスタッフなんで、当日見れるとは限らないんですが…）</p>
-
-<h1>追記 2018-10-18</h1>
-
-<p>発表内容公開されました！「Next-level Vue Animations」ということで、アニメーション絡みの発表になりそうですね！</p>
-
-<p><a href="https://vuefes.jp/speakers/sdras/">https://vuefes.jp/speakers/sdras/</a></p>
-
------
+\-----

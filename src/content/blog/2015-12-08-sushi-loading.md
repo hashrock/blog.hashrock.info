@@ -5,31 +5,28 @@ pubDate: 'Dec 08 2015'
 heroImage: '/images/2015-12-08-sushi-loading/0.gif'
 ---
 
-<p><a href="http://www.adventar.org/calendars/942">Sushicorp Advent Calender 2015</a>の8日目です。</p>
+[Sushicorp Advent Calender 2015](http://www.adventar.org/calendars/942)の8日目です。
 
-<p>ページローディング中は、読込中を表すスピナーを回す習わしになっていますね。</p>
+ページローディング中は、読込中を表すスピナーを回す習わしになっていますね。
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2015-12-08-sushi-loading/0.gif" alt="f:id:hashrock:20151208035014g:plain" title="f:id:hashrock:20151208035014g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+![f:id:hashrock:20151208035014g:plain](/images/2015-12-08-sushi-loading/0.gif)
 
-<p>でも、これって一体何でしたっけ？
-そもそもなんでこれを回してるのか、よく考えると意味がわかりませんね。</p>
+でも、これって一体何でしたっけ？ そもそもなんでこれを回してるのか、よく考えると意味がわかりませんね。
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2015-12-08-sushi-loading/0.gif" alt="f:id:hashrock:20151208035014g:plain" title="f:id:hashrock:20151208035014g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+![f:id:hashrock:20151208035014g:plain](/images/2015-12-08-sushi-loading/0.gif)
 
-<p>待たされてる感があってイライラしますね。
-ホスピタリティが今ひとつ感じられません。</p>
+待たされてる感があってイライラしますね。 ホスピタリティが今ひとつ感じられません。
 
-<p>こんなよくわからないものよりも、鮨を回すべきじゃないですか？</p>
+こんなよくわからないものよりも、鮨を回すべきじゃないですか？
 
-<p>というわけで、回しました。</p>
+というわけで、回しました。
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2015-12-08-sushi-loading/1.gif" alt="f:id:hashrock:20151208034508g:plain" title="f:id:hashrock:20151208034508g:plain" class="hatena-fotolife" itemprop="image"></span></p>
+![f:id:hashrock:20151208034508g:plain](/images/2015-12-08-sushi-loading/1.gif)
 
-<p>DEMO: <a href="http://hashrock-sandbox.github.io/study-css-sprite/">Sushi Loading</a></p>
+DEMO: [Sushi Loading](http://hashrock-sandbox.github.io/study-css-sprite/)
 
-<p>あなたも、スピナーなんかより、鮨を回してみませんか。
-リポジトリはこちらです。</p>
+あなたも、スピナーなんかより、鮨を回してみませんか。 リポジトリはこちらです。
 
-<p><a href="https://github.com/hashrock-sandbox/study-css-sprite">https://github.com/hashrock-sandbox/study-css-sprite</a></p>
+[https://github.com/hashrock-sandbox/study-css-sprite](https://github.com/hashrock-sandbox/study-css-sprite)
 
------
+\-----

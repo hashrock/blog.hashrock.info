@@ -5,154 +5,180 @@ pubDate: 'Oct 02 2020'
 heroImage: '/images/2020-10-02-friday-gui/0.png'
 ---
 
-<p>今年２月から「金曜になにかGUIを一つ作る」というフロントエンド素振り活動をしていたのだけど、最近あんまりやらなくなってしまったため、一旦成果物をまとめる。</p>
+今年２月から「金曜になにかGUIを一つ作る」というフロントエンド素振り活動をしていたのだけど、最近あんまりやらなくなってしまったため、一旦成果物をまとめる。
 
-<h1>発端</h1>
+# 発端
 
-<p>今年２月末の金曜日のこと。</p>
+今年２月末の金曜日のこと。
 
-<p>ちょうど自粛ムードが広がりはじめた頃で街に活気がなく、微妙に暗い気分が広がっていた。</p>
+ちょうど自粛ムードが広がりはじめた頃で街に活気がなく、微妙に暗い気分が広がっていた。
 
-<p>そういえば今日プレミアムフライデーだったなーとか思い出し、
-明るいことの一つもあればいいのにと考えながら、とぼとぼ帰っていた。</p>
+そういえば今日プレミアムフライデーだったなーとか思い出し、 明るいことの一つもあればいいのにと考えながら、とぼとぼ帰っていた。
 
-<p><b>「こういう時って自分から動き出すと気分が晴れたりするよなぁ。GUI作ってたら気分が晴れるんじゃないだろうか」</b></p>
+**「こういう時って自分から動き出すと気分が晴れたりするよなぁ。GUI作ってたら気分が晴れるんじゃないだろうか」**
 
-<p>と考えるに至り、突発的に下記のツイートをした。</p>
+と考えるに至り、突発的に下記のツイートをした。
 
-<p><blockquote data-conversation="none" class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr"><a href="https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&amp;ref_src=twsrc%5Etfw">#金曜GUI</a></p>&mdash; hashrock (@hashedrock) <a href="https://twitter.com/hashedrock/status/1233352289437372418?ref_src=twsrc%5Etfw">2020年2月28日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+> [#金曜GUI](https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&ref_src=twsrc%5Etfw)
+>
+> — hashrock (@hashedrock) [2020年2月28日](https://twitter.com/hashedrock/status/1233352289437372418?ref_src=twsrc%5Etfw)
 
-<p>で、おもむろにGUIを制作している様子を配信し始めた。</p>
+で、おもむろにGUIを制作している様子を配信し始めた。
 
-<p><blockquote data-conversation="none" class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">スライダー作ってる <a href="https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&amp;ref_src=twsrc%5Etfw">#金曜GUI</a> <a href="https://t.co/f6tmHMzx67">pic.twitter.com/f6tmHMzx67</a></p>&mdash; hashrock (@hashedrock) <a href="https://twitter.com/hashedrock/status/1233366548661714944?ref_src=twsrc%5Etfw">2020年2月28日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+> スライダー作ってる [#金曜GUI](https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/f6tmHMzx67](https://t.co/f6tmHMzx67)
+>
+> — hashrock (@hashedrock) [2020年2月28日](https://twitter.com/hashedrock/status/1233366548661714944?ref_src=twsrc%5Etfw)
 
-<p>説明もなく突然GUI制作風景を配信し始めるという意味不明な行動を始めたんだけど、
-反応がなかったら静かにツイ消ししようかなーと思っていた。</p>
+説明もなく突然GUI制作風景を配信し始めるという意味不明な行動を始めたんだけど、 反応がなかったら静かにツイ消ししようかなーと思っていた。
 
-<h1>miyaokaさん参戦</h1>
+# miyaokaさん参戦
 
-<p>そこで嬉しいことに、企画意図を察したのかmiyaokaさんが乗ってきてくれた。</p>
+そこで嬉しいことに、企画意図を察したのかmiyaokaさんが乗ってきてくれた。
 
-<p><blockquote data-conversation="none" class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">はっしゅろっくさんとやっていってる <a href="https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&amp;ref_src=twsrc%5Etfw">#金曜GUI</a> <a href="https://t.co/rWU6tQRwph">pic.twitter.com/rWU6tQRwph</a></p>&mdash; miyaoka / STUDIO (@miyaoka) <a href="https://twitter.com/miyaoka/status/1233407039251996672?ref_src=twsrc%5Etfw">2020年2月28日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+> はっしゅろっくさんとやっていってる [#金曜GUI](https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/rWU6tQRwph](https://t.co/rWU6tQRwph)
+>
+> — miyaoka / STUDIO (@miyaoka) [2020年2月28日](https://twitter.com/miyaoka/status/1233407039251996672?ref_src=twsrc%5Etfw)
 
-<p>miyaokaさんはカオスな企画に対する理解力がすごい。混沌耐性持ちなんだと思う。</p>
+miyaokaさんはカオスな企画に対する理解力がすごい。混沌耐性持ちなんだと思う。
 
-<p>配信に使っていたpixiv Sketchでは画面共有と音声チャットが可能だったので、miyaokaさんと話しながら CodePen上でライブコーディングを進めた。</p>
+配信に使っていたpixiv Sketchでは画面共有と音声チャットが可能だったので、miyaokaさんと話しながら CodePen上でライブコーディングを進めた。
 
-<h1>成果物</h1>
+# 成果物
 
-<p>初日はチェックボックスを作った。連打してもこっそり戻るチェックボックス。</p>
+初日はチェックボックスを作った。連打してもこっそり戻るチェックボックス。
 
-<p><blockquote data-conversation="none" class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">チェックしきれないチェックボックス <a href="https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&amp;ref_src=twsrc%5Etfw">#金曜GUI</a> <a href="https://t.co/w02jB8HfuD">pic.twitter.com/w02jB8HfuD</a></p>&mdash; hashrock (@hashedrock) <a href="https://twitter.com/hashedrock/status/1233418712918544387?ref_src=twsrc%5Etfw">2020年2月28日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+> チェックしきれないチェックボックス [#金曜GUI](https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/w02jB8HfuD](https://t.co/w02jB8HfuD)
+>
+> — hashrock (@hashedrock) [2020年2月28日](https://twitter.com/hashedrock/status/1233418712918544387?ref_src=twsrc%5Etfw)
 
-<p>miyaokaさんはトイレットペーパーを引き出すGUIを作った。</p>
+miyaokaさんはトイレットペーパーを引き出すGUIを作った。
 
-<p><blockquote data-conversation="none" class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">トイレットペーパーのGUI作った <a href="https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&amp;ref_src=twsrc%5Etfw">#金曜GUI</a> <a href="https://t.co/KxxpBm73iU">pic.twitter.com/KxxpBm73iU</a></p>&mdash; miyaoka / STUDIO (@miyaoka) <a href="https://twitter.com/miyaoka/status/1233427406062440449?ref_src=twsrc%5Etfw">2020年2月28日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+> トイレットペーパーのGUI作った [#金曜GUI](https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/KxxpBm73iU](https://t.co/KxxpBm73iU)
+>
+> — miyaoka / STUDIO (@miyaoka) [2020年2月28日](https://twitter.com/miyaoka/status/1233427406062440449?ref_src=twsrc%5Etfw)
 
-<p>これはインパクトすごくて爆伸びした（なおこの頃トイレットペーパーの買い占めが起きていた。GUIも世の中もクレージーだった）</p>
+これはインパクトすごくて爆伸びした（なおこの頃トイレットペーパーの買い占めが起きていた。GUIも世の中もクレージーだった）
 
-<p><blockquote data-conversation="none" class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ゆうべ突発的にやった複数人でのライブコーディング、絵チャ的で楽しかったな。特にGUIのライブコーディングってのが見た目に分かりやすく、単目的で完成も速いので、動くものとしての進捗が出しやすい。それから画面自体にタイトルやアジェンダも書けるので要件が分かるのが良かった <a href="https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&amp;ref_src=twsrc%5Etfw">#金曜GUI</a> <a href="https://t.co/OYJ4QFOkFM">pic.twitter.com/OYJ4QFOkFM</a></p>&mdash; miyaoka / STUDIO (@miyaoka) <a href="https://twitter.com/miyaoka/status/1233639988727709696?ref_src=twsrc%5Etfw">2020年2月29日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+> ゆうべ突発的にやった複数人でのライブコーディング、絵チャ的で楽しかったな。特にGUIのライブコーディングってのが見た目に分かりやすく、単目的で完成も速いので、動くものとしての進捗が出しやすい。それから画面自体にタイトルやアジェンダも書けるので要件が分かるのが良かった [#金曜GUI](https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/OYJ4QFOkFM](https://t.co/OYJ4QFOkFM)
+>
+> — miyaoka / STUDIO (@miyaoka) [2020年2月29日](https://twitter.com/miyaoka/status/1233639988727709696?ref_src=twsrc%5Etfw)
 
-<p>この活動はやったりやらなかったりしながら半年ぐらい続いた。</p>
+この活動はやったりやらなかったりしながら半年ぐらい続いた。
 
-<p>以下、代表作です。</p>
+以下、代表作です。
 
-<h2>かっこよくアニメーションするカレンダー</h2>
+## かっこよくアニメーションするカレンダー
 
-<p><blockquote data-conversation="none" class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">シームレスに縦型になるカレンダー <a href="https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&amp;ref_src=twsrc%5Etfw">#金曜GUI</a> <a href="https://t.co/Z1STtSlvRB">pic.twitter.com/Z1STtSlvRB</a></p>&mdash; hashrock (@hashedrock) <a href="https://twitter.com/hashedrock/status/1235935883817144326?ref_src=twsrc%5Etfw">2020年3月6日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+> シームレスに縦型になるカレンダー [#金曜GUI](https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/Z1STtSlvRB](https://t.co/Z1STtSlvRB)
+>
+> — hashrock (@hashedrock) [2020年3月6日](https://twitter.com/hashedrock/status/1235935883817144326?ref_src=twsrc%5Etfw)
 
-<p>縦型カレンダーと月間カレンダーって、7日単位で折り返してるか1日単位で折り返してるかの
-違いでしかないなぁと考え、じゃあトランジションかけられるよねと思って作ったもの。</p>
+縦型カレンダーと月間カレンダーって、7日単位で折り返してるか1日単位で折り返してるかの 違いでしかないなぁと考え、じゃあトランジションかけられるよねと思って作ったもの。
 
-<p>この考え方は別の日に図示したものがある。</p>
+この考え方は別の日に図示したものがある。
 
-<p><blockquote data-conversation="none" class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">カレンダーはぐるぐる巻いてるやつの仲間なんだけど、人生のイベントって濃淡あるのに時間を等分するの微妙ではと思ったりもする <a href="https://t.co/q1I1k4KFkJ">pic.twitter.com/q1I1k4KFkJ</a></p>&mdash; hashrock (@hashedrock) <a href="https://twitter.com/hashedrock/status/1227574947662327808?ref_src=twsrc%5Etfw">2020年2月12日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+> カレンダーはぐるぐる巻いてるやつの仲間なんだけど、人生のイベントって濃淡あるのに時間を等分するの微妙ではと思ったりもする [pic.twitter.com/q1I1k4KFkJ](https://t.co/q1I1k4KFkJ)
+>
+> — hashrock (@hashedrock) [2020年2月12日](https://twitter.com/hashedrock/status/1227574947662327808?ref_src=twsrc%5Etfw)
 
-<h2>遊べるラジオボタン</h2>
+## 遊べるラジオボタン
 
-<p>香川県のゲーム条例が話題になっていた頃に作ったもの。</p>
+香川県のゲーム条例が話題になっていた頃に作ったもの。
 
-<p><blockquote data-conversation="none" class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">遊べるラジオボタンを作りました。ゲームが禁止されてもGUIで遊べます<a href="https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&amp;ref_src=twsrc%5Etfw">#金曜GUI</a> <a href="https://t.co/1VNI7bjqm3">pic.twitter.com/1VNI7bjqm3</a></p>&mdash; hashrock (@hashedrock) <a href="https://twitter.com/hashedrock/status/1238510326712168448?ref_src=twsrc%5Etfw">2020年3月13日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+> 遊べるラジオボタンを作りました。ゲームが禁止されてもGUIで遊べます[#金曜GUI](https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/1VNI7bjqm3](https://t.co/1VNI7bjqm3)
+>
+> — hashrock (@hashedrock) [2020年3月13日](https://twitter.com/hashedrock/status/1238510326712168448?ref_src=twsrc%5Etfw)
 
-<p>ゴルフゲーム的な感じで遊べるようにした。香川の子どもがあんまりゲーム遊べなくてかわいそうだから、
-GUIで遊べればいいのでは？と思って作った。</p>
+ゴルフゲーム的な感じで遊べるようにした。香川の子どもがあんまりゲーム遊べなくてかわいそうだから、 GUIで遊べればいいのでは？と思って作った。
 
-<h2>ドット絵チャット</h2>
+## ドット絵チャット
 
-<p><blockquote data-conversation="none" class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">謎のチャットができてきた <a href="https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&amp;ref_src=twsrc%5Etfw">#金曜GUI</a> <a href="https://t.co/FdyfwkgJmB">pic.twitter.com/FdyfwkgJmB</a></p>&mdash; hashrock (@hashedrock) <a href="https://twitter.com/hashedrock/status/1243546624107790336?ref_src=twsrc%5Etfw">2020年3月27日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+> 謎のチャットができてきた [#金曜GUI](https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/FdyfwkgJmB](https://t.co/FdyfwkgJmB)
+>
+> — hashrock (@hashedrock) [2020年3月27日](https://twitter.com/hashedrock/status/1243546624107790336?ref_src=twsrc%5Etfw)
 
-<p>16 x 16pxのドット絵で作った絵文字で喋れるチャット。他人の作った文字を自分も使えるのが肝。</p>
+16 x 16pxのドット絵で作った絵文字で喋れるチャット。他人の作った文字を自分も使えるのが肝。
 
-<p>絵文字文化ってかなり国際交流に貢献していると思っていて、絵文字しか使えないチャットがあったらどうだろうと思って作った。
-あとは「文字をコミュニティ内で発明する」のは面白いのではと思った（slackの絵文字文化って結構それだなと思う）。</p>
+絵文字文化ってかなり国際交流に貢献していると思っていて、絵文字しか使えないチャットがあったらどうだろうと思って作った。 あとは「文字をコミュニティ内で発明する」のは面白いのではと思った（slackの絵文字文化って結構それだなと思う）。
 
-<p><blockquote data-conversation="none" class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&amp;ref_src=twsrc%5Etfw">#金曜GUI</a> 1文字16pxで情報の伝達がつらい <a href="https://t.co/xaGgwXMpjM">pic.twitter.com/xaGgwXMpjM</a></p>&mdash; miyaoka / STUDIO (@miyaoka) <a href="https://twitter.com/miyaoka/status/1243557342089601024?ref_src=twsrc%5Etfw">2020年3月27日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+> [#金曜GUI](https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&ref_src=twsrc%5Etfw) 1文字16pxで情報の伝達がつらい [pic.twitter.com/xaGgwXMpjM](https://t.co/xaGgwXMpjM)
+>
+> — miyaoka / STUDIO (@miyaoka) [2020年3月27日](https://twitter.com/miyaoka/status/1243557342089601024?ref_src=twsrc%5Etfw)
 
-<p>最終的にはこれだとコミュニケーションはつらいねというオチになった。</p>
+最終的にはこれだとコミュニケーションはつらいねというオチになった。
 
-<h2>動くDenoくんのSVG</h2>
+## 動くDenoくんのSVG
 
-<p>このブログでも度々登場してるDenoくんなんだけど、<a href="https://ics.media/entry/200225/">ICSのゆきさんがよくやってる関節アニメーション</a>で動かしたら面白いんじゃないかなと思って、練習としてやってみた。</p>
+このブログでも度々登場してるDenoくんなんだけど、[ICSのゆきさんがよくやってる関節アニメーション](https://ics.media/entry/200225/)で動かしたら面白いんじゃないかなと思って、練習としてやってみた。
 
-<p><blockquote data-conversation="none" class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">昔ボール紙でこういう玩具を作ったことがある気もしないでもない <a href="https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&amp;ref_src=twsrc%5Etfw">#金曜GUI</a> <a href="https://t.co/IQk2uT7gfl">pic.twitter.com/IQk2uT7gfl</a></p>&mdash; hashrock (@hashedrock) <a href="https://twitter.com/hashedrock/status/1246086971249684481?ref_src=twsrc%5Etfw">2020年4月3日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+> 昔ボール紙でこういう玩具を作ったことがある気もしないでもない [#金曜GUI](https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/IQk2uT7gfl](https://t.co/IQk2uT7gfl)
+>
+> — hashrock (@hashedrock) [2020年4月3日](https://twitter.com/hashedrock/status/1246086971249684481?ref_src=twsrc%5Etfw)
 
-<p>ツイートにも書いてるけど、小学生の頃工作でこういうの作ったわーというのをめっちゃ思い出した。</p>
+ツイートにも書いてるけど、小学生の頃工作でこういうの作ったわーというのをめっちゃ思い出した。
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2020-10-02-friday-gui/0.png" alt="f:id:hashrock:20201002215347p:plain" title="f:id:hashrock:20201002215347p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+![f:id:hashrock:20201002215347p:plain](/images/2020-10-02-friday-gui/0.png)
 
-<p>こういう感じで、最近はちょっと難し目のSVGはFigmaで作ってエクスポートして作っている。パーツごとにCopy as SVGとかできて便利。</p>
+こういう感じで、最近はちょっと難し目のSVGはFigmaで作ってエクスポートして作っている。パーツごとにCopy as SVGとかできて便利。
 
-<p>最終的な完成品。</p>
+最終的な完成品。
 
-<p><blockquote data-conversation="none" class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ただのアニメーションをGUIと言い張ることに成功した <a href="https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&amp;ref_src=twsrc%5Etfw">#金曜GUI</a> <a href="https://t.co/TxLLYYlz56">pic.twitter.com/TxLLYYlz56</a></p>&mdash; hashrock (@hashedrock) <a href="https://twitter.com/hashedrock/status/1246103287687864320?ref_src=twsrc%5Etfw">2020年4月3日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+> ただのアニメーションをGUIと言い張ることに成功した [#金曜GUI](https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/TxLLYYlz56](https://t.co/TxLLYYlz56)
+>
+> — hashrock (@hashedrock) [2020年4月3日](https://twitter.com/hashedrock/status/1246103287687864320?ref_src=twsrc%5Etfw)
 
-<p>これはちょっと続きがあって、当時DenoのAPIドキュメントサイトであるdeno_docを作っていた lcasdev の目に止まったらしくリプライがきた。</p>
+これはちょっと続きがあって、当時DenoのAPIドキュメントサイトであるdeno\_docを作っていた lcasdev の目に止まったらしくリプライがきた。
 
-<p><blockquote data-conversation="none" class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">Looks awesome! Can we use the SVG as a loading indicator for the deno_doc frontend? <a href="https://t.co/0ANNVH0cKW">https://t.co/0ANNVH0cKW</a></p>&mdash; Luca Casonato (@lcasdev) <a href="https://twitter.com/lcasdev/status/1246144117001924608?ref_src=twsrc%5Etfw">2020年4月3日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+> Looks awesome! Can we use the SVG as a loading indicator for the deno\_doc frontend? [https://t.co/0ANNVH0cKW](https://t.co/0ANNVH0cKW)
+>
+> — Luca Casonato (@lcasdev) [2020年4月3日](https://twitter.com/lcasdev/status/1246144117001924608?ref_src=twsrc%5Etfw)
 
-<p>deno_doc のローディングが結構長いから、ローディングアニメーションに使いたいとのことだった。これは嬉しかったので、SVG + CSSアニメーションに書き換えてVue依存を外した上で取り込んでもらった。</p>
+deno\_doc のローディングが結構長いから、ローディングアニメーションに使いたいとのことだった。これは嬉しかったので、SVG + CSSアニメーションに書き換えてVue依存を外した上で取り込んでもらった。
 
-<p>最終的に deno_doc はDeno公式に取り込まれることになった。下記からまだアニメーションを見ることができる。</p>
+最終的に deno\_doc はDeno公式に取り込まれることになった。下記からまだアニメーションを見ることができる。
 
-<p><a href="https://doc.deno.land/">https://doc.deno.land/</a></p>
+[https://doc.deno.land/](https://doc.deno.land/)
 
-<p>Denoと関わってると何故か熱い展開になることが多い。</p>
+Denoと関わってると何故か熱い展開になることが多い。
 
-<h1>CSS豆本</h1>
+# CSS豆本
 
-<p>Meguro.CSSの<a href="https://codepen.io/YusukeNakaya/">Nakaya</a>さんから教わった、CSSで3Dをやるテクをやってみたいなと思って作ったもの。</p>
+Meguro.CSSの[Nakaya](https://codepen.io/YusukeNakaya/)さんから教わった、CSSで3Dをやるテクをやってみたいなと思って作ったもの。
 
-<p><blockquote data-conversation="none" class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">端をめくってる感じにするために3D表現入れてみた<a href="https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&amp;ref_src=twsrc%5Etfw">#金曜GUI</a> <a href="https://twitter.com/hashtag/GUI%E6%B4%BB?src=hash&amp;ref_src=twsrc%5Etfw">#GUI活</a> <a href="https://twitter.com/hashtag/CSS%E8%B1%86%E6%9C%AC?src=hash&amp;ref_src=twsrc%5Etfw">#CSS豆本</a> <a href="https://t.co/5t27beisGa">pic.twitter.com/5t27beisGa</a></p>&mdash; hashrock (@hashedrock) <a href="https://twitter.com/hashedrock/status/1279058466808578048?ref_src=twsrc%5Etfw">2020年7月3日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+> 端をめくってる感じにするために3D表現入れてみた[#金曜GUI](https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&ref_src=twsrc%5Etfw) [#GUI活](https://twitter.com/hashtag/GUI%E6%B4%BB?src=hash&ref_src=twsrc%5Etfw) [#CSS豆本](https://twitter.com/hashtag/CSS%E8%B1%86%E6%9C%AC?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/5t27beisGa](https://t.co/5t27beisGa)
+>
+> — hashrock (@hashedrock) [2020年7月3日](https://twitter.com/hashedrock/status/1279058466808578048?ref_src=twsrc%5Etfw)
 
-<p>これは結構スムーズに実装できたので、せっかくなのでDEV.toに怪しい英語で解説記事を書いた。</p>
+これは結構スムーズに実装できたので、せっかくなのでDEV.toに怪しい英語で解説記事を書いた。
 
-<p><a href="https://dev.to/hashrock/making-miniature-book-with-css-590p">https://dev.to/hashrock/making-miniature-book-with-css-590p</a></p>
+[https://dev.to/hashrock/making-miniature-book-with-css-590p](https://dev.to/hashrock/making-miniature-book-with-css-590p)
 
-<h1>他の作品</h1>
+# 他の作品
 
-<p>miyaokaさんのプルダウン小説とかも面白かった。</p>
+miyaokaさんのプルダウン小説とかも面白かった。
 
-<p><blockquote data-conversation="none" class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr"><a href="https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&amp;ref_src=twsrc%5Etfw">#金曜GUI</a> <a href="https://t.co/gBKr6ASoMI">pic.twitter.com/gBKr6ASoMI</a></p>&mdash; miyaoka / STUDIO (@miyaoka) <a href="https://twitter.com/miyaoka/status/1258797164311965697?ref_src=twsrc%5Etfw">2020年5月8日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </p>
+> [#金曜GUI](https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hash&ref_src=twsrc%5Etfw) [pic.twitter.com/gBKr6ASoMI](https://t.co/gBKr6ASoMI)
+>
+> — miyaoka / STUDIO (@miyaoka) [2020年5月8日](https://twitter.com/miyaoka/status/1258797164311965697?ref_src=twsrc%5Etfw)
 
-<p>他の作品は「<a href="https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hashtag_click&amp;f=live">#金曜GUI</a>」タグを眺めてもらえればと思います。</p>
+他の作品は「[#金曜GUI](https://twitter.com/hashtag/%E9%87%91%E6%9B%9CGUI?src=hashtag_click&f=live)」タグを眺めてもらえればと思います。
 
-<p>金曜以外にもやることがあり「<a href="https://twitter.com/hashtag/GUI%E6%B4%BB?src=hashtag_click&amp;f=live">#GUI活</a>」というタグもあります。</p>
+金曜以外にもやることがあり「[#GUI活](https://twitter.com/hashtag/GUI%E6%B4%BB?src=hashtag_click&f=live)」というタグもあります。
 
-<p>あとから参加してきてくれた、nekobatoさんやyymmさんの作品もあります。</p>
+あとから参加してきてくれた、nekobatoさんやyymmさんの作品もあります。
 
-<h1>まとめ</h1>
+# まとめ
 
-<p>やっぱりGUIをスクラッチで作るの楽しいなぁと思った。かなりの三日坊主なんだけど、これは割と続いてよかった。</p>
+やっぱりGUIをスクラッチで作るの楽しいなぁと思った。かなりの三日坊主なんだけど、これは割と続いてよかった。
 
-<p>半年やってみて別に実装力が上がったとは思わないんだけど、
-意味わからん要件来てもまあ時間かければ作れるだろみたいな根拠のない自信はついたかもしれない。</p>
+半年やってみて別に実装力が上がったとは思わないんだけど、 意味わからん要件来てもまあ時間かければ作れるだろみたいな根拠のない自信はついたかもしれない。
 
-<p>「#金曜GUI」 は勝手にやっていいやつなので、皆さんもぜひGUIを作ってみてください。</p>
+「#金曜GUI」 は勝手にやっていいやつなので、皆さんもぜひGUIを作ってみてください。
 
-<h1>2020/10/05追記</h1>
+# 2020/10/05追記
 
-<p>miyaokaさんがアンサーブログを書いてくれました。miyaokaさんの成果物について掘り下げた文章が読めるのでぜひ読んでみてください。</p>
+miyaokaさんがアンサーブログを書いてくれました。miyaokaさんの成果物について掘り下げた文章が読めるのでぜひ読んでみてください。
 
-<p><a href="https://note.com/miyaoka/n/n09fb5cf0cff9">https://note.com/miyaoka/n/n09fb5cf0cff9</a></p>
+[https://note.com/miyaoka/n/n09fb5cf0cff9](https://note.com/miyaoka/n/n09fb5cf0cff9)
 
------
+\-----

@@ -4,22 +4,22 @@ description: ''
 pubDate: 'Dec 02 2020'
 ---
 
-<p>こちらは<a href="https://qiita.com/advent-calendar/2020/deno">Deno Advent Calendar</a> ２日目の記事です。</p>
+こちらは[Deno Advent Calendar](https://qiita.com/advent-calendar/2020/deno) ２日目の記事です。
 
-<p>去年は<a href="https://hashrock.hatenablog.com/entry/2019/12/02/000000">絵描き歌</a>をやりましたが、あまり時間がなかったので小ネタです。</p>
+去年は[絵描き歌](https://hashrock.hatenablog.com/entry/2019/12/02/000000)をやりましたが、あまり時間がなかったので小ネタです。
 
-<h1>経緯</h1>
+# 経緯
 
-<p>deno用に書かれたライブラリやBlog記事を眺めていると、たまにdeno v1のイラストとかdenoland Organizationのロゴとかをコラージュしているものを見つけることがあります。</p>
+deno用に書かれたライブラリやBlog記事を眺めていると、たまにdeno v1のイラストとかdenoland Organizationのロゴとかをコラージュしているものを見つけることがあります。
 
-<p>MITなのでもちろんコラージュ自体は問題ないんですが、それなら自分の作ったものに関しては素材化してしまえば便利か？と思い、Figmaでちまちまと作りためています。</p>
+MITなのでもちろんコラージュ自体は問題ないんですが、それなら自分の作ったものに関しては素材化してしまえば便利か？と思い、Figmaでちまちまと作りためています。
 
-<h1>というわけで素材</h1>
+# というわけで素材
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2020-12-02-deno-assets/0.png" alt="f:id:hashrock:20201201124026p:plain" title="" class="hatena-fotolife" itemprop="image"></span></p>
+![f:id:hashrock:20201201124026p:plain](/images/2020-12-02-deno-assets/0.png)
 
-<p><iframe style="border: none;" height="450" width="800" src="https://www.figma.com/embed?embed_host=oembed&url=https://www.figma.com/file/j33xlfUm4XDQLHSSg3eXnp/Deno-Logo-Resources?node-id=0:1"></iframe><cite class="hatena-citation"><a href="https://www.figma.com/file/j33xlfUm4XDQLHSSg3eXnp/Deno-Logo-Resources?node-id=0%3A1">www.figma.com</a></cite></p>
+[www.figma.com](https://www.figma.com/file/j33xlfUm4XDQLHSSg3eXnp/Deno-Logo-Resources?node-id=0%3A1)
 
-<p>改変やコピー自由です。</p>
+改変やコピー自由です。
 
------
+\-----

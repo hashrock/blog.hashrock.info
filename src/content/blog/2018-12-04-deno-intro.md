@@ -5,81 +5,74 @@ pubDate: 'Dec 04 2018'
 heroImage: '/images/2018-12-04-deno-intro/0.png'
 ---
 
-<p>Node.jsの作者Ryan Dahlが作った「<a href="https://github.com/denoland/deno">Deno</a>」が面白くて、最近追っかけている。</p>
+Node.jsの作者Ryan Dahlが作った「[Deno](https://github.com/denoland/deno)」が面白くて、最近追っかけている。
 
-<p>TypeScript版Node.jsというのが雑な説明になる。yosuke-furukawaさんの下記の記事が詳しい。</p>
+TypeScript版Node.jsというのが雑な説明になる。yosuke-furukawaさんの下記の記事が詳しい。
 
-<p><a href="https://yosuke-furukawa.hatenablog.com/entry/2018/06/07/080335">https://yosuke-furukawa.hatenablog.com/entry/2018/06/07/080335</a></p>
+[https://yosuke-furukawa.hatenablog.com/entry/2018/06/07/080335](https://yosuke-furukawa.hatenablog.com/entry/2018/06/07/080335)
 
-<p>ES Modules周りとnpmのことも考えると、まっさらから再設計したほうがスッキリしてて気持ちいいというのと、単にTypeScriptが好きというのもあるけど、今追っかけている理由は、Denoがセキュリティ的にいい感じに見えるからだったりする。</p>
+ES Modules周りとnpmのことも考えると、まっさらから再設計したほうがスッキリしてて気持ちいいというのと、単にTypeScriptが好きというのもあるけど、今追っかけている理由は、Denoがセキュリティ的にいい感じに見えるからだったりする。
 
-<h1>flatmap-stream事件</h1>
+# flatmap-stream事件
 
-<p><a href="https://qiita.com/mysticatea/items/aac027f9183ea9f0f9b1">https://qiita.com/mysticatea/items/aac027f9183ea9f0f9b1</a></p>
+[https://qiita.com/mysticatea/items/aac027f9183ea9f0f9b1](https://qiita.com/mysticatea/items/aac027f9183ea9f0f9b1)
 
-<p>npmパッケージがビットコインの窃盗に利用される（未遂）という事件がつい先日発生した。</p>
+npmパッケージがビットコインの窃盗に利用される（未遂）という事件がつい先日発生した。
 
-<p>これははっきり言って防ぎようがない事件で、minifyしたコード内に埋められてもその差分に誰が気づくんだという話である。むしろこれによく気づいたな・・・という印象。見過ごされていてもおかしくない。</p>
+これははっきり言って防ぎようがない事件で、minifyしたコード内に埋められてもその差分に誰が気づくんだという話である。むしろこれによく気づいたな・・・という印象。見過ごされていてもおかしくない。
 
-<p>この件、自分は攻撃者以外の全員がかわいそうだな…と思った。作者がOSSに対して過大な責任を負うのも違うし、OSSのコミット権渡すときも他人の善意を疑いたくない。npm側ができることも限られている。</p>
+この件、自分は攻撃者以外の全員がかわいそうだな…と思った。作者がOSSに対して過大な責任を負うのも違うし、OSSのコミット権渡すときも他人の善意を疑いたくない。npm側ができることも限られている。
 
-<p>しかし、気軽に小さなライブラリに依存してしまう文化は、ライブラリの作者に大きな責任を負わせてしまう。</p>
+しかし、気軽に小さなライブラリに依存してしまう文化は、ライブラリの作者に大きな責任を負わせてしまう。
 
-<p>これは、誰かの努力じゃなく仕組みで解決したい問題だ。</p>
+これは、誰かの努力じゃなく仕組みで解決したい問題だ。
 
-<h1>信用できないコードを実行する</h1>
+# 信用できないコードを実行する
 
-<p>Denoの<a href="https://github.com/denoland/deno/blob/master/Roadmap.md">ロードマップ</a>には下記のように書かれている。</p>
+Denoの[ロードマップ](https://github.com/denoland/deno/blob/master/Roadmap.md)には下記のように書かれている。
 
-<blockquote><p>We want to be secure by default; user should be able to run untrusted code, like the web.
-「Webのように」信頼されていないコードをユーザが実行できるように、デフォルトでセキュアにしたい。</p></blockquote>
+> We want to be secure by default; user should be able to run untrusted code, like the web. 「Webのように」信頼されていないコードをユーザが実行できるように、デフォルトでセキュアにしたい。
 
-<p>「コードを信用しないままに実行する」というのは今までブラウザがずっとやってきたことだ。サンドボックスがあり、ファイルへの書き込みのような危険な処理にはユーザへの承認を求める。</p>
+「コードを信用しないままに実行する」というのは今までブラウザがずっとやってきたことだ。サンドボックスがあり、ファイルへの書き込みのような危険な処理にはユーザへの承認を求める。
 
-<p>Denoは「脅威」として下記の２つを挙げている。</p>
+Denoは「脅威」として下記の２つを挙げている。
 
-<ul>
-<li>ローカルファイルの変更や削除</li>
-<li>情報漏えい</li>
-</ul>
+- ローカルファイルの変更や削除
+- 情報漏えい
 
+それを防ぐために、下記をデフォルトで禁止している。
 
-<p>それを防ぐために、下記をデフォルトで禁止している。</p>
+- ネットワークアクセス
+- ローカルファイルへのWrite
+- JS以外の拡張
+- サブプロセス
+- 環境変数へのアクセス
 
-<ul>
-<li>ネットワークアクセス</li>
-<li>ローカルファイルへのWrite</li>
-<li>JS以外の拡張</li>
-<li>サブプロセス</li>
-<li>環境変数へのアクセス</li>
-</ul>
+ファイル読み込みは許可しているのは面白いところだ。ローカルファイルを読めたところで、ネットワークアクセスがなければ漏洩することはできないので、問題ないという考えだろうか。
 
+**※2018/12/04 16:30訂正**
 
-<p><s>ファイル読み込みは許可しているのは面白いところだ。ローカルファイルを読めたところで、ネットワークアクセスがなければ漏洩することはできないので、問題ないという考えだろうか。</s></p>
+[現在は --allow-read フラグを追加する方向で話が進んでいる](https://github.com/denoland/deno/issues/1225)ため、ファイルの読み込みもデフォルトは禁止になる見込みだそうです。Thanks: [@kt3k](https://twitter.com/kt3k)
 
-<p><b>※2018/12/04 16:30訂正</b></p>
+Denoはまだまだ開発途上ではあるけど、すでに簡単なHTTPサーバを書くことが可能になっている。
 
-<p><a href="https://github.com/denoland/deno/issues/1225">現在は --allow-read フラグを追加する方向で話が進んでいる</a>ため、ファイルの読み込みもデフォルトは禁止になる見込みだそうです。Thanks: <a href="https://twitter.com/kt3k">@kt3k</a></p>
+```typescript
+import { serve } from "https://deno.land/x/net/http.ts";
+const s = serve("0.0.0.0:8000");
 
-<p>Denoはまだまだ開発途上ではあるけど、すでに簡単なHTTPサーバを書くことが可能になっている。</p>
+async function main() {
+  for await (const req of s) {
+    req.respond({ body: new TextEncoder().encode("Hello World\n") });
+  }
+}
 
-<pre class="code lang-typescript" data-lang="typescript" data-unlink><span class="synStatement">import</span> <span class="synIdentifier">{</span> serve <span class="synIdentifier">}</span> <span class="synStatement">from</span> <span class="synConstant">&quot;https://deno.land/x/net/http.ts&quot;</span><span class="synStatement">;</span>
-<span class="synStatement">const</span> s <span class="synStatement">=</span> serve<span class="synStatement">(</span><span class="synConstant">&quot;0.0.0.0:8000&quot;</span><span class="synStatement">);</span>
+main();
+```
 
-<span class="synStatement">async</span> <span class="synIdentifier">function</span> main<span class="synStatement">()</span> <span class="synIdentifier">{</span>
-  <span class="synStatement">for</span> <span class="synStatement">await</span> <span class="synStatement">(const</span> req <span class="synStatement">of</span> s<span class="synStatement">)</span> <span class="synIdentifier">{</span>
-    req.respond<span class="synStatement">(</span><span class="synIdentifier">{</span> body: <span class="synStatement">new</span> TextEncoder<span class="synStatement">()</span>.encode<span class="synStatement">(</span><span class="synConstant">&quot;Hello World</span><span class="synSpecial">\n</span><span class="synConstant">&quot;</span><span class="synStatement">)</span> <span class="synIdentifier">}</span><span class="synStatement">);</span>
-  <span class="synIdentifier">}</span>
-<span class="synIdentifier">}</span>
+このコードを実行すると、下記のようなプロンプトが表示される。
 
-main<span class="synStatement">();</span>
-</pre>
+![f:id:hashrock:20181204004036p:plain](/images/2018-12-04-deno-intro/0.png)
 
+面倒なようだけど、これから必要になることかもしれない。
 
-<p>このコードを実行すると、下記のようなプロンプトが表示される。</p>
-
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="/images/2018-12-04-deno-intro/0.png" alt="f:id:hashrock:20181204004036p:plain" title="f:id:hashrock:20181204004036p:plain" class="hatena-fotolife" itemprop="image"></span></p>
-
-<p>面倒なようだけど、これから必要になることかもしれない。</p>
-
------
+\-----
