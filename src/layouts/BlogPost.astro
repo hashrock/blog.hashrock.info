@@ -14,6 +14,16 @@ const { title, description, pubDate, updatedDate } = Astro.props;
     <head>
         <BaseHead title={title} description={description} />
         <style>
+            :global(body) {
+                background: #f4efe4;
+                color: #16130f;
+            }
+            :global(header h2 a) {
+                color: #16130f;
+            }
+            :global(footer) {
+                color: #6e665b;
+            }
             main {
                 width: calc(100% - 2em);
                 max-width: 100%;
@@ -23,12 +33,12 @@ const { title, description, pubDate, updatedDate } = Astro.props;
                 width: 900px;
                 max-width: calc(100% - 2em);
                 margin: auto;
-                padding: 1em;
-                color: rgb(var(--gray-dark));
+                padding: 2.5rem 1em 1em;
+                color: #2b241d;
             }
             .title {
-                margin-bottom: 1em;
-                padding: 1em 0;
+                margin-bottom: 1.5em;
+                padding: 0.5em 0 1em;
                 text-align: center;
                 line-height: 1;
             }
@@ -37,7 +47,7 @@ const { title, description, pubDate, updatedDate } = Astro.props;
             }
             .date {
                 margin-bottom: 0.5em;
-                color: rgb(var(--gray));
+                color: #5f574d;
             }
             .last-updated-on {
                 font-style: italic;
@@ -46,6 +56,27 @@ const { title, description, pubDate, updatedDate } = Astro.props;
                 max-width: 100%;
                 width: auto;
                 height: auto;
+            }
+            .title :global(hr) {
+                border: 0;
+                border-top: 1px solid rgba(110, 102, 91, 0.18);
+                margin: 1.5rem 0 0;
+            }
+            .prose :global(a) {
+                color: #6a5646;
+                text-decoration-color: rgba(106, 86, 70, 0.35);
+            }
+            .prose :global(a:hover) {
+                color: #3f342a;
+                text-decoration-color: currentColor;
+            }
+            .prose :global(code) {
+                background-color: rgba(110, 102, 91, 0.12);
+            }
+            @media (max-width: 720px) {
+                .prose {
+                    padding-top: 1.5rem;
+                }
             }
         </style>
     </head>

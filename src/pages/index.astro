@@ -9,6 +9,18 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+const postsByYear = Object.entries(
+	posts.reduce(
+		(groups, post) => {
+			const year = String(post.data.pubDate.getFullYear());
+			groups[year] ??= [];
+			groups[year].push(post);
+			return groups;
+		},
+		{} as Record<string, typeof posts>,
+	),
+).sort(([yearA], [yearB]) => Number(yearB) - Number(yearA));
 ---
 
 <!doctype html>
@@ -16,52 +28,87 @@ const posts = (await getCollection('blog')).sort(
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
+			:global(body) {
+				background: #f4efe4;
+				color: #16130f;
+			}
+			:global(header h2 a) {
+				color: #16130f;
+			}
+			:global(footer) {
+				color: #6e665b;
+			}
 			main {
-				max-width: 900px;
+				max-width: 1120px;
 				margin: 0 auto;
-				padding: 2rem 1rem;
+				padding: 4rem 1.5rem 5rem;
 			}
-			.logo {
-				display: block;
-				width: 80px;
-				height: 80px;
-				margin: 0 auto 1.5rem;
+			.years {
+				display: grid;
+				gap: 2.75rem;
 			}
-			ul {
+			.year-group {
+				display: grid;
+				gap: 0.4rem;
+			}
+			.year-heading {
+				margin: 0;
+				font-size: var(--font-size-heading-xl);
+				font-weight: 700;
+				line-height: 1;
+			}
+			.post-list {
 				list-style: none;
 				margin: 0;
 				padding: 0;
+				border-top: 1px solid rgba(110, 102, 91, 0.18);
 			}
-			li {
-				border-bottom: 1px solid rgba(var(--gray-light), 1);
+			.post-item {
+				border-bottom: 1px solid rgba(110, 102, 91, 0.18);
 			}
-			li a {
+			.post-link {
 				display: flex;
 				justify-content: space-between;
 				align-items: baseline;
-				gap: 1rem;
-				padding: 0.75rem 0;
+				gap: 1.5rem;
+				padding: 0.85rem 0;
 				text-decoration: none;
-				color: rgb(var(--black));
+				color: #16130f;
+				transition: color 140ms ease;
 			}
-			li a:hover {
-				color: rgb(var(--accent));
+			.post-link:hover {
+				color: #53463a;
+				text-decoration: none;
 			}
 			.title {
 				flex: 1;
 				overflow: hidden;
 				text-overflow: ellipsis;
 				white-space: nowrap;
+				line-height: var(--line-height-md);
 			}
 			.date {
-				color: rgb(var(--gray));
+				color: #5f574d;
 				font-size: 0.875rem;
 				flex-shrink: 0;
 			}
+			@media (max-width: 900px) {
+				main {
+					padding-top: 3rem;
+				}
+				.years {
+					gap: 2.25rem;
+				}
+			}
 			@media (max-width: 720px) {
-				li a {
+				main {
+					padding: 2rem 1rem 3rem;
+				}
+				.post-link {
 					flex-direction: column;
-					gap: 0.25rem;
+					align-items: flex-start;
+					gap: 0.35rem;
+					padding: 1rem 0 1.15rem;
 				}
 				.title {
 					white-space: normal;
@@ -72,21 +119,31 @@ const posts = (await getCollection('blog')).sort(
 	<body>
 		<Header />
 		<main>
-			<img src="/logo.svg" alt="hashrock" class="logo" />
-			<ul>
+			<div class="years">
 				{
-					posts.map((post) => (
-						<li>
-							<a href={`/${post.id}/`}>
-								<span class="title">{post.data.title}</span>
-								<span class="date">
-									<FormattedDate date={post.data.pubDate} />
-								</span>
-							</a>
-						</li>
+					postsByYear.map(([year, yearPosts]) => (
+						<section class="year-group" aria-labelledby={`year-${year}`}>
+							<h2 id={`year-${year}`} class="year-heading">
+								{year}
+							</h2>
+							<ul class="post-list">
+								{
+									yearPosts.map((post) => (
+										<li class="post-item">
+											<a class="post-link" href={`/${post.id}/`}>
+												<span class="title">{post.data.title}</span>
+												<span class="date">
+													<FormattedDate date={post.data.pubDate} />
+												</span>
+											</a>
+										</li>
+									))
+								}
+							</ul>
+						</section>
 					))
 				}
-			</ul>
+			</div>
 		</main>
 		<Footer />
 	</body>
