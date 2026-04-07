@@ -177,3 +177,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* View Transitions: ロゴ以外のフェードを無効化 */
+::view-transition-old(root),
+::view-transition-new(root) {
+    animation: none;
+}

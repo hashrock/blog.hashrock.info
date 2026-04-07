@@ -6,7 +6,7 @@ const isHome = Astro.url.pathname === '/';
 	<nav>
 		<h2>
 			<a href="/">
-				<img src="/logo.svg" alt="Logo" class="logo" />
+				<img src="/logo.svg" alt="Logo" class="logo" transition:name="logo" />
 			</a>
 		</h2>
 	</nav>
@@ -31,8 +31,8 @@ const isHome = Astro.url.pathname === '/';
 		color: var(--black);
 	}
 	.logo {
-		width: 44px;
-		height: 44px;
+		width: 66px;
+		height: 66px;
 	}
 	nav {
 		display: flex;
@@ -43,23 +43,23 @@ const isHome = Astro.url.pathname === '/';
 		padding-top: 1.75rem;
 	}
 	.is-home .logo {
-		width: 54px;
-		height: 54px;
+		width: 81px;
+		height: 81px;
 	}
 	@media (max-width: 720px) {
 		header {
 			padding: 0.75rem 1rem 0;
 		}
 		.logo {
-			width: 38px;
-			height: 38px;
+			width: 57px;
+			height: 57px;
 		}
 		.is-home {
 			padding-top: 1.1rem;
 		}
 		.is-home .logo {
-			width: 46px;
-			height: 46px;
+			width: 69px;
+			height: 69px;
 		}
 	}
 </style>
