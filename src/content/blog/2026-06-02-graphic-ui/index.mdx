@@ -1,112 +1,217 @@
 ---
-title: 'グラフィックをいじるUI'
-description: ''
-pubDate: 'Jun 02 2026'
-heroImage: './slide001.jpg'
+title: "グラフィックをいじるUI"
+description: ""
+pubDate: "Jun 02 2026"
+heroImage: "./slide001.jpg"
 ---
-import { Image } from 'astro:assets';
-import slide001 from './slide001.jpg';
-import slide002 from './slide002.jpg';
-import slide003 from './slide003.jpg';
-import slide004 from './slide004.jpg';
-import slide005 from './slide005.jpg';
-import slide006 from './slide006.jpg';
-import slide007 from './slide007.jpg';
-import slide008 from './slide008.jpg';
-import slide009 from './slide009.jpg';
-import slide010 from './slide010.jpg';
-import slide011 from './slide011.jpg';
-import slide012 from './slide012.jpg';
-import slide013 from './slide013.jpg';
-import slide014 from './slide014.jpg';
-import slide015 from './slide015.jpg';
-import slide016 from './slide016.jpg';
-import slide017 from './slide017.jpg';
-import slide018 from './slide018.jpg';
-import slide019 from './slide019.jpg';
-import slide020 from './slide020.jpg';
-import slide021 from './slide021.jpg';
-import slide022 from './slide022.jpg';
-import slide023 from './slide023.jpg';
-import slide024 from './slide024.jpg';
-import slide025 from './slide025.jpg';
-import slide026 from './slide026.jpg';
-import slide027 from './slide027.jpg';
-import slide028 from './slide028.jpg';
-import slide029 from './slide029.jpg';
-import slide030 from './slide030.jpg';
-import slide031 from './slide031.jpg';
-import slide032 from './slide032.jpg';
-import slide033 from './slide033.jpg';
-import slide034 from './slide034.jpg';
-import slide035 from './slide035.jpg';
+
+import { Image } from "astro:assets";
+import slide001 from "./slide001.jpg";
+import slide002 from "./slide002.jpg";
+import slide003 from "./slide003.jpg";
+import slide004 from "./slide004.jpg";
+import slide005 from "./slide005.jpg";
+import slide006 from "./slide006.jpg";
+import slide007 from "./slide007.jpg";
+import slide008 from "./slide008.jpg";
+import slide009 from "./slide009.jpg";
+import slide010 from "./slide010.jpg";
+import slide011 from "./slide011.jpg";
+import slide012 from "./slide012.jpg";
+import slide013 from "./slide013.jpg";
+import slide014 from "./slide014.jpg";
+import slide015 from "./slide015.jpg";
+import slide016 from "./slide016.jpg";
+import slide017 from "./slide017.jpg";
+import slide018 from "./slide018.jpg";
+import slide019 from "./slide019.jpg";
+import slide020 from "./slide020.jpg";
+import slide021 from "./slide021.jpg";
+import slide022 from "./slide022.jpg";
+import slide023 from "./slide023.jpg";
+import slide024 from "./slide024.jpg";
+import slide025 from "./slide025.jpg";
+import slide026 from "./slide026.jpg";
+import slide027 from "./slide027.jpg";
+import slide028 from "./slide028.jpg";
+import slide029 from "./slide029.jpg";
+import slide030 from "./slide030.jpg";
+import slide031 from "./slide031.jpg";
+import slide032 from "./slide032.jpg";
+import slide033 from "./slide033.jpg";
+import slide034 from "./slide034.jpg";
+import slide035 from "./slide035.jpg";
+
+2025年8月20日 [「すごくすごいフロントエンド」](https://formx.connpass.com/event/364158/)にて発表したスライドを元に、ブログ記事を書きます。その日はスライドだけ用意して、細かいところはアドリブでしゃべったため、何を話したか覚えていません。なので、文章にしていますが、その日に喋ったこととは全然違う内容を書いていると思いますがご容赦ください。
 
 <Image src={slide001} alt="slide 001" />
 
+グラフィックをいじるGUI、について雑多な、答えのないことを書こうと思います。
+
 <Image src={slide002} alt="slide 002" />
+
+というのも、発表当時の目的は、UI好きに改めて話題を提供することでした。UIについて話すことは楽しいことだよね、と思っています。
 
 <Image src={slide003} alt="slide 003" />
 
+複雑GUI会というのを主宰しています。この前はオブジェクトスナッピングの実装を持ち寄る会をやりました。
+
 <Image src={slide004} alt="slide 004" />
 
+オブジェクトスナッピングというのは、ドラッグ中に他の図形の端などをガイドにして、そこにスナップするような挙動のことです。Figmaやイラレを使っている方は当然のように使っていると思います。
+
 <Image src={slide005} alt="slide 005" />
+
+複数の実装を持ち寄ってみると、案外といろんな表現方法や工夫がありうることがわかってきます。
 
 <Image src={slide006} alt="slide 006" />
 
 <Image src={slide007} alt="slide 007" />
 
+Beyond snappingは必見です。 `ex)situ` というUI研究グループの発明で、ガイドにひっつけるようにスナッピングさせています。
+
+https://www.youtube.com/watch?v=jIDDWJ1xptE
+
 <Image src={slide008} alt="slide 008" />
+
+プログラマーは「あるものは使う」「余計な手間をかけない」のが美徳の一つではありますが、作ることで理解が深まる面はあります。
 
 <Image src={slide009} alt="slide 009" />
 
 <Image src={slide010} alt="slide 010" />
 
+AI時代において、GUIいらなくね？という話がたびたび出ています。
+
 <Image src={slide011} alt="slide 011" />
+
+とはいえ、プロンプトを考えること自体が負荷とも言えます。今見えているものを少し変更したい場合は、まだGUIの方が楽と言えるでしょう。
 
 <Image src={slide012} alt="slide 012" />
 
+何よりも、人間は「ちょっといじりたい」生き物なのです。
+
 <Image src={slide013} alt="slide 013" />
+
+あるボックスを4px右にずらす操作をしたいと考えてみましょう。
 
 <Image src={slide014} alt="slide 014" />
 
+AIにそれを指示するためには、まず操作対象を言語化する必要があります。また「ちょっと右に移動して」と言った時に、ちょうどいい移動距離にはなってくれないことが多いと思います。AIには目がないので仕方ありません。
+
 <Image src={slide015} alt="slide 015" />
+
+その点、マウスドラッグは、操作対象を掴む、動かしたいだけ動かす、とスマートです。
+
+しかしちょっと待ってください。
+
+「マウスカーソルというオブジェクトを、物理的なマウスを使って動かして、それを使って画面上のオブジェクトを動かす」
+
+これは考えてみると、間接的な操作です。
+
+本当は、ボックスを手で掴んで動かしたいですね。
 
 <Image src={slide016} alt="slide 016" />
 
+右カーソルを４連打することでも、同じことを実現できます。
+
+実のところ、これが一番、頭で考えたことをダイレクトに操作している感じがあるのではないか？と思っています。
+
+私はマリオカートをやる時に、肩が左右に動いてしまいますが、十字キーというのはよくできています。ボタンを押下しているという意識が消えるのです。
+
 <Image src={slide017} alt="slide 017" />
+
+この操作の間接性というのを、私は距離感のような感覚で捉えています。
+
+脳と操作の間が、遠くない方が良いと思っています。
 
 <Image src={slide018} alt="slide 018" />
 
+話は変わって、形を直接編集する、ということを考えてみます。
+
 <Image src={slide019} alt="slide 019" />
+
+UIに興味がある方なら、ウィジウィグ、という言葉を知っていると思います。少し古い言葉になっていっていますが、みたまま編集ですね。
+
+みたままなら、直感性が高く、学習のハードルも下がっていいことづくめです。じゃあ、みたまま編集がUIの究極的なゴールとなるのでしょうか。
 
 <Image src={slide020} alt="slide 020" />
 
+これはWebエディタのStudioのリサイズUIです。カーソル形状が、ハンドルのちょっと外側から変わり始めるのがわかると思います。
+
 <Image src={slide021} alt="slide 021" />
+
+これはパスエディタの模式図です。真ん中の四角がハンドルです。
 
 <Image src={slide022} alt="slide 022" />
 
+多くのエディタが、ハンドルの当たり判定を拡張して実装しています。
+
+追記：tldraw作者が詳細な調査をしています：
+
+https://x.com/steveruizok/status/2041118812926308568
+
 <Image src={slide023} alt="slide 023" />
+
+これは階層型ドロップダウンメニューです。
 
 <Image src={slide024} alt="slide 024" />
 
+これも当たり判定がみたままではありません。
+
+MENU2からItem3を選択したい場合を考えてみましょう。通り道にMENU3があった場合そちらが有効になってしまうと問題です。そのために、サブメニューに至る途中にセーフエリアを設けるテクニックが知られています。
+
+https://gigazine.net/news/20130307-amazon-mega-dropdown/
+
 <Image src={slide025} alt="slide 025" />
+
+つまり「みたまま」じゃない方が都合が良いことが多いのです。
+
+ここに、発想転換の余地があると思います。
 
 <Image src={slide026} alt="slide 026" />
 
+極論を言えば、人間は視覚そのままではなく、脳みそでものを見ています。脳みそは見たいものしか見ないし、見間違うし、ハンドルは「大体」の位置で掴めると思っています。
+
+みたままというよりは、脳みその期待通りに編集できる、ということが優先度が高いと思っています。
+
 <Image src={slide027} alt="slide 027" />
+
+また話が変わります。在籍していたチームでGuide with Visualsというキーワードを使っていたのですが、良いキーワードだと思ったので、その話をします。
 
 <Image src={slide028} alt="slide 028" />
 
+例えば、カードの背景色を選ぶことを考えます。カラーピッカーで色を変更すると思います。
+
+が、一発で最適な色を選べる人はいないと思います。というのも、色は相対的なもので、周囲の色とのバランスが大事だからです。カラーピッカーで色を探索することになりますが、その探索時間のほとんどを、バランスが崩れた状態で過ごすことになります。それは楽しくないです。
+
 <Image src={slide029} alt="slide 029" />
+
+たくさんある正解の中から一つを選ぶUIだったらどうでしょう？これは、ルールに従って配色済みのカラーセットの中から一つを選ぶUIです。これなら、カラーセット全体を選ぶのにそう時間はかからないのではないでしょうか。
 
 <Image src={slide030} alt="slide 030" />
 
+ランダムに並んでいるように見えますが、大まかに色彩と明度でプロットしています。欲しいカラーセットのありそうな方向にスクロールしていくと、目的の色相に近いカラーセットのバリエーションが手に入ります。
+
 <Image src={slide031} alt="slide 031" />
+
+最後に、形を探す話です。
+
+いろんな人がいると思いますが、粘土を捏ねている時って何を考えていますか？
 
 <Image src={slide032} alt="slide 032" />
 
+多分２パターンなんじゃないかと思っています。先に形をイメージしていて、そこに向かって整えていく人と、適当に捏ねてみながら形を探す人。
+
 <Image src={slide033} alt="slide 033" />
+
+実のところ、この２つというのは排他ではなくて、往復するようにデザインが進むのではないかと思っています。これは手を動かすこと、認知すること、想像すること、それぞれがフィードバックループを形成しているのです。
 
 <Image src={slide034} alt="slide 034" />
 
+我々がものを作っている時、そのほとんどの時間が「未完成品」として付き合います。完成形が見えていなくても取り扱えるのがGUIのいいところなんじゃないかと思います。
+
+そう考えると、GUIは迷うためのものであり、楽しく迷えるのがいいGUIなんじゃないかと思うのです。
+
 <Image src={slide035} alt="slide 035" />
+
+とにかくGUIの話は本来楽しいものです。発表後、GUIについて語り足りなかった人たちの輪ができて、楽しく話すことができました。AIの勉強会が多くなって、GUIの話ができる機会って減ってしまったのかなと思います。
