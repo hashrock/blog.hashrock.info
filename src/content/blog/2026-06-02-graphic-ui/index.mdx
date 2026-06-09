@@ -10,9 +10,9 @@ import slide001 from "./slide001.jpg";
 import slide002 from "./slide002.jpg";
 import slide003 from "./slide003.jpg";
 import slide004 from "./slide004.jpg";
-import slide005 from "./slide005.jpg";
-import slide006 from "./slide006.jpg";
-import slide007 from "./slide007.jpg";
+import slide005 from "./slide005.gif";
+import slide006 from "./slide006.gif";
+import slide007 from "./slide007.gif";
 import slide008 from "./slide008.jpg";
 import slide009 from "./slide009.jpg";
 import slide010 from "./slide010.jpg";
@@ -25,7 +25,7 @@ import slide016 from "./slide016.jpg";
 import slide017 from "./slide017.jpg";
 import slide018 from "./slide018.jpg";
 import slide019 from "./slide019.jpg";
-import slide020 from "./slide020.jpg";
+import slide020 from "./slide020.gif";
 import slide021 from "./slide021.jpg";
 import slide022 from "./slide022.jpg";
 import slide023 from "./slide023.jpg";
@@ -34,7 +34,7 @@ import slide025 from "./slide025.jpg";
 import slide026 from "./slide026.jpg";
 import slide027 from "./slide027.jpg";
 import slide028 from "./slide028.jpg";
-import slide029 from "./slide029.jpg";
+import slide029 from "./slide029.gif";
 import slide030 from "./slide030.jpg";
 import slide031 from "./slide031.jpg";
 import slide032 from "./slide032.jpg";
@@ -60,13 +60,17 @@ import slide035 from "./slide035.jpg";
 
 オブジェクトスナッピングというのは、ドラッグ中に他の図形の端などをガイドにして、そこにスナップするような挙動のことです。Figmaやイラレを使っている方は当然のように使っていると思います。
 
-<Image src={slide005} alt="slide 005" />
+<img src={slide005.src} alt="slide 005" />
 
 複数の実装を持ち寄ってみると、案外といろんな表現方法や工夫がありうることがわかってきます。
 
-<Image src={slide006} alt="slide 006" />
+https://x.com/tsmallfield/status/1901475159304741362
 
-<Image src={slide007} alt="slide 007" />
+<img src={slide006.src} alt="slide 006" />
+
+https://x.com/yuneco/status/1903282388836421897
+
+<img src={slide007.src} alt="slide 007" />
 
 その会で話題に上がった `Beyond snapping` は `ex)situ` というUI研究グループの発明で、ガイドにひっつけるようにスナッピングさせています。
 
@@ -134,7 +138,7 @@ UIに興味がある方なら、ウィジウィグという言葉を知ってい
 
 みたままなら、直感性が高く、学習コストも下がっていいことづくめです。じゃあ、みたまま編集がUIの究極的なゴールとなるのでしょうか。
 
-<Image src={slide020} alt="slide 020" />
+<img src={slide020.src} alt="slide 020" />
 
 これはWebエディタのStudioのリサイズUIです。カーソル形状が、ハンドルのちょっと外側から変わり始めるのがわかると思います。
 
@@ -184,9 +188,11 @@ https://gigazine.net/news/20130307-amazon-mega-dropdown/
 
 が、一発で最適な色を選べる人はいないと思います。というのも、色は相対的なもので、周囲の色とのバランスが大事だからです。結局カラーピッカーで色を探索することになりますが、その探索時間のほとんどを、バランスが崩れた配色と過ごすことになります。これは楽しくありません。
 
-<Image src={slide029} alt="slide 029" />
+<img src={slide029.src} alt="slide 029" />
 
 たくさんある正解の中から一つを選ぶUIだったらどうでしょう？これは、ルールに従って配色済みのカラーセットの中から一つを選ぶUIです。これなら、カラーセット全体を選ぶのにそう時間はかからないのではないでしょうか。
+
+https://medium.com/@hashedrock/%E8%89%B2%E3%82%92%E9%81%B8%E3%81%B6-%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%92%E6%8E%A2%E3%81%99ui-20d440f520d9
 
 <Image src={slide030} alt="slide 030" />
 
