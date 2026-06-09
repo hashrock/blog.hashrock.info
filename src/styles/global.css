@@ -172,6 +172,8 @@ pre code {
 a {
     color: #1559bd;
     text-decoration: none;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 a:hover {
