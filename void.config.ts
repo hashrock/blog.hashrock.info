@@ -7,6 +7,9 @@ export default defineConfig({
 	cloudflare: {
 		// 旧 Astro 版の Worker（blog）は切り戻し用に残すので別名にする
 		name: 'hashrock-blog',
+		// デプロイ時の readiness 確認に Version URL が必要
+		workers_dev: true,
+		preview_urls: true,
 	},
 	head: {
 		htmlAttrs: { lang: 'ja' },

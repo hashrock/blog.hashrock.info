@@ -20,7 +20,7 @@ pnpm deploy    # Cloudflare にデプロイ（D1 マイグレーションも適�
 ## 初回セットアップ
 
 ```sh
-cp .env.example .env        # ADMIN_EMAIL を自分のアドレスにする
+echo 'ADMIN_EMAIL=you@example.com' > .env   # 自分のアドレスにする（スキーマは env.ts）
 pnpm void db migrate        # ローカル D1 にテーブルを作る
 pnpm import-posts           # content/blog の Markdown から db/import.sql を作る
 pnpm void db execute --file db/import.sql
