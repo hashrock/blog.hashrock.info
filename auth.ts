@@ -1,8 +1,14 @@
 import { defineAuth } from 'void/auth';
 import { env } from 'void/env';
 
-export default defineAuth(({ defaults }) => ({
+export default defineAuth(({ defaults, request }) => ({
 	...defaults,
+	emailAndPassword: {
+		enabled: true,
+		...defaults.emailAndPassword,
+		// 本番の管理者アカウントは登録済み。ローカルでは DB を作り直すので登録できるようにしておく
+		disableSignUp: new URL(request.url).hostname !== 'localhost',
+	},
 	databaseHooks: {
 		user: {
 			create: {
