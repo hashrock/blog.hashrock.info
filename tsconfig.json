@@ -1,16 +1,46 @@
 {
-	"extends": "./.void/tsconfig.json",
-	"compilerOptions": {
-		"target": "ES2022",
-		"module": "ESNext",
-		"moduleResolution": "bundler",
-		"strict": true,
-		"esModuleInterop": true,
-		"skipLibCheck": true,
-		"allowImportingTsExtensions": true,
-		"noEmit": true,
-		"types": ["void/env"],
-		"jsx": "react-jsx"
-	},
-	"include": ["src", "pages", "routes", "middleware", "db", "auth.ts", "env.ts", "scripts/import-posts.ts"]
+  "extends": "./.void/tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "types": [
+      "void/env"
+    ],
+    "jsx": "react-jsx",
+    "paths": {
+      "void/db": [
+        "./.void/db.d.ts"
+      ],
+      "@schema": [
+        "./db/schema.ts"
+      ],
+      "@schema/*": [
+        "./db/schema/*"
+      ],
+      "void/routes": [
+        "./.void/routes.d.ts"
+      ]
+    }
+  },
+  "include": [
+    "src",
+    "pages",
+    "routes",
+    "middleware",
+    "db",
+    "auth.ts",
+    "env.ts",
+    "scripts/import-posts.ts"
+  ],
+  "files": [
+    "./.void/routes.d.ts",
+    "./.void/db.d.ts",
+    "./.void/env.d.ts"
+  ]
 }

@@ -4,6 +4,10 @@ export default defineConfig({
 	worker: {
 		compatibility_date: '2026-02-24',
 	},
+	cloudflare: {
+		// 旧 Astro 版の Worker（blog）は切り戻し用に残すので別名にする
+		name: 'hashrock-blog',
+	},
 	head: {
 		htmlAttrs: { lang: 'ja' },
 		meta: [{ charset: 'utf-8' }, { name: 'viewport', content: 'width=device-width,initial-scale=1' }],

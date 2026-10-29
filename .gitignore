@@ -24,3 +24,7 @@ pnpm-debug.log*
 *.tsbuildinfo
 .DS_Store
 .idea/
+node_modules
+dist
+.void
+.wrangler
