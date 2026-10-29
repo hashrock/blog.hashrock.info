@@ -6,7 +6,7 @@
 - 公開ページは ISR でキャッシュし、管理画面で保存した瞬間に `revalidate()` で消して即反映
 - 管理画面は `/admin`。`ADMIN_EMAIL` のアカウントだけが登録・ログインできる
 
-Void の CLI は Node 24 以上が必要です。
+Void の CLI は Node 24 以上が必要です。`mise.toml` で指定しているので、初回は `mise trust && mise install` を実行してください。
 
 ## コマンド
 
