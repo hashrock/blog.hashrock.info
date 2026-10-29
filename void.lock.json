@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "source": {
+    "name": "hashrock-blog",
+    "workers_dev": true,
+    "preview_urls": true
+  },
+  "resolved": {
+    "name": "hashrock-blog",
+    "account_id": "1705822b8e7fa963d60ac9855493cbfb",
+    "compatibility_date": "2026-02-24",
+    "d1_databases": [
+      {
+        "binding": "DB",
+        "database_name": "hashrock-blog-db",
+        "database_id": "23cf31f7-1e64-4fb0-a148-409628d321ff",
+        "migrations_dir": "./db/migrations"
+      }
+    ],
+    "kv_namespaces": [
+      {
+        "binding": "ISR_CACHE",
+        "id": "f5dcef75477944ca9ea77e45a2128a6a"
+      }
+    ],
+    "r2_buckets": [
+      {
+        "binding": "STORAGE",
+        "bucket_name": "hashrock-blog-storage"
+      }
+    ],
+    "workers_dev": true,
+    "preview_urls": true
+  },
+  "text": "{\n  \"name\": \"hashrock-blog\",\n  \"account_id\": \"1705822b8e7fa963d60ac9855493cbfb\",\n  \"compatibility_date\": \"2026-02-24\",\n  \"d1_databases\": [\n    {\n      \"binding\": \"DB\",\n      \"database_name\": \"hashrock-blog-db\",\n      \"database_id\": \"23cf31f7-1e64-4fb0-a148-409628d321ff\",\n      \"migrations_dir\": \"./db/migrations\"\n    }\n  ],\n  \"kv_namespaces\": [\n    {\n      \"binding\": \"ISR_CACHE\",\n      \"id\": \"f5dcef75477944ca9ea77e45a2128a6a\"\n    }\n  ],\n  \"r2_buckets\": [\n    {\n      \"binding\": \"STORAGE\",\n      \"bucket_name\": \"hashrock-blog-storage\"\n    }\n  ],\n  \"workers_dev\": true,\n  \"preview_urls\": true\n}\n"
+}

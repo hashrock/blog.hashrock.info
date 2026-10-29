@@ -1,0 +1,262 @@
+/* 管理画面。公開ページ用の global.css の上に重ねる */
+.admin {
+	--admin-border: #ddd8cf;
+	--admin-muted: #6e665b;
+	--admin-accent: #2b241d;
+	min-height: 100vh;
+	background: #fbfaf7;
+	color: #16130f;
+	font-size: 15px;
+	line-height: 1.5;
+}
+.admin button,
+.admin input,
+.admin textarea {
+	font: inherit;
+}
+.admin button {
+	padding: 0.35em 0.9em;
+	border: 1px solid var(--admin-border);
+	border-radius: 6px;
+	background: #fff;
+	color: inherit;
+	cursor: pointer;
+}
+.admin button:disabled {
+	opacity: 0.5;
+	cursor: default;
+}
+.admin button.primary {
+	background: var(--admin-accent);
+	border-color: var(--admin-accent);
+	color: #fff;
+}
+.admin button.danger {
+	color: #b42318;
+	border-color: #f1c4bf;
+}
+.admin button.link-button {
+	border: 0;
+	background: none;
+	padding: 0;
+	color: #1559bd;
+}
+.admin input,
+.admin textarea {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0.45em 0.6em;
+	border: 1px solid var(--admin-border);
+	border-radius: 6px;
+	background: #fff;
+}
+.admin .mono {
+	font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
+	font-size: 13px;
+}
+.admin-main h1,
+.admin-main h2,
+.admin-login h1 {
+	margin: 0;
+	font-weight: 600;
+}
+.admin-main h1,
+.admin-login h1 {
+	font-size: 22px;
+}
+.admin-main h2 {
+	font-size: 15px;
+	color: var(--admin-muted);
+}
+
+.admin-bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 48px;
+	padding: 0 1rem;
+	border-bottom: 1px solid var(--admin-border);
+	background: #fff;
+}
+.admin-bar nav {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+.admin-brand {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	color: inherit;
+	font-weight: 600;
+}
+
+.admin-main {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 2rem 1rem;
+}
+.admin-heading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 1.5rem;
+}
+.admin-section {
+	margin-bottom: 2rem;
+}
+.admin-section h2 {
+	margin-bottom: 0.5rem;
+}
+.post-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.post-table th,
+.post-table td {
+	padding: 0.5rem;
+	border-bottom: 1px solid var(--admin-border);
+	text-align: left;
+	white-space: nowrap;
+}
+.post-table th {
+	color: var(--admin-muted);
+	font-weight: 500;
+	font-size: 13px;
+}
+.post-table td:first-child {
+	width: 100%;
+	white-space: normal;
+}
+
+.admin-login {
+	display: grid;
+	place-items: center;
+	padding: 4rem 1rem;
+}
+.admin-login form {
+	display: grid;
+	gap: 1rem;
+	width: 100%;
+	max-width: 360px;
+}
+.admin-login label {
+	display: grid;
+	gap: 0.25rem;
+}
+.admin-login .actions {
+	display: flex;
+	gap: 0.5rem;
+}
+.admin-login .error {
+	margin: 0;
+	color: #b42318;
+}
+.admin-login .hint {
+	margin: 0;
+	color: var(--admin-muted);
+	font-size: 13px;
+}
+
+/* Editor */
+.editor {
+	display: flex;
+	flex-direction: column;
+	height: calc(100vh - 49px);
+}
+.editor-toolbar {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	padding: 0.5rem 1rem;
+	border-bottom: 1px solid var(--admin-border);
+	background: #fff;
+}
+.editor-toolbar .spacer {
+	flex: 1;
+}
+.status {
+	padding: 0.1em 0.6em;
+	border-radius: 999px;
+	font-size: 12px;
+}
+.status-draft {
+	background: #eee9df;
+}
+.status-published {
+	background: #d8f0dc;
+	color: #1d5a2a;
+}
+.dirty {
+	color: var(--admin-muted);
+	font-size: 13px;
+}
+.message {
+	font-size: 13px;
+}
+.message-ok {
+	color: #1d5a2a;
+}
+.message-error {
+	color: #b42318;
+}
+.editor-panes {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	flex: 1;
+	min-height: 0;
+}
+.editor-form {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	padding: 1rem;
+	overflow: auto;
+	border-right: 1px solid var(--admin-border);
+}
+.field {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+}
+.field.grow {
+	flex: 1;
+	min-height: 320px;
+}
+.field-label {
+	color: var(--admin-muted);
+	font-size: 13px;
+}
+.field-error {
+	color: #b42318;
+	font-size: 13px;
+}
+.body-input {
+	flex: 1;
+	resize: none;
+	line-height: 1.7;
+}
+.danger-zone {
+	display: flex;
+	justify-content: flex-end;
+}
+.editor-preview {
+	overflow: auto;
+	font-size: 20px;
+	line-height: var(--line-height-lg);
+}
+
+@media (max-width: 900px) {
+	.editor {
+		height: auto;
+	}
+	.editor-panes {
+		grid-template-columns: 1fr;
+	}
+	.editor-form {
+		border-right: 0;
+	}
+	.field.grow {
+		min-height: 60vh;
+	}
+}
