@@ -30,7 +30,13 @@
       }
     ],
     "workers_dev": true,
-    "preview_urls": true
+    "preview_urls": true,
+    "routes": [
+      {
+        "pattern": "blog.hashrock.info",
+        "custom_domain": true
+      }
+    ]
   },
-  "text": "{\n  \"name\": \"hashrock-blog\",\n  \"account_id\": \"1705822b8e7fa963d60ac9855493cbfb\",\n  \"compatibility_date\": \"2026-02-24\",\n  \"d1_databases\": [\n    {\n      \"binding\": \"DB\",\n      \"database_name\": \"hashrock-blog-db\",\n      \"database_id\": \"23cf31f7-1e64-4fb0-a148-409628d321ff\",\n      \"migrations_dir\": \"./db/migrations\"\n    }\n  ],\n  \"kv_namespaces\": [\n    {\n      \"binding\": \"ISR_CACHE\",\n      \"id\": \"f5dcef75477944ca9ea77e45a2128a6a\"\n    }\n  ],\n  \"r2_buckets\": [\n    {\n      \"binding\": \"STORAGE\",\n      \"bucket_name\": \"hashrock-blog-storage\"\n    }\n  ],\n  \"workers_dev\": true,\n  \"preview_urls\": true\n}\n"
+  "text": "// void:published-traffic:v1:eyJ3b3JrZXJzX2RldiI6dHJ1ZSwicHJldmlld191cmxzIjp0cnVlLCJyb3V0ZXMiOlt7InBhdHRlcm4iOiJibG9nLmhhc2hyb2NrLmluZm8iLCJjdXN0b21fZG9tYWluIjp0cnVlfV19\n{\n  \"name\": \"hashrock-blog\",\n  \"account_id\": \"1705822b8e7fa963d60ac9855493cbfb\",\n  \"compatibility_date\": \"2026-02-24\",\n  \"d1_databases\": [\n    {\n      \"binding\": \"DB\",\n      \"database_name\": \"hashrock-blog-db\",\n      \"database_id\": \"23cf31f7-1e64-4fb0-a148-409628d321ff\",\n      \"migrations_dir\": \"./db/migrations\"\n    }\n  ],\n  \"kv_namespaces\": [\n    {\n      \"binding\": \"ISR_CACHE\",\n      \"id\": \"f5dcef75477944ca9ea77e45a2128a6a\"\n    }\n  ],\n  \"r2_buckets\": [\n    {\n      \"binding\": \"STORAGE\",\n      \"bucket_name\": \"hashrock-blog-storage\"\n    }\n  ],\n  \"workers_dev\": true,\n  \"preview_urls\": true,\n  \"routes\": [\n    {\n      \"pattern\": \"blog.hashrock.info\",\n      \"custom_domain\": true\n    }\n  ]\n}\n"
 }
