@@ -37,13 +37,14 @@ function convertMdx(slug: string, dir: string, body: string): string {
 	body = body.replace(/^import\s+.*$/gm, '');
 	const outDir = join('public/images', slug);
 	mkdirSync(outDir, { recursive: true });
-	body = body.replace(/<Image\s+src=\{(\w+)\}\s+alt="([^"]*)"\s*\/>/g, (_, name, alt) => {
+	// GIF はアニメーションを保つため <img src={name.src} /> で書かれている
+	body = body.replace(/<(?:Image|img)\s+src=\{(\w+)(?:\.src)?\}\s+alt="([^"]*)"\s*\/>/g, (_, name, alt) => {
 		const file = imports.get(name);
 		if (!file) throw new Error(`${slug}: unknown image import ${name}`);
 		copyFileSync(join(dir, file), join(outDir, file));
 		return `![${alt}](/images/${slug}/${file})`;
 	});
-	if (/<[A-Z]\w*[\s/>]/.test(body)) throw new Error(`${slug}: unconverted JSX component remains`);
+	if (/<[A-Z]\w*[\s/>]|=\{/.test(body)) throw new Error(`${slug}: unconverted JSX remains`);
 	return body.trim() + '\n';
 }
 
