@@ -56,11 +56,13 @@ export default function LoginPage() {
 					<button type="submit" className="primary" disabled={pending}>
 						ログイン
 					</button>
-					<button type="button" disabled={pending} onClick={() => void submit('signUp')}>
-						初回登録
-					</button>
+					{import.meta.env.DEV && (
+						<button type="button" disabled={pending} onClick={() => void submit('signUp')}>
+							初回登録
+						</button>
+					)}
 				</div>
-				<p className="hint">初回登録は ADMIN_EMAIL に設定したアドレスでのみ行えます。</p>
+				{import.meta.env.DEV && <p className="hint">初回登録は ADMIN_EMAIL に設定したアドレスでのみ行えます（ローカルのみ）。</p>}
 			</form>
 		</main>
 	);

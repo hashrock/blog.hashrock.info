@@ -24,7 +24,7 @@ echo 'ADMIN_EMAIL=you@example.com' > .env   # 自分のアドレスにする（�
 pnpm void db migrate        # ローカル D1 にテーブルを作る
 pnpm import-posts           # content/blog の Markdown から db/import.sql を作る
 pnpm void db execute --file db/import.sql
-pnpm dev                    # /admin/login で「初回登録」
+pnpm dev                    # localhost:5173/admin/login で「初回登録」（本番では登録不可）
 ```
 
 ## 構成
