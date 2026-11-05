@@ -48,6 +48,17 @@ body:has(.site-root),
 	text-align: center;
 }
 
+.site-footer-admin {
+	color: inherit;
+	opacity: 0.4;
+	text-decoration: none;
+	padding: 0 0.5em;
+}
+
+.site-footer-admin:hover {
+	opacity: 1;
+}
+
 /* Index */
 .post-index {
 	max-width: 1120px;
